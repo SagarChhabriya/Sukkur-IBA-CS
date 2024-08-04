@@ -1,0 +1,12 @@
+Resistor: To reduce the number of the flowing electrons, to control the flow of electrons,
+to secure the circuit, or to bound the circuit
+If we increase the voltage than the current will increase. (Directly Proportional)
+If we increase the resistance than the currnt will decrease. (Inversely Proportional)
+Georhe Simhon Ohm
+Applied on semi-conductors, or ohmic conductors.
+Can't applied on Gas, Liquid and ..........., 
+because it is a Linear relationship.
+-------------------
+Series circuit: Single path, two or more resistors,combinational circuit.
+same input and same output, because the wires of the battery are directly connected with the resistors.
+

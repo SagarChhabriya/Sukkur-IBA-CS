@@ -1,0 +1,50 @@
+rules/ formulas which can be applied to the object of this Universe, but they can't be applied on these nano particles
+like gravitational law can be applied on both small and large objects, they are approved on behalf of Quantum mechanics
+these nano particles were not fit in the formulas of the galileo and issac's .
+Ex: if I say that the pen which you are using is not a solid object, it is a wave formed object?
+it is false in our world, but it is true in the Quantum world. because this pen is consist of several nano particles: electro, proton, and neutron
+wave particle duality: which says that a particle at the same time is not a same condition, despite it is in several conditions
+Double slit example: like at the time of shri kirshin, they were able to present on two places.
+interference pattern: sequence of dark and white lines.
+*It is a fundamental theory that describes the behavior of these particles in terms of probabilities and waves, 
+rather than the classical laws of mechanics that describe the behavior of larger objects
+One of the key principles of quantum physics is the wave-particle duality, which states that particles can exhibit both wave-like and particle-like behavior depending on the experimental setup. Another important principle is the uncertainty principle, which states that it is impossible to precisely know both the position and momentum of a particle at the same time.
+
+Quantum physics has led to many important technological advances, such as the development of transistors and lasers, and it is also the basis for technologies like quantum computing and quantum cryptography. It is a fascinating and complex field that continues to be a subject of intense research and debate among physicists.
+*History: origin, in 19th century and early 20th century early developmet of quantum physics was max planck, who in 1900 proposed
+that energy only exists in discrete  amount or "quanta".
+*1905: Albert Einstein described the concept of photoelectric effect, which showed that light could also be described as particles or photons.
+
+								Classical physics					Quantum physics/Quantum field theory
+
+describes: 						Macroscopic objects						Microscopic objects
+Mathematics base:					calculus										linear algebra & complex analysis
+determination/future preduction: 		determinsim								indeterminism/probablitic
+					future preduction can be determined accurately		   future preduction can not be determined accurately.
+laws: 						valid at a certain range							valid accross a wide range
+assumes:					   objects have definite properties				objects don't have definite properties, and the measurments
+						        and can be measured.						are fundamental uncertainties.
+
+wave	:					not any wave-particle duality concept				fundamental concept is wave-particle duality
+
+								easy to understand 								difficult to visualize
+
+
+			DMD LAW: describes, mathematics base, determination, laws, assumption, wave particles.
+
+schrodinger equation: fundamental equation of quantum mechanics that describes the time evolution of a qunatam system.
+				 derived using principles of classical mechanics and electromagnet theory
+				: doesn't follow the rules of particles, it follows the rules of wave.	
+
+	E φ = PE + KE : energy of the wave function is equal to the sum of the potential energy and kinetic energy
+	Time independent:
+	total energy doesn't change with the time, it is constant
+
+
+
+
+
+
+
+
+
