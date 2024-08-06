@@ -36,5 +36,5 @@ Your contributions help make this repository more valuable and useful for everyo
 
 **Let’s work together to create a resource that will benefit current and future students!** Whether it's improving existing content, adding new materials, or fixing issues, every contribution counts and makes a difference.
 
-**Star** the repository if you find it useful, and feel free to reach out with any questions or suggestions!
+`Star the repository if you find it useful, and feel free to reach out with any questions or suggestions!`
 
