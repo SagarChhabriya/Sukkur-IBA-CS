@@ -65,3 +65,42 @@ $$ \frac{d^4y}{dx^4} + 4y = x^3 \space \space; \space \space y(x) = e^{-x} \left
 
 22.
 $$ \frac{d^2y}{dx^2} + \frac{dy}{dx} = x^2 + 2x + 4 \space \space; \space \space y(x) = c_1 + c_2 e^{-x} + \frac{x^3}{3} + 4x $$
+
+23.
+$$ (D^2 - 4D + 1)y = \cos 2x + x \space \space; \space \space y(x) = c_1 e^{(2 + \sqrt{3})x} + c_2 e^{(2 - \sqrt{3})x} + \frac{8 \sin 2x + 3 \cos 2x}{-73} + x + 4 $$
+
+24.
+$$ \frac{d^2y}{dx^2} - \frac{dy}{dx} + y = x^3 - 3x^2 + 1 $$
+
+25.
+$$ \frac{d^2y}{dx^2} - 2 \frac{dy}{dx} + y = e^x \sin 2x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x\right] + \frac{e^x \sin 2x}{-4} $$
+
+26.
+$$ \frac{d^2y}{dx^2} - y = e^x + x^2 e^2 \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} + \frac{xe^x}{2} + \frac{e^x}{2} \left( \frac{x^3}{3} - \frac{x^2}{2} + \frac{x}{2} \right) $$
+
+27.
+$$ \frac{d^3y}{dx^3} - 3 \frac{d^2y}{dx^2} + 3 \frac{dy}{dx} - y = e^x + xe^x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x + c_3 x^2\right] + \frac{x^3 e^x}{6} + \frac{e^x x^4}{24} $$
+
+28.
+$$ \frac{d^3y}{dx^3} - 7 \frac{d^2y}{dx^2} + 10 \frac{dy}{dx} = e^{2x} \sin x \space \space; \space \space y(x) = c_1 e^{2x} + c_2 e^{5x} + c_3 + \frac{e^{2x} (\sin x + 7 \cos x)}{50} $$
+
+29.
+$$ (D^4 + 4)y = e^x \sin^2 x \space \space; \space \space y(x) = c_1 \cos 2x + c_2 \sin 2x + \frac{e^x}{2} \left[ \frac{1}{5} - \frac{4 \sin 2x + \cos 2x}{17} \right] $$
+
+30.
+$$ \frac{d^4y}{dx^4} - y = \cos x \cosh x \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} + c_3 \cos x + c_4 \sin x - \frac{\cos x \cosh x}{5} $$
+
+31.
+$$ \frac{d^2y}{dx^2} + 5 \frac{dy}{dx} + 7y = e^{-2x} \sin 2x + x^2 \space \space; \space \space y(x) = e^{-\frac{5}{2} x} \left[c_1 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_2 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] - \frac{e^{-2x}}{13} (2 \cos 2x + 3 \sin 2x) + \frac{1}{49} (7x^2 + 10x + \frac{36}{7}) $$
+
+32.
+$$ \frac{d^2y}{dx^2} - y = x \sin x \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} - \frac{x}{2} \sin x - \frac{\cos x}{4} $$
+
+33.
+$$ D^2 y - 2 D y + y = x e^x \sin x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x\right] - e^x \left[x \sin x + 2 \cos x\right] $$
+
+34.
+$$ \frac{d^2y}{dx^2} - 8 \frac{dy}{dx} + 20y = 40 \sin 4x \space \space; \space \space y(x) = e^{4x} \left[c_1 \cos 2x + c_2 \sin 2x\right] + \frac{2 \sin 4x + 16 \cos 4x}{13} $$
+
+35.
+$$ (D^2 + 2D + 5)y = 3^x \space \space; \space \space y(x) = e^{-x} \left[c_1 \cos 2x + c_2 \sin 2x\right] + \frac{3^x}{(\log 3)^2 + 2 \log 3 + 5} $$
