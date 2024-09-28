@@ -41,4 +41,27 @@ $$ (D^2 + 1)y = \sin x \sin 2x \space \space; \space \space y(x) = (c_1 \cos 2x 
 14.
 $$ \frac{d^4y}{dx^4} - 3 \frac{d^2y}{dx^2} - 4y = 5 \sin 2x - e^{-2x} \space \space; \space \space y(x) = c_1 e^{2x} + c_2 e^{-2x} + [c_3 \cos x + c_4 \sin x] + \frac{5 \sin 2x}{24} + \frac{xe^{-2x}}{20} $$
 
+15.
+$$ \frac{d^2y}{dx^2} - 2 \frac{dy}{dx} + 2y = \sinh x + \sin(\sqrt{2} \space x) \space \space; \space \space y(x) = e^x [c_1 \cos x + c_2 \sin x] + \frac{e^x}{2} - \frac{e^{-x}}{10} + \frac{\cos(\sqrt{2} \space x)}{2\sqrt{2}} $$
 
+16.
+$$ (D^4 - 3D^2 - 4)y = 24 \sin 2x - 40 e^{-2x} \space \space; \space \space y(x) = c_1 \cos x + c_2 \sin x + \sin 2x - 2x e^{-2x} $$
+
+17.
+$$ (D^3 + 1)y = \cos^2\left(\frac{x}{2}\right) + e^{-x} \space \space; \space \space y(x) = c_1 e^{-x} + \frac{e^x}{2} \left[c_2 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_3 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] + \frac{1}{2} + \frac{xe^{-x}}{3} + \frac{\cos x - \sin x}{4} $$
+
+
+18.
+$$ \frac{d^3y}{dt^3} + 3 \frac{d^2y}{dt^2} + \frac{dy}{dt} - 5y = \cosh t + \sin t \space \space; \space \space y(t) = c_1 e^t + e^{-2t} \left[c_2 \cos t + c_3 \sin t\right] + \frac{te^t}{20} - \frac{e^t}{8} - \frac{\sin t}{8} $$
+
+19.
+$$ \frac{d^2y}{dx^2} + 2 \frac{dy}{dx} + 2y = \sin 2x \cos 3x \space \space; \space \space y(x) = e^{-x} \left[c_1 \cos x + c_2 \sin x\right] + \frac{2 \cos x - \sin x}{10} - \frac{10 \cos(5x) + 23 \sin(5x)}{1258} $$
+
+20.
+$$ (D^2 + 2)y = x^3 \space \space; \space \space y(x) = c_1 \cos(\sqrt{2} \space x) + c_2 \sin(\sqrt{2} \space x) + \frac{x(x^2-3)}{2} $$
+
+21.
+$$ \frac{d^4y}{dx^4} + 4y = x^3 \space \space; \space \space y(x) = e^{-x} \left[c_1 \cos x + c_2 \sin x\right] + e^{x} \left[c_3 \cos x + c_4 \sin x\right] + \frac{x^3}{4} $$
+
+22.
+$$ \frac{d^2y}{dx^2} + \frac{dy}{dx} = x^2 + 2x + 4 \space \space; \space \space y(x) = c_1 + c_2 e^{-x} + \frac{x^3}{3} + 4x $$
