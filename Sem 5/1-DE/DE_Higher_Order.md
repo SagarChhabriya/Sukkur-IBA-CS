@@ -48,7 +48,7 @@ $$ \frac{d^2y}{dx^2} - 2 \frac{dy}{dx} + 2y = \sinh x + \sin(\sqrt{2} \space x) 
 $$ (D^4 - 3D^2 - 4)y = 24 \sin 2x - 40 e^{-2x} \space \space; \space \space y(x) = c_1 \cos x + c_2 \sin x + \sin 2x - 2x e^{-2x} $$
 
 17.
-$$ (D^3 + 1)y = \cos^2\left(\frac{x}{2}\right) + e^{-x} \space \space; \space \space y(x) = c_1 e^{-x} + \frac{e^x}{2} \left[c_2 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_3 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] + \frac{1}{2} + \frac{xe^{-x}}{3} + \frac{\cos x - \sin x}{4} $$
+$$ (D^3 + 1)y = \cos^2\left(\frac{x}{2}\right) + e^{-x} \space \space; \space \space y(x) = c_1 e^{-x} + e^{(x/2)} \left[c_2 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_3 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] + \frac{1}{2} + \frac{xe^{-x}}{3} + \frac{\cos x - \sin x}{4} $$
 
 
 18.
@@ -70,7 +70,7 @@ $$ \frac{d^2y}{dx^2} + \frac{dy}{dx} = x^2 + 2x + 4 \space \space; \space \space
 $$ (D^2 - 4D + 1)y = \cos 2x + x \space \space; \space \space y(x) = c_1 e^{(2 + \sqrt{3})x} + c_2 e^{(2 - \sqrt{3})x} + \frac{8 \sin 2x + 3 \cos 2x}{-73} + x + 4 $$
 
 24.
-$$ \frac{d^2y}{dx^2} - \frac{dy}{dx} + y = x^3 - 3x^2 + 1 $$
+$$ \frac{d^2y}{dx^2} - \frac{dy}{dx} + y = x^3 - 3x^2 + 1  \quad ; \quad y(x) = e^{(x/2)}\left[c_1 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_2 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] + x^3 + 6x - 5 $$
 
 25.
 $$ \frac{d^2y}{dx^2} - 2 \frac{dy}{dx} + y = e^x \sin 2x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x\right] + \frac{e^x \sin 2x}{-4} $$
