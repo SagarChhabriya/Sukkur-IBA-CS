@@ -27,7 +27,7 @@ $$ (D^2 - 4)y = \sin x \space \space; \space \space y(x) = c_1 e^{-2x} + c_2 e^{
 $$ (D^2 + 4)y = \cos 2x \space \space; \space \space y(x) = c_1 \cos 2x + c_2 \sin 2x + \frac{x \sin 2x}{4} $$
 
 10.
-$$ (D^4 - 3D^2 - 4)y = 5 \sin 2x - e^{-2x} \space \space; \space \space y(x) = \frac{5 \sin 2x}{24} + \frac{xe^{-2x}}{20} $$
+$$ (D^4 - 3D^2 - 4)y = 5 \sin 2x - e^{-2x} \quad ; \quad c_1 e^{2x} + c_2 e^{-2x} + c_3 \cos x + c_4 \sin x + \frac{5 \sin 2x}{24} + \frac{xe^{-2x}}{20} $$
 
 11. 
 $$ (D^2 + 2D + 1)y = 4 \sin 2x \space \space; \space \space y(x) = (c_1 + c_2 x)e^{-x} - \frac{4(4 \cos 2x + 3 \sin 2x)}{25} $$
