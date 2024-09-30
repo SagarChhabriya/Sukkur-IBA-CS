@@ -76,7 +76,7 @@ $$ \frac{d^2y}{dx^2} - \frac{dy}{dx} + y = x^3 - 3x^2 + 1  \quad ; \quad y(x) = 
 $$ \frac{d^2y}{dx^2} - 2 \frac{dy}{dx} + y = e^x \sin 2x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x\right] + \frac{e^x \sin 2x}{-4} $$
 
 26.
-$$ \frac{d^2y}{dx^2} - y = e^x + x^2 e^2 \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} + \frac{xe^x}{2} + \frac{e^x}{2} \left( \frac{x^3}{3} - \frac{x^2}{2} + \frac{x}{2} \right) $$
+$$ \frac{d^2y}{dx^2} - y = e^x + x^2 e^x \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} + \frac{xe^x}{2} + \frac{e^x}{2} \left( \frac{x^3}{3} - \frac{x^2}{2} + \frac{x}{2} \right) $$
 
 27.
 $$ \frac{d^3y}{dx^3} - 3 \frac{d^2y}{dx^2} + 3 \frac{dy}{dx} - y = e^x + xe^x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x + c_3 x^2\right] + \frac{x^3 e^x}{6} + \frac{e^x x^4}{24} $$
