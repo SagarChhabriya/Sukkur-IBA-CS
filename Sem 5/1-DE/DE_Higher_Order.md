@@ -97,7 +97,7 @@ $$ \frac{d^4y}{dx^4} - y = \cos x \cosh x \space \space; \space \space y(x) = c_
 $$ \frac{d^2y}{dx^2} + 5 \frac{dy}{dx} + 7y = e^{-2x} \sin 2x + x^2 \space \space; \space \space y(x) = e^{-\frac{5}{2} x} \left[c_1 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_2 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] - \frac{e^{-2x}}{13} (2 \cos 2x + 3 \sin 2x) + \frac{1}{49} (7x^2 + 10x + \frac{36}{7}) $$
 
 33.
-$$ \frac{d^2y}{dx^2} - y = x \sin x \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} - \frac{x}{2} \sin x - \frac{\cos x}{4} $$
+$$ \frac{d^2y}{dx^2} - y = x \sin x \space \space; \space \space y(x) = c_1 e^x + c_2 e^{-x} - \frac{x}{2} \sin x - \frac{\cos x}{2} $$
 
 34.
 $$ D^2 y - 2 D y + y = x e^x \sin x \space \space; \space \space y(x) = e^x \left[c_1 + c_2 x\right] - e^x \left[x \sin x + 2 \cos x\right] $$
