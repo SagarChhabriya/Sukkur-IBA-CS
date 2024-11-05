@@ -207,7 +207,7 @@ So, the **standard deviation of the sample distribution** is approximately **0.7
 
 ---
 
-### Recap:
+### Summarized:
 - **Population Mean**: 1.5
 - **Population Variance**: 1.25
 - **Population Standard Deviation**: 1.118
@@ -216,7 +216,7 @@ So, the **standard deviation of the sample distribution** is approximately **0.7
 - **Sample Variance**: 0.625
 - **Sample Standard Deviation**: 0.791
 
-Let me know if you need any further clarifications or additional calculations!
+
 
 
 ---
@@ -411,7 +411,7 @@ So, the **standard deviation** of the sample distribution is **0.7071**.
 
 ---
 
-### **Recap**:
+### **Summarized**:
 
 - **Population Mean**: 1.5
 - **Population Variance**: 1.25
@@ -421,6 +421,6 @@ So, the **standard deviation** of the sample distribution is **0.7071**.
 - **Sample Variance**: 0.5
 - **Sample Standard Deviation**: 0.7071
 
-Let me know if you need further clarifications or have any additional questions!
+
 
 
