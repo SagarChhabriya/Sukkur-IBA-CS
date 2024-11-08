@@ -156,30 +156,36 @@ A **general partnership** is formed when two or more people or entities come tog
 - A general partnership is **owned by multiple people** (partners).
 - Partners are **jointly and severally liable** for the business’s debts and obligations. This means each partner can be held responsible for the full amount of the debt, not just their share. 
 - Personal assets of the partners are at risk if the business fails or faces legal issues.
-  
-  **Example**: If the partnership owes $100,000, each partner could be required to pay the full amount, even if their ownership stake is smaller.
+
+  **Example**: If the partnership owes $10,000 in unpaid bills, each partner can be held personally responsible for paying the entire $10,000, even if one partner owns less of the business than the others.
 
 ### 2. **Management**
 - Management can be defined by the partnership agreement. Without a written agreement, all partners have an **equal say** in how the business is run.
 - **Profit and loss sharing** is also typically equal unless agreed otherwise in the partnership agreement.
 
+  **Example**: If you and your partner start a business, and there’s no written agreement, you both have an equal say in decisions, and you would likely split the profits and losses equally, unless you agree to a different arrangement.
+
 ### 3. **Partnership Agreement**
 - Although not legally required, it’s common for partners to create a **written partnership agreement** to clarify how profits, losses, and management will be handled.
   
-  **Example**: If there’s no agreement, profits and losses are usually split equally.
+  **Example**: A partnership agreement could state that one partner will take on the management role while the other handles sales, or it could specify how profits are divided if one partner works more hours than the other.
 
 ### 4. **Taxation**
 - A general partnership itself doesn’t pay taxes. Instead, the profits or losses are passed through to the partners, who report them on their personal tax returns.
 - Partners are considered **self-employed**, so they must pay self-employment taxes on their share of the profits.
 
+  **Example**: If the partnership generates $100,000 in profit, each partner will report their share of the income on their personal tax returns, and they will both be responsible for paying self-employment taxes.
+
 ### 5. **Formation & Maintenance**
 - A general partnership is formed by an agreement (either oral or written) between the partners or by presenting the business as a partnership to the public.
 - No formal documents are required, but a **fictitious name** may need to be registered if the business operates under a name other than the partners' names.
 
+  **Example**: If you and your partner choose a business name like “City Cafe” instead of using your personal names, you may need to file a fictitious name registration with the state or local government.
+
 ### 6. **Liability and Risk**
 - The major disadvantage of a general partnership is **unlimited liability**—each partner is personally responsible for the business’s debts and actions. This puts all of their personal assets at risk.
   
-  **Example**: If a customer sues the business for $50,000, each partner could be personally liable for the entire amount, even if they own a smaller share of the business.
+  **Example**: If the partnership faces a lawsuit for a mistake made by one of the partners, all partners could be personally responsible for the legal fees and any settlement, regardless of who was at fault.
 
 ---
 
