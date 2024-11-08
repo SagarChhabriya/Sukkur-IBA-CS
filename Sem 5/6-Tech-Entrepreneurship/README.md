@@ -144,3 +144,59 @@ Imagine you start a lemonade stand by yourself. You are the sole owner, and the 
 
 ## Summary
 A sole proprietorship is great for small, simple businesses. It's easy to start and manage, but the owner takes on all the risk. If you want to keep things simple and are okay with the risk, it could be a good option for you.
+
+
+# General Partnership
+
+A **general partnership** is formed when two or more people or entities come together to share profits and losses in a business, unless a formal legal entity is created. By default, the business becomes a general partnership. Here’s how it works:
+
+## Key Points:
+
+### 1. **Ownership & Liability**
+- A general partnership is **owned by multiple people** (partners).
+- Partners are **jointly and severally liable** for the business’s debts and obligations. This means each partner can be held responsible for the full amount of the debt, not just their share. 
+- Personal assets of the partners are at risk if the business fails or faces legal issues.
+  
+  **Example**: If the partnership owes $100,000, each partner could be required to pay the full amount, even if their ownership stake is smaller.
+
+### 2. **Management**
+- Management can be defined by the partnership agreement. Without a written agreement, all partners have an **equal say** in how the business is run.
+- **Profit and loss sharing** is also typically equal unless agreed otherwise in the partnership agreement.
+
+### 3. **Partnership Agreement**
+- Although not legally required, it’s common for partners to create a **written partnership agreement** to clarify how profits, losses, and management will be handled.
+  
+  **Example**: If there’s no agreement, profits and losses are usually split equally.
+
+### 4. **Taxation**
+- A general partnership itself doesn’t pay taxes. Instead, the profits or losses are passed through to the partners, who report them on their personal tax returns.
+- Partners are considered **self-employed**, so they must pay self-employment taxes on their share of the profits.
+
+### 5. **Formation & Maintenance**
+- A general partnership is formed by an agreement (either oral or written) between the partners or by presenting the business as a partnership to the public.
+- No formal documents are required, but a **fictitious name** may need to be registered if the business operates under a name other than the partners' names.
+
+### 6. **Liability and Risk**
+- The major disadvantage of a general partnership is **unlimited liability**—each partner is personally responsible for the business’s debts and actions. This puts all of their personal assets at risk.
+  
+  **Example**: If a customer sues the business for $50,000, each partner could be personally liable for the entire amount, even if they own a smaller share of the business.
+
+---
+
+## Advantages and Disadvantages of a General Partnership
+
+### **Advantages**:
+- Easy to form and maintain.
+- Flexibility in how profits, losses, and management are shared (through an agreement).
+- No separate business taxes; income is passed to partners.
+
+### **Disadvantages**:
+- **Unlimited liability**: Each partner is personally liable for the debts of the partnership.
+- Risk to personal assets if the business fails or faces legal issues.
+- Self-employment taxes apply to all partners.
+
+---
+
+## Summary
+
+A general partnership allows two or more people to run a business together, sharing profits, losses, and management duties. However, the main risk is **unlimited liability**—each partner’s personal assets are at risk. While forming a partnership is easy and inexpensive, the potential for significant personal financial risk is a key consideration.
