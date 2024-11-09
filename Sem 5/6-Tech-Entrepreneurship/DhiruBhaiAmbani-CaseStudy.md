@@ -9,6 +9,8 @@ Dhirubhai Ambani's rise to success is one of India’s most iconic business stor
 
 Dhirubhai Ambani’s entrepreneurial journey began with his own **sole proprietorship**. When he first returned to India in 1958, he started **Majin**, a small business importing polyester yarn and exporting spices to Yemen.
 
+-  Majin: Majin was a sole proprietorship that Dhirubhai started when he was just beginning his career as an entrepreneur. The business involved importing polyester yarn from countries like Taiwan and Japan to India, and at the same time, it was also involved in exporting spices to Yemen.
+
 - **What is a Sole Proprietorship?**
   A **sole proprietorship** is a simple, one-person business where the owner assumes full control, responsibility, and liability.
 
