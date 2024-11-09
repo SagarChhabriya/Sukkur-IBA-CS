@@ -206,3 +206,54 @@ A **general partnership** is formed when two or more people or entities come tog
 ## Summary
 
 A general partnership allows two or more people to run a business together, sharing profits, losses, and management duties. However, the main risk is **unlimited liability**—each partner’s personal assets are at risk. While forming a partnership is easy and inexpensive, the potential for significant personal financial risk is a key consideration.
+
+
+# Limited Partnership (LP) 
+
+A **Limited Partnership (LP)** is a business structure with two types of partners:
+
+### 1. General Partners
+- **Responsibilities**: Manage the business and have full responsibility for the business's debts.
+- **Liability**: Unlimited. This means their personal assets can be used to pay the LP's debts if necessary.
+  
+  **Example**: If the LP owes money and can't pay, general partners’ personal savings or property could be at risk.
+
+### 2. Limited Partners
+- **Responsibilities**: Usually investors, not involved in management.
+- **Liability**: Limited to their investment in the business. They won’t lose more than what they’ve put in.
+  
+  **Example**: If an LP has $1 million in debt, and a limited partner invested $50,000, the most they could lose is their $50,000.
+
+---
+
+## Key Points
+
+- **LP Agreement**: A document that defines the rules of the partnership, including who the general and limited partners are.
+- **Liability**:
+  - General partners: Unlimited liability.
+  - Limited partners: Liability is limited to their investment.
+- **Management**: General partners manage the business. Limited partners cannot manage the business, or they risk losing their limited liability.
+- **Taxes**: LPs don’t pay taxes as a business. Instead, profits and losses "pass through" to the partners and are taxed on their personal returns.
+
+  **Example**: If the LP makes $100,000 in profit, all partners must pay tax on their share, even if they don’t receive the money.
+
+- **Ownership**: Partners own a percentage of the LP, which is often described in "units." There are no physical certificates for ownership.
+
+---
+
+## Advantages and Disadvantages
+
+### Advantages:
+- **Limited partners** have limited liability (they only lose their investment).
+- **General partners** manage the business without interference from limited partners.
+- **Pass-through taxation** means the LP itself doesn’t pay taxes—only the partners do on their share.
+
+### Disadvantages:
+- **General partners** have unlimited personal liability.
+- **Limited partners** cannot take an active role in management.
+
+---
+
+## Example of a Real-World Use
+
+In a **venture capital fund**, the general partners (who manage the fund) may set up an LLC to limit their personal liability. The limited partners are investors who contribute money but don’t manage the fund.
