@@ -1,4 +1,8 @@
-
+### Teaching Path
+- Beginner: Caesar Cipher, Substitution Cipher
+- Intermediate: AES, DES, Symmetric Encryption
+- Advanced: RSA, ECC (Elliptic Curve Cryptography)
+- Expert: AES-GCM, Post-Quantum Cryptography, Advanced Key Management
 
 ## Resources
 1. Ceaser Cipher ROT [Website](https://1findawg.github.io/youtubecode.github.io/html/caesarCipher.html)
