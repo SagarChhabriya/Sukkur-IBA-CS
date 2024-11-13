@@ -211,3 +211,17 @@ void add(int a, int b){
 
 <p align="center"><img  src="https://github.com/user-attachments/assets/c3b576de-a6f5-4b3f-a5bc-42f69d15cce7" alt="image"></p>
 
+### Example of predefined function pow(base,power)
+```cpp
+#include <iostream>
+#include <cmath> // Include cmath for the pow function
+
+using namespace std;
+
+int main() {
+    cout << pow(2, 3) << endl; // This will calculate 2^3
+    return 0;
+}
+
+```
+
