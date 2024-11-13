@@ -225,3 +225,5 @@ int main() {
 
 ```
 
+### 4. Creating and using the functions
+> Create a function that calculates the area of rectangle.
