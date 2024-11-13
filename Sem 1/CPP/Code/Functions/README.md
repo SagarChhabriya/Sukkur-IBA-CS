@@ -13,14 +13,14 @@
 9. Variable Scope: Global vs. Local Variable
 
 **MISC:** Passing Arrays, Exercises: Input from user inside function + main
-    
+<br><br><br><br><br>    
     
 
 
 
 ## 1. Brain Storming
 
-> Take 2 numbers as input and show their sum. The program should ask for input 5 times during one run.
+> Take 2 numbers as input and show their sum. The program should ask for input 5 times during one run. Avoid using loop.
 
 > Later, we'll solve the above by defining a function.
 
@@ -59,6 +59,9 @@ void greet(){
 }
 ```
 
+### What if I want to greet 5 times?
+> A function can be called multiple times.
+
 ### Let's add two numbers
 ```cpp
 #include <iostream>
@@ -85,10 +88,81 @@ void add(){
 
 ```
 
+## Function Declaration and Definition in C++
 
-### What if I want to add two more numbers?
-A function can be called multiple times:
-TODO: create a void function with params
+In C++, a function is defined in two parts:
+
+1. **Declaration**: This part specifies the return type, function name, and parameters (if any).
+2. **Definition**: This part contains the actual body of the function, which includes the code to be executed.
+
+### Example of Declaration and Definition Together
+
+```cpp
+#include <iostream>  // Include necessary library for input/output
+
+using namespace std;
+
+// Function Definition
+void myFunction() {
+    // Function body (code to execute)
+    cout << "I just got executed!" << endl;
+}
+
+int main() {
+    // Call the function
+    myFunction();
+    
+    return 0;
+}
+
+```
+
+### Common error example
+
+```cpp
+#include <iostream>  // Include necessary library for input/output
+
+using namespace std;
+
+// Function Definition
+void myFunction() {
+    // Function body (code to execute)
+    cout << "I just got executed!" << endl;
+}
+
+int main() {
+    // Call the function
+    myFunction();
+    
+    return 0;
+}
+```
+
+
+### Take 2 numbers input and show their sum.
+```cpp
+#include <iostream>
+using namespace std;
+
+// 1. Function declaration: add() will be defined later
+void add(int a, int b);
+
+int main() {
+    // 3. Calling the add function to display the sum of two numbers
+    add(5,7);
+    
+    return 0; // End of the main function
+}
+
+// 2. Function definition: This function adds two numbers and prints the result
+void add(int a, int b){
+    
+    // Printing the sum of the two numbers
+    cout << a + b << endl; // Output: 12
+}
+
+```
+
 
 
 ## 2. What are the functions and their characteristics?
