@@ -1,4 +1,4 @@
-### Teaching Path
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/59ddd179-1e41-4852-b17b-38cd5af63735">### Teaching Path
 - Beginner: Caesar Cipher, Substitution Cipher
 - Intermediate: AES, DES, Symmetric Encryption
 - Advanced: RSA, ECC (Elliptic Curve Cryptography)
@@ -37,4 +37,25 @@ print("Encrypted text is: ", string_output)
 
 
 
-2. 
+2. ROT with %
+```
+alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+string_input = input("Enter a string: ")
+shift_input = int(input("Enter in a value to shift by: "))
+
+input_length = len(string_input)
+
+string_output = ""
+
+for i in range(input_length):
+character = string_input [i]
+location_of_character = alphabets.find(character)
+new_location = (location_of_character + shift_input) % 26;
+string_output = string_output + alphabets [new_location]
+
+print("Encrypted text: ", string_output)
+```
+
+
+3. 
