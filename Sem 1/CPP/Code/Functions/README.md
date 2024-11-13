@@ -225,5 +225,31 @@ int main() {
 
 ```
 
-### 4. Creating and using the functions
+## 4. Creating and using the functions
 > Create a function that calculates the area of rectangle.
+
+
+## 5. Parameter and Argument
+
+### Parameters vs Arguments
+
+- **Parameter**: Variable in the function declaration header.
+- **Argument**: Value passed to the function when called.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+void welcome(string name) {
+  cout << "Hello, dear "<< name <<endl;
+}
+
+int main() {
+  welcome("Sagar");
+  welcome("sagar");
+  welcome("SAGAR");
+  return 0;
+}
+
+``` 
