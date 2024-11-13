@@ -1,4 +1,3 @@
-<img width="458" alt="image" src="https://github.com/user-attachments/assets/59ddd179-1e41-4852-b17b-38cd5af63735">### Teaching Path
 - Beginner: Caesar Cipher, Substitution Cipher
 - Intermediate: AES, DES, Symmetric Encryption
 - Advanced: RSA, ECC (Elliptic Curve Cryptography)
