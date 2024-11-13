@@ -10,6 +10,10 @@
 
 
 
+## Bullets
+1. Creating this formal proof is difficult. As a result, if there is one thing to know about cryptography it's the following:
+`Do not invent your own cryptography algorithm! Use standard algorithms and constructs that have been proven to be secure!`
+
 1. Ceaser Cipher ROT-13
 
 ```python
