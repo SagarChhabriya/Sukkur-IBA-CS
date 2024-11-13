@@ -86,6 +86,10 @@ void add(){
 ```
 
 
+### What if I want to add two more numbers?
+A function can be called multiple times:
+TODO: create a void function with params
+
 
 ## 2. What are the functions and their characteristics?
 - A function is a block of code that performs a task.
