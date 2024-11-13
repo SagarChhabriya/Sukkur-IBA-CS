@@ -253,3 +253,23 @@ int main() {
 }
 
 ``` 
+
+
+## 6. Default and Multiple Parameters
+```cpp
+#include <iostream>
+using namespace std;
+
+void displayDepartment(string dept = "CS") {
+    cout << dept << endl;
+}
+
+int main() {
+    displayDepartment("BBA");  // Output: BBA
+    displayDepartment("AI");   // Output: AI
+    displayDepartment();          // Output: CS
+    displayDepartment("SE");     // Output: SE
+    return 0;
+}
+
+```
