@@ -301,3 +301,20 @@ When working with functions that accept multiple parameters, you must ensure tha
 ## 7. Return Keyword
 
 The `void` keyword indicates that the function does not return a value. To return a value, specify a data type (e.g., `int`, `string`) instead of `void`, and use the `return` keyword inside the function.
+
+```cpp
+#include<iostream>
+using namespace std;
+
+// Function to calculate bonus
+int bonus(double salary) {
+    double result = 100 + salary;  // Calculate bonus
+    cout << result << endl;        // Print result
+    return result;                 // Return result
+}
+
+int main() {
+    bonus(1000.0);  // Call the function with a salary of 1000
+}
+
+```
