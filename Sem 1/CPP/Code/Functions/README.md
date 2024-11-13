@@ -1,18 +1,17 @@
-# Agenda
+## Table of Contents
 
-1. Brain Storming
-2. What are the functions and their characteristics?
-3. Types of Functions
-   - Pre-Defined
-   - User-Defined
-4. Creating and using the functions
-5. Parameters and Arguments
-6. Default and Multiple Parameters
-7. Return Keyword
-8. Function Overloading
-9. Variable Scope: Global vs. Local Variable
+1. [Brain Storming](#1-brain-storming)
+2. [What are the functions and their characteristics?](#2-what-are-the-functions-and-their-characteristics)
+3. [Types of Functions](#3-types-of-functions)
+   - [Pre-Defined](#pre-defined)
+   - [User-Defined](#user-defined)
+4. [Creating and using the functions](#4-creating-and-using-the-functions)
+5. [Parameters and Arguments](#5-parameters-and-arguments)
+6. [Default and Multiple Parameters](#6-default-and-multiple-parameters)
+7. [Return Keyword](#7-return-keyword)
+8. [Variable Scope: Global vs. Local Variable](#8-variable-scope-global-vs-local-variable)
+9. [Assessment](#9-assessment)
 
-**MISC:** Passing Arrays, Exercises: Input from user inside function + main
 <br><br><br><br><br>    
     
 
@@ -229,7 +228,7 @@ int main() {
 > Create a function that calculates the area of rectangle.
 
 
-## 5. Parameter and Argument
+## Parameters and Arguments
 
 ### Parameters vs Arguments
 
@@ -322,7 +321,7 @@ int main() {
 
 
 
-## 9. Variable Scope: Global vs. Local Variable
+## 8. Variable Scope: Global vs. Local Variable
 
 ### C++ Variable Scope
 In C++, the scope of a variable refers to the region of code where the variable is accessible. Variables can be local (accessible only within a function) or global (accessible throughout the program).
@@ -414,3 +413,20 @@ int main() {
 }
 
 ```
+
+## 9. Assessment 
+1. What is a function in C++?
+2. What is the purpose of the main() function in C++?
+3. What does the void keyword mean in a function?
+4. How do you declare a simple function that takes no parameters and returns nothing?
+5. How do you call a function in C++?
+6. What is a return type of a function? Give an example.
+7. Can a function in C++ have multiple parameters? Give an example.
+8. What will happen if you call a function without passing the required arguments?
+9. Can you declare a function inside another function in C++? Why or why not?
+10. What is the difference between a function declaration and a function definition?
+11. How can you return a value from a function in C++?
+12. How do you declare a function with default arguments?
+13. How do you pass an array to a function in C++?
+14. How can you return multiple values from a function in C++?
+15. What is function overloading in C++? Can you give an example?
