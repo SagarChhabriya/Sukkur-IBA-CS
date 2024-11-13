@@ -124,11 +124,6 @@ int main() {
 
 using namespace std;
 
-// Function Definition
-void myFunction() {
-    // Function body (code to execute)
-    cout << "I just got executed!" << endl;
-}
 
 int main() {
     // Call the function
@@ -136,6 +131,16 @@ int main() {
     
     return 0;
 }
+
+// Function Definition
+void myFunction() {
+	
+    // Function body (code to execute)
+    
+	cout << "I just got executed!" << endl;
+}
+
+
 ```
 
 
