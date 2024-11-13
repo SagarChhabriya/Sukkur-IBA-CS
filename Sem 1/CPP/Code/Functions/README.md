@@ -274,3 +274,25 @@ int main() {
 
 ```
 > This type of parameter is referred to as an optional parameter, since it doesn't need to be provided by the caller. If no value is given, the default value is used.
+
+## Multiple Parameters
+```cpp
+#include<iostream>
+using namespace std;
+
+// 1. Declare the function
+void employee(int id, string name, double salary);
+
+int main() {
+    // 3. Call the function
+    employee(1, "Sagar Chhabriya", 000.0);
+}
+
+// 2. Define the function
+void employee(int id, string name, double salary) {
+    cout << "Employee ID: " << id << endl;
+    cout << "Employee Name: " << name << endl;
+    cout << "Employee Salary: " << salary << endl;
+}
+
+```
