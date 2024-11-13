@@ -318,3 +318,99 @@ int main() {
 }
 
 ```
+
+
+
+
+## 9. Variable Scope: Global vs. Local Variable
+
+### C++ Variable Scope
+In C++, the scope of a variable refers to the region of code where the variable is accessible. Variables can be local (accessible only within a function) or global (accessible throughout the program).
+
+- Local Scope
+A local variable is declared inside a function and can only be accessed within that function.
+
+```cpp
+#include<iostream>
+using namespace std;
+
+void displayValue() {
+    // Local variable inside displayValue function
+    int num = 10;
+    cout << "Local variable num: " << num << endl;
+}
+
+int main() {
+    displayValue();  // Calling the function
+    return 0;
+}
+
+```
+
+- num is a local variable within displayValue.
+- It can only be used inside the displayValue function. Trying to access it outside of that scope will result in an error.
+
+#### Attempting to Access Local Variable Outside the Function:
+```cpp
+#include<iostream>
+using namespace std;
+
+void displayValue() {
+    int num = 10;  // Local variable inside displayValue function
+}
+
+int main() {
+    displayValue();
+    
+    // Trying to access num outside its scope will result in an error:
+    cout << num;  // Error: 'num' was not declared in this scope
+    return 0;
+}
+
+```
+
+- Global Scope
+A global variable is declared outside of any function, making it accessible from any part of the program, including inside functions.
+
+```cpp
+#include<iostream>
+using namespace std;
+
+// Global variable accessible in all functions
+int globalNumber = 50;
+
+void printGlobal() {
+    cout << "Global variable: " << globalNumber << endl;
+}
+
+int main() {
+    printGlobal();  // Accessing global variable inside the function
+    cout << "Global variable in main: " << globalNumber << endl;
+    return 0;
+}
+
+```
+
+- Local vs Global Variable Names
+When a function defines a local variable with the same name as a global variable, the local variable will shadow or hide the global variable within the function's scope. This is called variable shadowing.
+
+```cpp
+#include<iostream>
+using namespace std;
+
+// Global variable
+int globalVar = 100;
+
+void checkVariable() {
+    // Local variable with the same name as the global variable
+    int globalVar = 200;
+    cout << "Local variable globalVar inside function: " << globalVar << endl;
+}
+
+int main() {
+    checkVariable();  // Print the local variable
+    cout << "Global variable globalVar in main: " << globalVar << endl;  // Print the global variable
+    return 0;
+}
+
+```
