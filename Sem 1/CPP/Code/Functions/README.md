@@ -296,3 +296,8 @@ void employee(int id, string name, double salary) {
 }
 
 ```
+When working with functions that accept multiple parameters, you must ensure that the function call provides the exact number of arguments that match the number of parameters. Additionally, the arguments must be passed in the same order as the parameters are defined in the function declaration.
+
+## 7. Return Keyword
+
+The `void` keyword indicates that the function does not return a value. To return a value, specify a data type (e.g., `int`, `string`) instead of `void`, and use the `return` keyword inside the function.
