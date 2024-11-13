@@ -273,3 +273,4 @@ int main() {
 }
 
 ```
+> This type of parameter is referred to as an optional parameter, since it doesn't need to be provided by the caller. If no value is given, the default value is used.
