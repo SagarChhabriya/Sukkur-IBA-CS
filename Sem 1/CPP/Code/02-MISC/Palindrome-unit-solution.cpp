@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 		char ch,ch1,ch2,ch3,ch4,ch5;
-		cout<<"Enter three number for Palidrome "<<endl;
+		cout<<"Enter three number for Palindrome "<<endl;
 		cin.get(ch);
 		ch1=ch;
 		cin.get(ch);
