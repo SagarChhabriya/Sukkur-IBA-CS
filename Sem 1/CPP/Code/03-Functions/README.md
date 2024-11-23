@@ -153,7 +153,12 @@ void add(int a, int b);
 
 int main() {
     // 3. Calling the add function to display the sum of two numbers
-    add(5,7);
+	int a, b;
+	cout<<"Enter first number"<<endl;
+	cin>>a;
+	cout<<"Enter second number"<<endl;
+	cin>>b;
+	add(a,b);
     
     return 0; // End of the main function
 }
@@ -211,7 +216,7 @@ void add(int a, int b){
 <p align="center"><img  src="https://github.com/user-attachments/assets/c3b576de-a6f5-4b3f-a5bc-42f69d15cce7" alt="image"></p>
 
 1. **Without Return Type and Without Arguments**
-A function that doesn't return anything and doesn't take any arguments.
+- A function that doesn't return anything and doesn't take any arguments.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -229,7 +234,7 @@ int main() {
 ```
 
 2. **Without Return Type and With Arguments**
-A function that doesn't return anything and takes arguments. Here, the function accepts two integers and prints their sum.
+- A function that doesn't return anything and takes arguments. Here, the function accepts two integers and prints their sum.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -246,7 +251,7 @@ int main() {
 ```
 
 3. **With Return Type and Without Arguments**
-A function that returns a value but doesn't take any arguments. It returns a fixed integer value.
+- A function that returns a value but doesn't take any arguments. It returns a fixed integer value.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -264,7 +269,7 @@ int main() {
 ```
 
 4. With Return Type and With Arguments
-A function that takes arguments and returns a value. It accepts two integers and returns their product.
+- A function that takes arguments and returns a value. It accepts two integers and returns their product.
 ```cpp
 #include <iostream>
 using namespace std;
