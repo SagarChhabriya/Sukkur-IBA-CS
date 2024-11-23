@@ -210,6 +210,83 @@ void add(int a, int b){
 
 <p align="center"><img  src="https://github.com/user-attachments/assets/c3b576de-a6f5-4b3f-a5bc-42f69d15cce7" alt="image"></p>
 
+1. **Without Return Type and Without Arguments**
+A function that doesn't return anything and doesn't take any arguments.
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function without return type and without arguments
+void printHello() {
+    cout << "Hello, World!" << endl;  // prints a message
+}
+
+int main() {
+    printHello(); // calling the function without arguments
+    return 0;
+}
+
+```
+
+2. **Without Return Type and With Arguments**
+A function that doesn't return anything and takes arguments. Here, the function accepts two integers and prints their sum.
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function without return type and with arguments
+void printSum(int a, int b) {
+    cout << "The sum is: " << a + b << endl;  // prints the sum of a and b
+}
+
+int main() {
+    printSum(5, 3);  // calling the function with arguments 5 and 3
+    return 0;
+}
+```
+
+3. **With Return Type and Without Arguments**
+A function that returns a value but doesn't take any arguments. It returns a fixed integer value.
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function with return type and without arguments
+int getNumber() {
+    return 42;  // returns a fixed number
+}
+
+int main() {
+    int number = getNumber();  // calling the function without arguments
+    cout << "The number is: " << number << endl;  // Output: 42
+    return 0;
+}
+```
+
+4. With Return Type and With Arguments
+A function that takes arguments and returns a value. It accepts two integers and returns their product.
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function with return type and with arguments
+int multiply(int a, int b) {
+    return a * b;  // returns the product of a and b
+}
+
+int main() {
+    int result = multiply(5, 3);  // calling the function with arguments 5 and 3
+    cout << "The product is: " << result << endl;  // Output: 15
+    return 0;
+}
+
+```
+**Summary of above Functions:**
+- Without Return Type and Without Arguments: `void printHello()`
+- Without Return Type and With Arguments: `void printSum(int a, int b)`
+- With Return Type and Without Arguments: `int getNumber()`
+- With Return Type and With Arguments: `int multiply(int a, int b)`
+
 ### Example of predefined function pow(base,power)
 ```cpp
 #include <iostream>
