@@ -32,3 +32,61 @@
 
 ![image](https://github.com/user-attachments/assets/19d1bf63-0457-4479-9ccf-f2dd1f137ea8)
 
+## Uniform C.R.V
+![image](https://github.com/user-attachments/assets/8dd9af0d-d95c-4c24-88b4-358a881878f1)
+
+![image](https://github.com/user-attachments/assets/7aa6fda0-ea2c-4bce-adf5-c441383435a1)
+
+![image](https://github.com/user-attachments/assets/b740efb1-eabf-4ce6-9b47-6961200a8db8)
+
+![image](https://github.com/user-attachments/assets/c8b28b26-9196-401b-a83a-346778ac91ee)
+
+![image](https://github.com/user-attachments/assets/2006babf-533f-4d37-83f1-6bc29574f096)
+
+![image](https://github.com/user-attachments/assets/9d735365-dac2-450e-9b0b-393baf93e58e)
+
+![image](https://github.com/user-attachments/assets/1546ef57-883c-450a-bf47-1db03642175b)
+
+![image](https://github.com/user-attachments/assets/84e197c4-6996-4ebe-8e5f-477f8ef45a43)
+
+![image](https://github.com/user-attachments/assets/961c2a44-5ea9-4234-af64-8ac8503aa7e5)
+
+## Exponential Distribution
+
+![image](https://github.com/user-attachments/assets/2409e497-0aa8-451b-ae62-23c2b0db469f)
+
+![image](https://github.com/user-attachments/assets/16937c11-7e19-44df-89ba-880ebddae9e5)
+
+![image](https://github.com/user-attachments/assets/edba8122-1426-43ad-bf8c-8b0a4cd445e7)
+
+![image](https://github.com/user-attachments/assets/9d218598-6cd2-44c7-8943-af9d1560e7cf)
+
+![image](https://github.com/user-attachments/assets/f01bf82c-91c3-4ec9-b273-4d22fa462eaf)
+
+## Normal Distribution
+
+![image](https://github.com/user-attachments/assets/6c5d2a5d-a4d3-4128-b100-ecba9b95f596)
+
+### +ve vs. -ve Z-Values
++ve `z` values are above the mean and -ve below the mean.
+
+![image](https://github.com/user-attachments/assets/aaad25bc-4620-425b-9534-06b10d010cef)
+
+- Mean + 1.std = 74 + 8 = 82
+- Mean + 2.std = 74 + 2 x 8 = 90
+- Mean + 3.std = 74 + 3 x 8 = 98
+- Mean - 1.std = 74 - 8 = 66
+- Mean - 2.std = 74 - 2 x 8 = 58
+- Mean - 3.std = 74 - 3 x 8 = 50
+
+
+![image](https://github.com/user-attachments/assets/c7fa476d-0117-4d31-86e8-b178fa8d3b04)
+  
+![image](https://github.com/user-attachments/assets/464d74cd-2926-45e9-a6f2-cc527868002c)
+
+![image](https://github.com/user-attachments/assets/8c6b8f3a-3550-4d0d-8e36-620e8a060b8e)
+
+![image](https://github.com/user-attachments/assets/7d528d74-e471-4b85-b0c0-8741f8b595ac)
+
+
+
