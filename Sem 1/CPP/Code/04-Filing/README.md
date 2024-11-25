@@ -172,3 +172,232 @@ Both `ios::app` and `ios::ate` open the file at the end. However:
 - **`ios::ate`** allows you to add or modify data anywhere in the file, but it still starts at the end.
 
 
+---
+### 1. `ios::in` - Open file for reading (Input operations)
+The `ios::in` mode is used to open a file for reading. If the file doesn't exist or cannot be opened for reading, an error occurs.
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Open the file "example.txt" in read mode
+    ifstream inputFile("example.txt", ios::in);
+
+    // Check if the file is open successfully
+    if (!inputFile) {
+        cout << "File could not be opened!" << endl;
+        return 1;  // Exit if file can't be opened
+    }
+
+    string line;
+    // Read and print the content of the file line by line
+    while (getline(inputFile, line)) {
+        cout << line << endl;  // Print each line from the file
+    }
+
+    inputFile.close();  // Close the file after reading
+    return 0;
+}
+```
+
+
+### 2. `ios::out` - Open file for writing (Output operations)
+The ios::out mode is used to open a file for writing. If the file doesn't exist, it will be created. If the file already exists, it will be overwritten.
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Open the file "output.txt" in write mode
+    ofstream outputFile("output.txt", ios::out);
+
+    // Check if the file is open successfully
+    if (!outputFile) {
+        cout << "File could not be created!" << endl;
+        return 1;
+    }
+
+    // Write some text to the file
+    outputFile << "This is a test line!" << endl;
+    outputFile << "Writing to a file is easy!" << endl;
+
+    outputFile.close();  // Close the file after writing
+    return 0;
+}
+```
+
+
+### 3. `ios::binary` - Open file in binary mode (Binary operations)
+The `ios::binary` mode is used to open a file in binary mode, which is useful for non-text data (e.g., images, videos, or other binary files).
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Open the file "data.dat" in binary write mode
+    ofstream binaryFile("data.dat", ios::out | ios::binary);
+
+    // Check if the file is open successfully
+    if (!binaryFile) {
+        cout << "File could not be opened!" << endl;
+        return 1;
+    }
+
+    int data = 12345;
+    // Write binary data to the file
+    binaryFile.write(reinterpret_cast<char*>(&data), sizeof(data));
+
+    binaryFile.close();  // Close the file
+    return 0;
+}
+```
+
+### 4. `ios::ate` - Set file position to the end of the file (Write operations)
+The `ios::ate` mode opens the file and immediately sets the file position to the end. This mode allows you to append to the file.
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Open the file "logfile.txt" and move to the end
+    ofstream logFile("logfile.txt", ios::out | ios::ate);
+
+    // Check if the file is open successfully
+    if (!logFile) {
+        cout << "File could not be opened!" << endl;
+        return 1;
+    }
+
+    // Append a new line to the file
+    logFile << "New log entry!" << endl;
+
+    logFile.close();  // Close the file
+    return 0;
+}
+```
+### 5. `ios::app` - Open file in append mode (Append operations)
+The `ios::app` mode opens the file and appends new data at the end of the file without modifying the existing content.  
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Open the file "notes.txt" in append mode
+    ofstream notesFile("notes.txt", ios::out | ios::app);
+
+    // Check if the file is open successfully
+    if (!notesFile) {
+        cout << "File could not be opened!" << endl;
+        return 1;
+    }
+
+    // Add new content to the file without overwriting
+    notesFile << "Appending new notes!" << endl;
+
+    notesFile.close();  // Close the file
+    return 0;
+}
+```
+
+### 6. `ios::trunc` - Discard existing content when opening the file (Truncate operations)
+The `ios::trunc` mode discards any existing content in the file. If the file already exists, it is emptied before writing new data.
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Open the file "temp.txt" and truncate it (clear content)
+    ofstream tempFile("temp.txt", ios::out | ios::trunc);
+
+    // Check if the file is open successfully
+    if (!tempFile) {
+        cout << "File could not be created!" << endl;
+        return 1;
+    }
+
+    // Write new data, old content will be discarded
+    tempFile << "This is new content!" << endl;
+
+    tempFile.close();  // Close the file
+    return 0;
+}
+```
+
+
+### 7. `ios::nocreate` - Prevent creating a new file if it doesn't exist (Prevent file creation)
+The `ios::nocreate` mode prevents a new file from being created if it doesn't already exist.
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Try to open the file "existing_file.txt" without creating it if it doesn't exist
+    ifstream file("existing_file::nocreate);
+
+    // Check if the file is open successfully
+    if (!file) {
+        cout << "File does not exist and cannot be created!" << endl;
+        return 1;  // Exit if the file doesn't exist
+    }
+
+    string line;
+    // Read the content of the file and display it
+    while (getline(file, line)) {
+        cout << line << endl;
+    }
+
+    file.close();  // Close the file after reading
+    return 0;
+}
+```
+
+### 8. `ios::noreplace` - Prevent replacing an existing file (Prevent file replacement)
+The `ios::noreplace` mode ensures that a file is not overwritten if it already exists. If the file already exists, opening it will fail.
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    // Try to create the file "newfile.txt", but prevent overwriting if it already exists
+    ofstream newFile("newfile.txt", ios::out | ios::noreplace);
+
+    // Check if the file is open successfully
+    if (!newFile) {
+        cout << "File already exists! Cannot replace it." << endl;
+        return 1;  // Exit if the file exists
+    }
+
+    // Write to the file only if it didn't exist before
+    newFile << "This is a new file!" << endl;
+
+    newFile.close();  // Close the file
+    return 0;
+}
+```
+
+| Mode           | Description                                                | Example Use Case                                             |
+|----------------|------------------------------------------------------------|--------------------------------------------------------------|
+| `ios::in`      | Open file for reading.                                     | Reading a text file containing user data.                    |
+| `ios::out`     | Open file for writing (creates file if it doesn't exist).   | Saving user preferences to a configuration file.             |
+| `ios::binary`  | Open file in binary mode for non-text data (images, etc.).  | Saving and loading binary data like images or game saves.    |
+| `ios::ate`     | Set file position to the end when opening.                  | Appending to a log file or data file.                        |
+| `ios::app`     | Open file in append mode, always write to the end.          | Adding new records to a log file without overwriting old data.|
+| `ios::trunc`   | Discard file contents when opening.                        | Clearing a file to store fresh data (e.g., clearing cache).   |
+| `ios::nocreate`| Prevent creating a new file if it doesn’t exist.            | Ensuring a file exists before reading from it (e.g., config).|
+| `ios::noreplace`| Prevent overwriting an existing file.                      | Prevent overwriting existing important files.                |
