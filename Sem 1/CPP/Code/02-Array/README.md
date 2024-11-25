@@ -140,6 +140,65 @@ for (string student : students) {
 ```
 This example will output all elements in the `students` array using the `for-each` loop.
 
+### Example 6: Take Inputs from User and Store Them in an Array
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int numbers[5];
+
+  cout << "Enter 5 numbers: " << endl;
+
+  //  store input from user to array
+  for (int i = 0; i < 5; ++i) {
+    cin >> numbers[i];
+  }
+
+  cout << "The numbers are: ";
+
+  //  print array elements
+  for (int n = 0; n < 5; ++n) {
+    cout << numbers[n] << "  ";
+  }
+
+  return 0;
+}
+```
+
+### Example 7: Passing One-dimensional Array to a Function
+```cpp
+// C++ Program to display marks of 5 students
+
+#include <iostream>
+using namespace std;
+
+const int ARRAY_SIZE = 5;
+
+// declare function to display marks
+// take a 1d array as parameter
+void display(int m[]) {
+    cout << "Displaying marks: " << endl;
+
+    // display array elements    
+    for (int i = 0; i < ARRAY_SIZE; ++i) {
+        cout << "Student " << i + 1 << ": " << m[i] << endl;
+    }
+}
+
+int main() {
+
+    // declare and initialize an array
+    int marks[ARRAY_SIZE] = {88, 76, 90, 61, 69};
+    
+    // call display function
+    // pass array as argument
+    display(marks);
+
+    return 0;
+}
+```
 ---
 # C++ Omit Array Size and Vectors
 
