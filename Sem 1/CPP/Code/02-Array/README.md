@@ -2,7 +2,13 @@
 
 Arrays in C++ are used to store multiple values in a single variable, instead of declaring separate variables for each value. This helps manage data more efficiently when dealing with large sets of similar values.
 
+![image](https://github.com/user-attachments/assets/706ba4b5-e048-40ff-b143-8de4e68031bd)
+
+
+
 ## Declaring an Array
+
+![image](https://github.com/user-attachments/assets/93cbad24-fd54-4581-a6d5-57736a10397f)
 
 To declare an array, you need to define the `type` of elements it will hold, give it a `name`, and specify how many elements it should store inside square brackets `[]`.
 
