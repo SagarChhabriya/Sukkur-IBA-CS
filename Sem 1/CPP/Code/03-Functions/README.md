@@ -358,10 +358,10 @@ int main() {
 ```
 
 ## 4. Creating and using the functions
-> Define a function that returns the area of rectangle.
-> Define a function that returns the area of square.
-> Define a function that returns the area of circle.
-> Define a function that returns the max of two numbers.
+1. **Define a function that returns the area of rectangle.**
+2. **Define a function that returns the area of square.**
+3. **Define a function that returns the area of circle.**
+4. **Define a function that returns the max of two numbers.**
 
 
 ### Function Prototype (or signature, declaration)
@@ -603,49 +603,54 @@ int main() {
 ### Example 1 
 
 ```cpp
-#include<iostream>
-using namespace std;
+#include<iostream>  // Include the iostream library for input and output
+using namespace std;  // Use the standard namespace for ease of use
 
-void printArray(int arr[5]){
-	for(int i=0; i<5; i++){
-		cout<<arr[i]<<endl;
-	}
-
+// Function to print elements of an array
+void printArray(int arr[5]) {
+    // Loop through the array and print each element
+    for(int i = 0; i < 5; i++) {
+        cout << arr[i] << endl;  // Output each element followed by a new line
+    }
 }
 
-int main(){
 
-	int arr[5]={1,2,3,4,5};
-	printArray(arr);
-	cout<<sumArray(arr)<<endl;
+int main() {
+    // Declare and initialize an array with 5 elements
+    int arr[5] = {1, 2, 3, 4, 5};
 
+    // Call the function to print the array elements
+    printArray(arr);
+
+    return 0;  // Return 0 to indicate successful execution
 }
 
 ```
 
 ### Example 2
 ```cpp
-#include<iostream>
-using namespace std;
+#include<iostream>  // Include the iostream library for input and output
+using namespace std;  // Use the standard namespace for ease of use
 
-int sumArray(int arr[5]){
-	int sum = 0;
-	for(int i=0; i<5; i++){
-		sum = sum + arr[i];
-	}	
-	
-	return sum;
+// Function to calculate the sum of elements in the array
+int sumArray(int arr[5]) {
+    int sum = 0;  // Initialize the sum to 0
+    // Loop through the array and add each element to sum
+    for(int i = 0; i < 5; i++) {
+        sum += arr[i];  // Add the current element to sum
+    }
+    return sum;  // Return the sum
 }
 
+int main() {
+    // Declare and initialize an array with 5 elements
+    int arr[5] = {1, 2, 3, 4, 5};
 
-int main(){
+    // Call the sumArray function and print the result (sum of elements)
+    cout << sumArray(arr) << endl;  // Output the sum of the array elements
 
-	int arr[5]={1,2,3,4,5};
-	printArray(arr);
-	cout<<sumArray(arr)<<endl;
-
+    return 0;  // Return 0 to indicate successful execution
 }
-
 ```
 
 
