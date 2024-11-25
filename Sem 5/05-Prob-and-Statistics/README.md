@@ -24,7 +24,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/0ccbabd3-e214-4362-af52-f30f9baaae44)
 
 
-Corr: Linearly association between two variables. It tells both magnitude and direction.
+Corr: Linearly association between two variables. It tells both magnitude and direction. It is denoted by `r` where $-1 \leq r \leq 1$
 1. Perfect positive `corr=1`
 2. Strong positive  `corr = 0.85`
 3. Weak positive `corr = 0.13`
@@ -32,3 +32,6 @@ Corr: Linearly association between two variables. It tells both magnitude and di
 5. Perfect negative `corr = -1`
 6. Moderate
 7. Weak Negative
+
+
+
