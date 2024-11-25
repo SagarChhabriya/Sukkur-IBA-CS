@@ -1,4 +1,4 @@
-## Table of Contents
+![image](https://github.com/user-attachments/assets/ff842595-ad33-405f-9cd7-57aa51cfa92b)![image](https://github.com/user-attachments/assets/617aca96-d0ca-4224-9f3b-1b517c215971)![image](https://github.com/user-attachments/assets/f7c6d652-8c13-472f-a609-969d41f69394)![image](https://github.com/user-attachments/assets/1869cd98-aedf-41cc-b4f3-f4a1476b766b)## Table of Contents
 
 1. [Brain Storming](#1-brain-storming)
 2. [What are the functions and their characteristics?](#2-what-are-the-functions-and-their-characteristics)
@@ -35,6 +35,18 @@
    - **Function Definition**: The body of the function is defined here, which contains the code that performs the function's task.
    - **Function Call**: This is where the function is used in the program to execute the code inside the function body.
 
+
+> ## Syntax
+```cpp
+returnType functionName(parameter1, parameter2, ..., parameter n ) {
+	// function body or definition
+}
+```
+
+> Return Type, Function name are mandatory
+> Parameters are optional
+
+
 ### Let's greet the users.
 
 ```cpp
@@ -57,6 +69,12 @@ void greet(){
     cout << "Hello dear!" << endl; // Display the greeting message
 }
 ```
+Here,
+- the name of function is `greet`
+- the return type of function is `void`
+- the empty parentheses mean it doesn't have any parameters
+- the function body is written inside `{ }`
+
 
 ### What if I want to greet 5 times?
 > A function can be called multiple times.
@@ -86,6 +104,11 @@ void add(){
 }
 
 ```
+
+Here, 
+- the function name is `add`
+- the return type of function is `void`
+- the function has no parameters
 
 ## Function Declaration and Definition in C++
 
@@ -142,6 +165,7 @@ void myFunction() {
 
 ```
 
+- the declaration has been omitted
 
 ### Take 2 numbers input and show their sum.
 ```cpp
@@ -153,12 +177,12 @@ void add(int a, int b);
 
 int main() {
     // 3. Calling the add function to display the sum of two numbers
-	int a, b;
+	int first, second;
 	cout<<"Enter first number"<<endl;
-	cin>>a;
+	cin>>first;
 	cout<<"Enter second number"<<endl;
-	cin>>b;
-	add(a,b);
+	cin>>second;
+	add(first, second);
     
     return 0; // End of the main function
 }
@@ -172,7 +196,11 @@ void add(int a, int b){
 
 ```
 
-
+Here,
+- the function name is `add`
+- the function has two parameters `a` and `b`
+- the function prints the sum of `a` and `b`
+- the function is called with arguments `first` and `second` via user input 
 
 ## 2. What are the functions and their characteristics?
 - A function is a block of code that performs a task.
@@ -217,6 +245,8 @@ void add(int a, int b){
 
 1. **Without Return Type and Without Arguments**
 - A function that doesn't return anything and doesn't take any arguments.
+- `void` means no type.
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -232,6 +262,10 @@ int main() {
 }
 
 ```
+Here,
+- the function name is `printHello`
+- the function has no return type i.e., `void`
+- the function has no parameters
 
 2. **Without Return Type and With Arguments**
 - A function that doesn't return anything and takes arguments. Here, the function accepts two integers and prints their sum.
@@ -249,6 +283,11 @@ int main() {
     return 0;
 }
 ```
+Here,
+- the function name is `printSum`
+- the function has no return type
+- the function has two parameters `int a` and `int b` respectively
+- the function has two arguments `5` and `3`. An argument is the value you give to a function when you call it.
 
 3. **With Return Type and Without Arguments**
 - A function that returns a value but doesn't take any arguments. It returns a fixed integer value.
@@ -267,6 +306,11 @@ int main() {
     return 0;
 }
 ```
+Here,
+- the function name is `getNumber`
+- the function has `int` return type
+- the function has no parameters
+
 
 4. With Return Type and With Arguments
 - A function that takes arguments and returns a value. It accepts two integers and returns their product.
@@ -286,6 +330,13 @@ int main() {
 }
 
 ```
+Here,
+- the function name is `multiply`
+- the function has `int` return type
+- the function has two parameters `a` and `b`
+
+
+
 **Summary of above Functions:**
 - Without Return Type and Without Arguments: `void printHello()`
 - Without Return Type and With Arguments: `void printSum(int a, int b)`
@@ -307,10 +358,38 @@ int main() {
 ```
 
 ## 4. Creating and using the functions
-> Create a function that calculates the area of rectangle.
+> Define a function that returns the area of rectangle.
+> Define a function that returns the area of square.
+> Define a function that returns the area of circle.
+> Define a function that returns the max of two numbers.
+
+
+### Function Prototype (or signature, declaration)
+A function should be always defined before it is called. However if you want to define a function later on you can use function prototype
+
+```cpp
+void add(int a, int b);
+
+int main(){
+	// calling the function
+	add(5,3);
+
+	return 0;
+}
+
+// function definition
+void add(int a, int b){
+	cout<<(a+b)<<endl;
+}
+
+```
 
 
 ## Parameters and Arguments
+1. Parameters are variables or values that are passed into a function.
+2. They provide a way to send data to a function so that the function can perform a task or computation based on that data.
+3. Parameters are defined in the function's signature, and the values passed as arguments when the function is called are assigned to these parameters.
+
 
 ### Parameters vs Arguments
 
@@ -337,6 +416,7 @@ int main() {
 
 
 ## 6. Default and Multiple Parameters
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -496,6 +576,8 @@ int main() {
 
 ```
 
+
+
 ## 9. Assessment 
 1. What is a function in C++?
 2. What is the purpose of the main() function in C++?
@@ -512,3 +594,59 @@ int main() {
 13. How do you pass an array to a function in C++?
 14. How can you return multiple values from a function in C++?
 15. What is function overloading in C++? Can you give an example?
+16. How many functions we can define?
+
+
+
+## 10. Array as argument to function
+
+### Example 1 
+
+```cpp
+#include<iostream>
+using namespace std;
+
+void printArray(int arr[5]){
+	for(int i=0; i<5; i++){
+		cout<<arr[i]<<endl;
+	}
+
+}
+
+int main(){
+
+	int arr[5]={1,2,3,4,5};
+	printArray(arr);
+	cout<<sumArray(arr)<<endl;
+
+}
+
+```
+
+### Example 2
+```cpp
+#include<iostream>
+using namespace std;
+
+int sumArray(int arr[5]){
+	int sum = 0;
+	for(int i=0; i<5; i++){
+		sum = sum + arr[i];
+	}	
+	
+	return sum;
+}
+
+
+int main(){
+
+	int arr[5]={1,2,3,4,5};
+	printArray(arr);
+	cout<<sumArray(arr)<<endl;
+
+}
+
+```
+
+
+> Write a C++ code to create a function which can find count of even numbers from an array of 10 elements
