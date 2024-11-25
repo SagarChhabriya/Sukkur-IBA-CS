@@ -35,3 +35,9 @@ Corr: Linearly association between two variables. It tells both magnitude and di
 
 
 
+### Coefficient of Correlation
+![image](https://github.com/user-attachments/assets/c83d704b-015e-415e-928b-c0a3a974e7ca)
+
+### Covariance
+![image](https://github.com/user-attachments/assets/0141fab4-6a99-4a38-96f2-098b4fdbba93)
+
