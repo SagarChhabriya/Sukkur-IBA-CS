@@ -41,3 +41,16 @@ Corr: Linearly association between two variables. It tells both magnitude and di
 ### Covariance
 ![image](https://github.com/user-attachments/assets/0141fab4-6a99-4a38-96f2-098b4fdbba93)
 
+
+
+| $X$ | $Y$ | $XY$ | $X^2$  |  $Y^2$  |
+|-----|-----|------|--------|---------|
+| 5   | 120 | 600  |  25    | 14400   |
+| 7   | 170 | 1190 |  49    | 28900   |
+| 15  | 320 | 4800 |  225   | 102400  |
+| 20  | 420 | 8400 |  400   | 176400  |
+|22.5 | 470 | 10575|  506.25| 220900  |
+| 69.5 | 1500 | 25565|1205.25|543000  |
+
+
+![Figure_1](https://github.com/user-attachments/assets/48d0ec4d-fd1d-4b3c-93a7-7520fdcad0a5)
