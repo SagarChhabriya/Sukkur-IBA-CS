@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ff842595-ad33-405f-9cd7-57aa51cfa92b)![image](https://github.com/user-attachments/assets/617aca96-d0ca-4224-9f3b-1b517c215971)![image](https://github.com/user-attachments/assets/f7c6d652-8c13-472f-a609-969d41f69394)![image](https://github.com/user-attachments/assets/1869cd98-aedf-41cc-b4f3-f4a1476b766b)## Table of Contents
+## Table of Contents
 
 1. [Brain Storming](#1-brain-storming)
 2. [What are the functions and their characteristics?](#2-what-are-the-functions-and-their-characteristics)
