@@ -140,3 +140,92 @@ for (string student : students) {
 ```
 This example will output all elements in the `students` array using the `for-each` loop.
 
+---
+# C++ Omit Array Size and Vectors
+
+## Omit Array Size
+
+In C++, you don't always have to specify the size of the array. The compiler can infer the size of the array based on the number of elements you provide.
+
+### Example: Implicit Array Size
+
+```cpp
+// Create an array without specifying the size
+string fruits[] = {"Apple", "Banana", "Cherry"}; // Three elements in the array
+```
+This is equivalent to:
+
+```cpp
+string fruits[3] = {"Apple", "Banana", "Cherry"}; // Also three elements
+```
+
+> However, it is usually considered a better practice to explicitly specify the size for clarity and to avoid errors later in your program.
+
+
+## Omit Elements on Declaration
+You can also declare an array without assigning values initially, and then assign values later.
+
+### Example: Assigning Values After Declaration
+
+```cpp
+string fruits[5];  // Declare an array of 5 elements
+fruits[0] = "Apple";
+fruits[1] = "Banana";
+fruits[2] = "Cherry";
+fruits[3] = "Date";
+fruits[4] = "Elderberry";
+```
+
+> Note: The size of the array must be declared when using this approach. You cannot omit the size like in the first example.
+
+### Example: Error when size is not specified
+```cpp
+string fruits[];  // Array size is not specified
+fruits[0] = "Apple";  // Error: Array size missing in 'fruits'
+```
+
+## Fixed Size (Arrays) vs. Dynamic Size (Vectors)
+In C++, the term fixed size refers to arrays, which cannot change their size once they are defined. You cannot add or remove elements after the array is created.
+
+### Fixed Size Array Example
+
+```cpp
+// A fixed-size array with 3 elements
+string fruits[3] = {"Apple", "Banana", "Cherry"};
+
+// Trying to add another element (a fourth element) will result in an error
+fruits[3] = "Date";  // Error: Out of bounds for array size
+```
+
+
+## Vectors - Dynamic Size
+In contrast, vectors in C++ are dynamic arrays. Their size can grow or shrink as needed during program execution.
+
+### Using Vectors for Dynamic Arrays
+Vectors are part of the `<vector>` library and provide various functions to add, remove, and modify elements in a dynamic array.
+
+```cpp
+#include <vector>
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Create a vector with initial elements
+    vector<string> fruits = {"Apple", "Banana", "Cherry"};
+    
+    // Dynamically adding another element to the vector
+    fruits.push_back("Date");  // Adds "Date" to the vector
+
+    // Output all elements in the vector
+      // Using a traditional for loop with indices
+    for (int i = 0; i < fruits.size(); i++) {
+        cout << fruits[i] << "\n";
+    }
+
+    return 0;
+}
+
+```
+#### Explanation:
+The `push_back()` function is used to add new elements to the end of the vector. Vectors grow dynamically as needed, which makes them more flexible than fixed-size arrays.
