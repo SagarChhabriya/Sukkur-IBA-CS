@@ -323,3 +323,128 @@ for (int score : scores) {
 // Print the highest score
 cout << "The highest score is: " << highestScore << "\n";
 ```
+
+
+---
+## C++ Multi-Dimensional Arrays
+A multi-dimensional array is essentially an array of arrays, where each element of the main array can itself be another array.
+
+To declare a multi-dimensional array, you define the variable type, specify the name of the array followed by square brackets. The first set of square brackets indicates how many elements the main array has, while the second set indicates the size of the sub-arrays.
+
+### Example
+
+```cpp
+// A 2x3 matrix
+int matrix[2][3];
+```
+
+In the example above, `matrix` is a 2D array with 2 rows and 3 columns. You can initialize a multi-dimensional array in a similar manner as a single-dimensional array, except that each element in the main array is an array itself.
+
+```cpp
+// A 2x3 array with values
+int matrix[2][3] = {
+  {1, 2, 3},
+  {4, 5, 6}
+};
+```
+
+In this case, `matrix` has 2 rows and 3 columns, where each row contains 3 integers.
+
+## Accessing Elements in a Multi-Dimensional Array
+To access an element of a multi-dimensional array, you need to specify the index number in each dimension.
+
+### Example
+
+```cpp
+int matrix[2][3] = {
+  {1, 2, 3},
+  {4, 5, 6}
+};
+
+cout << matrix[0][2];  // Outputs 3
+```
+
+In the above example, `matrix[0][2]` accesses the element in the first row and the third column, which is `3`.
+
+### Changing Elements in a Multi-Dimensional Array
+To modify an element in a multi-dimensional array, you simply refer to the indices in each dimension and assign a new value.
+
+### Example
+```cpp
+int matrix[2][3] = {
+  {1, 2, 3},
+  {4, 5, 6}
+};
+
+matrix[0][0] = 7;
+
+cout << matrix[0][0];  // Outputs 7
+```
+
+Here, the element at `matrix[0][0]` was originally `1`, but it was changed to `7`.
+
+### Looping Through a Multi-Dimensional Array
+To loop through a multi-dimensional array, you need one loop for each dimension.
+
+### Example
+```cpp
+int matrix[2][3] = {
+  {1, 2, 3},
+  {4, 5, 6}
+};
+
+for (int i = 0; i < 2; i++) {
+  for (int j = 0; j < 3; j++) {
+    cout << matrix[i][j] << "\n";
+  }
+}
+```
+
+This will output all the elements in the 2x3 matrix.
+
+### Example with Three Dimensions
+Here’s how to loop through a 3-dimensional array:
+
+```cpp
+int cube[2][2][2] = {
+  {
+    {1, 2},
+    {3, 4}
+  },
+  {
+    {5, 6},
+    {7, 8}
+  }
+};
+
+for (int i = 0; i < 2; i++) {
+  for (int j = 0; j < 2; j++) {
+    for (int k = 0; k < 2; k++) {
+      cout << cube[i][j][k] << "\n";
+    }
+  }
+}
+```
+
+
+### Practical Use of Multi-Dimensional Arrays: A Tic-Tac-Toe Game
+A great real-world example of using multi-dimensional arrays is representing a Tic-Tac-Toe game board. A 3x3 grid is perfect for this purpose:
+
+### Example
+```cpp
+// A 3x3 Tic-Tac-Toe game board
+char board[3][3] = {
+  {'X', 'O', 'X'},
+  {'O', 'X', 'O'},
+  {'X', 'O', 'X'}
+};
+
+// Display the Tic-Tac-Toe board
+for (int i = 0; i < 3; i++) {
+  for (int j = 0; j < 3; j++) {
+    cout << board[i][j] << " ";
+  }
+  cout << "\n";
+}
+```
+
