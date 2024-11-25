@@ -229,3 +229,97 @@ int main() {
 ```
 #### Explanation:
 The `push_back()` function is used to add new elements to the end of the vector. Vectors grow dynamically as needed, which makes them more flexible than fixed-size arrays.
+
+
+---
+## C++ Array Size
+In C++, to determine the size of an array, you can use the sizeof() operator.
+
+### Example
+
+```cpp
+int temperatures[4] = {32, 45, 28, 30};
+cout << sizeof(temperatures);
+```
+
+**Output**
+```cpp
+16
+```
+
+### Explanation:
+The `sizeof()` function returns the total size of the array in bytes. Since each `int` typically occupies 4 bytes, and there are 4 elements in the array, the total size is `4 x 4 = 16` bytes.
+
+To calculate the number of elements in the array, divide the total size by the size of one element:
+
+### Example
+```cpp
+int temperatures[4] = {32, 45, 28, 30};
+int arrayLength = sizeof(temperatures) / sizeof(temperatures[0]);
+cout << arrayLength;
+```
+
+**Output**
+```cpp
+4
+```
+
+### Loop Through an Array with sizeof()
+Previously, we used a fixed array size in loops, like this:
+
+```cpp
+int temperatures[4] = {32, 45, 28, 30};
+for (int i = 0; i < 4; i++) {
+  cout << temperatures[i] << "\n";
+}
+```
+
+However, hardcoding the array size (e.g., `4`) is not ideal, as it limits the flexibility of the loop. Instead, we can use the `sizeof()` approach to make loops that work with arrays of any size:
+
+### Example
+```cpp
+int temperatures[4] = {32, 45, 28, 30};
+for (int i = 0; i < sizeof(temperatures) / sizeof(temperatures[0]); i++) {
+  cout << temperatures[i] << "\n";
+}
+```
+
+This will dynamically adjust the loop to the size of the array, making it more maintainable and reusable.<br>
+
+In C++11 (2011) and later, you can also use the "for-each" loop, which is even simpler and cleaner:
+
+### Example
+```cpp
+int temperatures[4] = {32, 45, 28, 30};
+for (int temp : temperatures) {
+  cout << temp << "\n";
+}
+```
+
+## Real-Life Example : Finding the Highest Score
+In this example, we will create a program that finds the highest score among a group of students.
+
+### Example
+```cpp
+
+// An array storing the scores of students
+int scores[6] = {88, 91, 76, 85, 99, 94};
+
+int i;
+
+// Get the length of the array
+int length = sizeof(scores) / sizeof(scores[0]);
+
+// Create a variable and assign the first array element (first score) to it
+int highestScore = scores[0];
+
+// Loop through the elements of the scores array to find the highest score
+for (int score : scores) {
+  if (highestScore < score) {
+    highestScore = score;
+  }
+}
+
+// Print the highest score
+cout << "The highest score is: " << highestScore << "\n";
+```
