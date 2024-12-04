@@ -54,3 +54,17 @@ Corr: Linearly association between two variables. It tells both magnitude and di
 
 
 ![Figure_1](https://github.com/user-attachments/assets/48d0ec4d-fd1d-4b3c-93a7-7520fdcad0a5)
+
+
+
+
+
+##### Dec 04, 2024
+
+## T-Test
+
+1. Single Mean
+2. Two Mean (Independent, Dependent)
+3. More than Two Mean (Anova)
+
+
