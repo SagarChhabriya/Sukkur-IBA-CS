@@ -3,7 +3,7 @@
 
 
 
-![image](https://github.com/user-attachments/assets/78585c45-a156-4632-83e0-e644819b5733)
+![image](./pass-by-reference-vs-pass-by-value-animation.gif)
 
 
 
