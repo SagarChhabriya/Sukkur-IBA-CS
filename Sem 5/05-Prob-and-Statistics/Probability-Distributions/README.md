@@ -273,21 +273,22 @@ The formula calculates the probability of observing **exactly** $k$ events in a 
    - $k = 4$
    
    Using the Poisson formula:
-   $$
-   P(X = 4) = \frac{2^4 e^{-2}}{4!} = \frac{16 \cdot e^{-2}}{24} \approx 0.180
-   $$
+   
+$$
+P(X = 4) = \frac{2^4 e^{-2}}{4!} = \frac{16 \cdot e^{-2}}{24} \approx 0.180
+$$
 
-2. **Question**: A city experiences an average of 3 traffic accidents per week. What is the probability that exactly 5 accidents will happen in the next week?
+3. **Question**: A city experiences an average of 3 traffic accidents per week. What is the probability that exactly 5 accidents will happen in the next week?
 
    **Solution**: 
    - $\lambda = 3$
    - $k = 5$
    
    Using the Poisson formula:
-   $$
-   P(X = 5) = \frac{3^5 e^{-3}}{5!} = \frac{243 \cdot e^{-3}}{120} \approx 0.1008
-   $$
-
+   
+   
+   $P(X = 5) = \frac{3^5 e^{-3}}{5!} = \frac{243 \cdot e^{-3}}{120} \approx 0.1008$
+   
 
 # Uniform Distributions
 
@@ -368,9 +369,9 @@ Where:
    - The favorable outcomes are 1, 2, and 3 (i.e., numbers less than 4).
    - The probability of landing on a number less than 4 is:
    
-   $$
-   P(X < 4) = \frac{3}{6} = \frac{1}{2}
-   $$
+$$
+P(X < 4) = \frac{3}{6} = \frac{1}{2}
+$$
 
 ---
 
@@ -383,9 +384,9 @@ Where:
    - The total length of the distribution is $10 - 1 = 9$.
    - The probability that the number is between 3 and 7 is:
 
-   $$
-   P(3 \leq X \leq 7) = \frac{4}{9}
-   $$
+$$
+P(3 \leq X \leq 7) = \frac{4}{9}
+$$
 
 ---
 
@@ -411,7 +412,7 @@ Where:
 ### **Medium (10 Questions)**
 
 1. The weights of apples in a large orchard are normally distributed with a mean of 150 grams and a standard deviation of 20 grams. What is the probability that a randomly selected apple weighs between 130 and 170 grams?
-2. The daily sales of a store follow a normal distribution with a mean of $500 and a standard deviation of $50. What is the probability that the sales will exceed $550 on a randomly selected day?
+2. The daily sales of a store follow a normal distribution with a mean of $500 and a standard deviation of $50$. What is the probability that the sales will exceed $550 on a randomly selected day?
 3. A manufacturing process produces items with weights that are normally distributed with a mean of 200 grams and a standard deviation of 10 grams. What is the probability that an item weighs between 190 and 210 grams?
 4. A sample of people’s ages follows a normal distribution with a mean of 40 years and a standard deviation of 8 years. What is the probability that a randomly selected person is older than 50 years?
 5. The number of pages in a book is normally distributed with a mean of 320 pages and a standard deviation of 25 pages. What is the probability that a randomly selected book has between 290 and 350 pages?
@@ -458,9 +459,9 @@ Z = \frac{X - \mu}{\sigma}
 $$
 
 Where:
-- $X$ is the value for which you want to calculate the probability,
-- $\mu$ is the mean,
-- $\sigma$ is the standard deviation.
+- $X$ is the value for which you want to calculate the probability$,
+- $\mu$ is the mean$,
+- $\sigma$ is the standard deviation$.
 
 ---
 
@@ -472,9 +473,9 @@ Where:
    - Mean $\mu = 50$, Standard Deviation $\sigma = 5$, Value $X = 55$
    - Calculate the Z-score: 
    
-   $$
-   Z = \frac{55 - 50}{5} = 1
-   $$
+$$
+Z = \frac{55 - 50}{5} = 1
+$$
    
    - Using a standard normal distribution table, the probability that $Z > 1$ is approximately 0.1587.
    
@@ -486,16 +487,16 @@ Where:
    - Mean $\mu = 75$, Standard Deviation $\sigma = 8$, Values $X_1 = 70$ and $X_2 = 85$
    - Calculate Z-scores for both values:
    
-   $$
-   Z_1 = \frac{70 - 75}{8} = -0.625, \quad Z_2 = \frac{85 - 75}{8} = 1.25
-   $$
+$$
+Z_1 = \frac{70 - 75}{8} = -0.625, \quad Z_2 = \frac{85 - 75}{8} = 1.25
+$$
    
    - Using the standard normal distribution table, the probabilities corresponding to $Z_1 = -0.625$ and $Z_2 = 1.25$ are approximately 0.2660 and 0.8944, respectively.
    - The total probability is the sum of the two areas:
    
-   $$
-   P(X < 70 \text{ or } X > 85) = P(Z < -0.625) + P(Z > 1.25) = 0.2660 + (1 - 0.8944) = 0.3716
-   $$
+$$
+P(X < 70 \text{ or } X > 85) = P(Z < -0.625) + P(Z > 1.25) = 0.2660 + (1 - 0.8944) = 0.3716
+$$
    
    Therefore, the probability is **0.3716** or about 37.16%.
 
@@ -596,9 +597,9 @@ $$
    - We are asked for $P(X > 20)$.
    - Using the formula for the exponential distribution:
 
-   $$
-   P(X > 20) = e^{-\lambda \cdot 20} = e^{-\frac{1}{15} \cdot 20} = e^{-\frac{20}{15}} = e^{-1.3333} \approx 0.2636
-   $$
+$$
+P(X > 20) = e^{-\lambda \cdot 20} = e^{-\frac{1}{15} \cdot 20} = e^{-\frac{20}{15}} = e^{-1.3333} \approx 0.2636
+$$
 
    Therefore, the probability that the next arrival will be in more than 20 minutes is approximately **0.2636** or **26.36%**.
 
@@ -618,10 +619,11 @@ The key to differentiating between distributions, such as **uniform**, **binomia
   - **Parameters**: It has two parameters, the lower bound $a$ and the upper bound $b$ (e.g., between 1 and 6 for a die).
   - **Use case**: The uniform distribution applies when there is a **single trial** with equally likely outcomes. **No success/failure notion**.
 
-  - **PDF**:  
-    $$
-    f(x) = \frac{1}{b-a} \quad \text{for} \quad a \leq x \leq b
-    $$
+  - **PDF**:
+    
+$$
+f(x) = \frac{1}{b-a} \quad \text{for} \quad a \leq x \leq b
+$$
 
 ---
 
@@ -635,9 +637,10 @@ The key to differentiating between distributions, such as **uniform**, **binomia
   - **Use case**: This applies when you are counting the **number of successes** (like rolling a specific number) over multiple trials.
   
   - **PMF** (Probability Mass Function):
-    $$
-    P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
-    $$
+    
+$$
+P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
+$$
 
 ---
 
@@ -666,9 +669,10 @@ The key to differentiating between distributions, such as **uniform**, **binomia
   - **Parameters**: The rate parameter $\lambda = 1/\mu$, where $\mu$ is the mean time between events.
   
   - **PDF**:
-    $$
-    f(x|\lambda) = \lambda e^{-\lambda x}, \quad x \geq 0
-    $$
+    
+$$
+f(x|\lambda) = \lambda e^{-\lambda x}, \quad x \geq 0
+$$
 
 ---
 
