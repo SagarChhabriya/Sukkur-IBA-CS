@@ -59,31 +59,22 @@
 
 ### **Medium (10 Questions)**
 
-1. A coin is flipped twice. What is the probability that it lands on heads both times?
-2. A basketball player has an 80% chance of making a free throw. What is the probability that the player misses the shot?
-3. A student has a 60% chance of passing a test. What is the probability that the student fails the test?
-4. The probability of a machine producing a defective product is 0.1. What is the probability that a product is good?
-5. A coin is flipped 3 times. What is the probability of getting exactly 2 heads?
-6. A factory produces 90% defect-free items. What is the probability that a randomly selected item is defective?
-7. A person has a 40% chance of winning a game. What is the probability that the person loses the game in a single round?
-8. A bag contains 6 red balls and 4 blue balls. What is the probability of selecting a red ball in a single draw?
-9. In a survey, the probability that a person prefers tea over coffee is 0.55. What is the probability that a person prefers coffee?
-10. A plant has a 95% success rate of producing quality products. What is the probability of producing a non-quality product?
+1. A basketball player has an 80% chance of making a free throw. What is the probability that the player misses the shot?
+2. A student has a 60% chance of passing a test. What is the probability that the student fails the test?
+3. The probability of a machine producing a defective product is 0.1. What is the probability that a product is good?
+4. A factory produces 90% defect-free items. What is the probability that a randomly selected item is defective?
+5. A person has a 40% chance of winning a game. What is the probability that the person loses the game in a single round?
+6. A bag contains 6 red balls and 4 blue balls. What is the probability of selecting a red ball in a single draw?
+7. In a survey, the probability that a person prefers tea over coffee is 0.55. What is the probability that a person prefers coffee?
+8. A plant has a 95% success rate of producing quality products. What is the probability of producing a non-quality product?
 
 ---
 
 ### **Difficult (10 Questions)**
 
-1. A coin is flipped 10 times. What is the probability of getting exactly 6 heads?
-2. A company claims that 98% of its products pass quality control. If 5 products are randomly selected, what is the probability that exactly 3 products pass quality control?
-3. A basketball player has a 75% chance of making a free throw. What is the probability that the player makes at least 8 out of 10 free throws?
-4. The probability of a student passing a test is 0.65. What is the probability that the student fails the test when they take it 4 times independently?
-5. A store has a 20% chance of selling out of an item on any given day. What is the probability that the store sells out on exactly 3 out of 5 days?
-6. A lottery ticket has a 1% chance of winning. If 50 tickets are purchased, what is the probability that exactly 2 tickets win?
-7. The probability of success for a machine in producing a defect-free item is 0.85. What is the probability that it fails to produce a defect-free item on a single trial?
-8. In a class of 30 students, the probability of a student being absent on any given day is 0.1. What is the probability that exactly 3 students are absent on a particular day?
-9. A factory has a 92% success rate for producing quality products. If 7 products are randomly selected, what is the probability that exactly 5 products are of high quality?
-10. The probability of a person voting in an election is 0.6. What is the probability that, out of 4 people, exactly 2 vote?
+2. A company claims that 98% of its products pass quality control. If 5 products are randomly selected, what is the probability that exactly 3 products pass quality control
+3. The probability of success for a machine in producing a defect-free item is 0.85. What is the probability that it fails to produce a defect-free item on a single trial?
+
 
 ---
 
@@ -99,10 +90,15 @@
 4. A basketball player has a free throw success rate of 80%. What is the probability that he makes exactly 6 out of 8 free throws?
 5. A factory produces light bulbs, 90% of which pass quality control. What is the probability that exactly 4 out of 6 randomly selected light bulbs are defective?
 6. A fair coin is flipped 6 times. What is the probability of getting exactly 2 tails?
-7. A bag contains 10 red balls and 20 blue balls. What is the probability of selecting exactly 3 red balls in 5 draws (without replacement)?
 8. In a batch of 10 machines, 2 are defective. If 3 machines are selected at random, what is the probability that exactly 1 is defective?
 9. A class of 15 students is randomly selected for a quiz. What is the probability that exactly 7 students pass, given that the probability of each student passing is 0.6?
 10. A coin is flipped 4 times. What is the probability of getting at least 3 heads?
+11. The probability of a student passing a test is 0.65. What is the probability that the student fails the test when they take it 4 times independently?
+12. A store has a 20% chance of selling out of an item on any given day. What is the probability that the store sells out on exactly 3 out of 5 days?
+13. A lottery ticket has a 1% chance of winning. If 50 tickets are purchased, what is the probability that exactly 2 tickets win?
+14. In a class of 30 students, the probability of a student being absent on any given day is 0.1. What is the probability that exactly 3 students are absent on a particular day?
+15. A factory has a 92% success rate for producing quality products. If 7 products are randomly selected, what is the probability that exactly 5 products are of high quality?
+16. The probability of a person voting in an election is 0.6. What is the probability that, out of 4 people, exactly 2 vote?
 
 ---
 
@@ -150,6 +146,7 @@
 8. A box contains 10 white, 8 red, and 12 blue balls. If 6 balls are randomly selected, what is the probability that exactly 3 are red?
 9. A deck of 52 cards contains 4 aces. If 5 cards are drawn, what is the probability that exactly 1 card is an ace?
 10. In a group of 15 people, 7 are students and 8 are teachers. If 5 people are selected, what is the probability that exactly 3 are students?
+11. A bag contains 10 red balls and 20 blue balls. What is the probability of selecting exactly 3 red balls in 5 draws (without replacement)?
 
 ---
 
