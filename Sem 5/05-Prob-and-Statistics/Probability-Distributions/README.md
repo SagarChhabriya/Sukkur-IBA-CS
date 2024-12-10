@@ -412,22 +412,22 @@ $$
 ### **Medium (10 Questions)**
 
 1. The weights of apples in a large orchard are normally distributed with a mean of 150 grams and a standard deviation of 20 grams. What is the probability that a randomly selected apple weighs between 130 and 170 grams?
-2. The daily sales of a store follow a normal distribution with a mean of $500 and a standard deviation of $50$. What is the probability that the sales will exceed $550 on a randomly selected day?
+2. The daily sales of a store follow a normal distribution with a mean of $500$ and a standard deviation of $50$. What is the probability that the sales will exceed $550$ on a randomly selected day?
 3. A manufacturing process produces items with weights that are normally distributed with a mean of 200 grams and a standard deviation of 10 grams. What is the probability that an item weighs between 190 and 210 grams?
 4. A sample of people’s ages follows a normal distribution with a mean of 40 years and a standard deviation of 8 years. What is the probability that a randomly selected person is older than 50 years?
 5. The number of pages in a book is normally distributed with a mean of 320 pages and a standard deviation of 25 pages. What is the probability that a randomly selected book has between 290 and 350 pages?
 6. The average number of hours spent on social media per day by teenagers follows a normal distribution with a mean of 4 hours and a standard deviation of 1 hour. What is the probability that a teenager spends between 3 and 5 hours per day on social media?
 7. The height of a plant species is normally distributed with a mean of 30 cm and a standard deviation of 2 cm. What is the probability that a randomly selected plant is taller than 32 cm?
 8. The SAT scores of students are normally distributed with a mean of 1200 and a standard deviation of 100. What is the probability that a randomly selected student scores above 1300?
-9. The prices of smartphones in a store are normally distributed with a mean of $800 and a standard deviation of $50. What is the probability that a randomly selected smartphone costs between $750 and $850?
+9. The prices of smartphones in a store are normally distributed with a mean of $800$ and a standard deviation of $50$. What is the probability that a randomly selected smartphone costs between $750$ and $850$?
 10. The exam scores of students in a class are normally distributed with a mean of 75 and a standard deviation of 8. What is the probability that a student scores below 70 or above 85?
 
 ---
 
 ### **Difficult (10 Questions)**
 
-1. The salaries of employees at a company are normally distributed with a mean of $60,000 and a standard deviation of $8,000. What percentage of employees earn between $55,000 and $65,000?
-2. A large population has a normally distributed income with a mean of $50,000 and a standard deviation of $12,000. What is the probability that an individual selected at random earns more than $60,000?
+1. The salaries of employees at a company are normally distributed with a mean of $60,000$ and a standard deviation of $8,000$. What percentage of employees earn between $55,000$ and $65,000$?
+2. A large population has a normally distributed income with a mean of $50,000$ and a standard deviation of $12,000$. What is the probability that an individual selected at random earns more than $60,000$?
 3. The weights of a population of dogs are normally distributed with a mean of 35 kg and a standard deviation of 5 kg. What is the probability that a randomly selected dog weighs between 30 kg and 40 kg?
 4. A factory produces items that are normally distributed with a mean of 500 grams and a standard deviation of 20 grams. What is the probability that an item weighs less than 480 grams or more than 520 grams?
 5. The lifespans of a certain brand of batteries follow a normal distribution with a mean of 300 days and a standard deviation of 25 days. What is the probability that a battery lasts between 275 and 325 days?
@@ -459,9 +459,9 @@ Z = \frac{X - \mu}{\sigma}
 $$
 
 Where:
-- $X$ is the value for which you want to calculate the probability$,
-- $\mu$ is the mean$,
-- $\sigma$ is the standard deviation$.
+- $X$ is the value for which you want to calculate the probability,
+- $\mu$ is the mean,
+- $\sigma$ is the standard deviation.
 
 ---
 
@@ -574,7 +574,7 @@ Which gives the probability that the event occurs in less than or equal to $x$ t
 
 ### **Probability Calculations:**
 
-- **For a given time $x$**, the probability that the event occurs **after** time $x$ (i.e., $P(X > x)$) is:
+- **For a given time $x$**, the probability that the event occurs **after** time $x$ (i.e., $P(X > x)$ is:
 
 $$
 P(X > x) = e^{-\lambda x}
