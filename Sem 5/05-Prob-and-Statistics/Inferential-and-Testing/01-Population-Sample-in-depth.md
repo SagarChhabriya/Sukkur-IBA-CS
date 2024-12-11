@@ -19,9 +19,9 @@
 ## What kinds of numbers are parameters and statistics?
 - Statistics and parameters are numbers that summarize any measurable characteristic of a sample or a population.
 
-- For categorical variables (e.g., political affiliation), the most common statistic or parameter is a proportion.
+- For `categorical` variables (e.g., political affiliation), the most common statistic or parameter is a `proportion`.
 
-- For numerical variables (e.g., height), the mean or standard deviation are commonly reported statistics or parameters.
+- For `numerical` variables (e.g., height), the `mean` or `standard deviation` are commonly reported statistics or parameters.
 
 | Sample Statistic                                                        | Population Parameter                                                      |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -66,8 +66,10 @@ Using inferential statistics, you can estimate population parameters from sample
 
 There are two important types of estimates you can make about the population parameter: point estimates and interval estimates.
 
-- **Point Estimate**: A point estimate is a single value estimate of a parameter based on a statistic. For instance, a sample mean is a point estimate of a population mean.
-- **Interval Estimate**: An interval estimate gives you a range of values where the parameter is expected to lie. A confidence interval is the most common type of interval estimate.
+- **`Point Estimate`** A point estimate is a `single value` estimate of a parameter based on a statistic. For instance, a sample mean is a point estimate of a population mean.
+- **`Interval Estimate`** An interval estimate gives you a `range of values` where the parameter is expected to lie. A `confidence interval` is the most common type of interval estimate.
+
+`Tip` An estimate refers to using data from a sample to make an educated guess about a population parameter.
 
 Both types of estimates are important for gathering a clear idea of where a parameter is likely to lie.
 
@@ -78,4 +80,7 @@ In your study on support for the death penalty among US residents, you find that
 - **Point Estimate**: Your point estimate is your sample statistic – you estimate that 61% of all US residents support the death penalty.
 
 - **Interval Estimate**: To find the interval estimate, you construct a 95% confidence interval that tells you where the population parameter is expected to lie most of the time. With random sampling, there is a 0.95 probability that the true population parameter for support for the death penalty among US residents lies between 57% and 65%.
+
+
+
 
