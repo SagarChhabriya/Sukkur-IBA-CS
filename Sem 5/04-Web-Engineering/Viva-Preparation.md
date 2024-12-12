@@ -1721,3 +1721,878 @@ Console.WriteLine(result);  // Outputs: apple, banana, cherry
 - Methods like `Trim()`, `Replace()`, and `Remove()` help manipulate strings by removing or altering specific parts.
 
 These string manipulation techniques are essential for handling textual data efficiently in C# applications.
+
+
+# Collections in C#: Arrays
+
+In C#, **arrays** are a fundamental data structure that stores a fixed-size sequence of elements of the same type. Arrays can be classified into different types based on their structure, such as single-dimensional, multi-dimensional, and jagged arrays.
+
+---
+
+### 1. **Arrays as Objects**
+In C#, arrays are objects derived from the base class `System.Array`. This means they have properties and methods that can be used to manipulate the array, such as `Length`, `GetLength()`, and others.
+
+#### Example:
+```csharp
+int[] numbers = { 1, 2, 3, 4, 5 };
+Console.WriteLine(numbers.Length);  // Outputs: 5
+Console.WriteLine(numbers.GetType());  // Outputs: System.Int32[]
+```
+- **Explanation**: Arrays in C# are objects, and you can access properties like `Length` to determine the number of elements in the array.
+
+---
+
+### 2. **Single Dimensional Arrays**
+A **single-dimensional array** is a linear list of elements where each element can be accessed using a single index.
+
+#### Example:
+```csharp
+int[] numbers = new int[5];  // Declare an array of integers with 5 elements
+numbers[0] = 1;
+numbers[1] = 2;
+numbers[2] = 3;
+numbers[3] = 4;
+numbers[4] = 5;
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    Console.WriteLine(numbers[i]);  // Outputs: 1 2 3 4 5
+}
+```
+- **Explanation**: `numbers` is a single-dimensional array of integers with 5 elements. Elements are accessed using indices starting from 0.
+
+---
+
+### 3. **Multi-Dimensional Arrays**
+A **multi-dimensional array** is an array that can store elements in more than one dimension (e.g., rows and columns). In C#, you can create a 2D array (like a matrix) or higher-dimensional arrays.
+
+#### Example of a 2D array:
+```csharp
+int[,] matrix = new int[3, 3]  // 3x3 matrix
+{
+    { 1, 2, 3 },
+    { 4, 5, 6 },
+    { 7, 8, 9 }
+};
+
+for (int i = 0; i < matrix.GetLength(0); i++)  // GetLength(0) gives number of rows
+{
+    for (int j = 0; j < matrix.GetLength(1); j++)  // GetLength(1) gives number of columns
+    {
+        Console.Write(matrix[i, j] + " ");  // Outputs: 1 2 3 4 5 6 7 8 9
+    }
+    Console.WriteLine();
+}
+```
+- **Explanation**: `matrix` is a 2D array (3x3) with elements that can be accessed using two indices. `GetLength(0)` returns the number of rows, and `GetLength(1)` returns the number of columns.
+
+#### Example of a 3D array:
+```csharp
+int[,,] cube = new int[2, 2, 2]  // 2x2x2 3D array
+{
+    { { 1, 2 }, { 3, 4 } },
+    { { 5, 6 }, { 7, 8 } }
+};
+
+Console.WriteLine(cube[1, 1, 1]);  // Outputs: 8
+```
+- **Explanation**: `cube` is a 3D array, and the elements are accessed using three indices. The example accesses the element at the position `[1, 1, 1]`.
+
+---
+
+### 4. **Jagged Arrays**
+A **jagged array** is an array of arrays, where each element can be an array itself, and each sub-array can have a different size. Jagged arrays are flexible and useful when the inner arrays do not need to have the same length.
+
+#### Example:
+```csharp
+int[][] jaggedArray = new int[3][];  // Array of 3 arrays
+jaggedArray[0] = new int[] { 1, 2, 3 };
+jaggedArray[1] = new int[] { 4, 5 };
+jaggedArray[2] = new int[] { 6, 7, 8, 9 };
+
+for (int i = 0; i < jaggedArray.Length; i++)
+{
+    for (int j = 0; j < jaggedArray[i].Length; j++)
+    {
+        Console.Write(jaggedArray[i][j] + " ");  // Outputs: 1 2 3 4 5 6 7 8 9
+    }
+    Console.WriteLine();
+}
+```
+- **Explanation**: `jaggedArray` is an array where each element is itself an array of different sizes. In this example, the first inner array has 3 elements, the second has 2 elements, and the third has 4 elements.
+
+---
+
+### Summary:
+
+- **Arrays as Objects**: In C#, arrays are reference types and come with properties and methods like `Length` and `GetLength()`.
+- **Single Dimensional Arrays**: A simple list of elements, accessed using a single index.
+- **Multi-Dimensional Arrays**: Arrays with more than one dimension, such as 2D arrays (matrices) or 3D arrays.
+- **Jagged Arrays**: Arrays of arrays, where each sub-array can have a different size.
+
+Arrays are foundational in C# for managing collections of data, and they come with various types (single-dimensional, multi-dimensional, jagged) to meet different requirements for organizing data.
+
+# Mixed Jagged and Multi-Dimensional Arrays in C#
+
+### 1. **Mixed Jagged and Multi-Dimensional Arrays**
+In C#, it's possible to combine **jagged arrays** and **multi-dimensional arrays**. This means you can have an array where each element is a multi-dimensional array. This provides a flexible way to work with complex data structures.
+
+#### Example:
+```csharp
+int[][][] mixedArray = new int[2][][];  // 3D jagged array
+
+mixedArray[0] = new int[2][];  // First 2D jagged array
+mixedArray[0][0] = new int[] { 1, 2 };
+mixedArray[0][1] = new int[] { 3, 4 };
+
+mixedArray[1] = new int[3][];  // Second 2D jagged array
+mixedArray[1][0] = new int[] { 5 };
+mixedArray[1][1] = new int[] { 6, 7 };
+mixedArray[1][2] = new int[] { 8, 9, 10 };
+
+for (int i = 0; i < mixedArray.Length; i++)
+{
+    for (int j = 0; j < mixedArray[i].Length; j++)
+    {
+        foreach (int element in mixedArray[i][j])
+        {
+            Console.Write(element + " ");  // Outputs: 1 2 3 4 5 6 7 8 9 10
+        }
+    }
+}
+```
+- **Explanation**: `mixedArray` is a jagged array where each element is a multi-dimensional array. The first element has 2 arrays, and the second element has 3 arrays with varying lengths.
+
+---
+
+### 2. **Passing Arrays as Arguments**
+In C#, you can pass arrays to methods just like other variables. Arrays are passed by reference, meaning the method can modify the original array.
+
+#### Example:
+```csharp
+void ModifyArray(int[] arr)
+{
+    arr[0] = 100;  // Modify the first element of the array
+}
+
+int[] numbers = { 1, 2, 3 };
+ModifyArray(numbers);
+
+Console.WriteLine(numbers[0]);  // Outputs: 100
+```
+- **Explanation**: Arrays are reference types, so changes made inside the method affect the original array outside the method.
+
+---
+
+### 3. **Params Keyword and Arrays in Arguments Passing**
+The **`params`** keyword allows you to pass a variable number of arguments to a method as an array, enabling you to pass a list of values without explicitly creating an array.
+
+#### Example:
+```csharp
+void PrintNumbers(params int[] numbers)
+{
+    foreach (var num in numbers)
+    {
+        Console.Write(num + " ");  // Outputs: 1 2 3 4 5
+    }
+}
+
+PrintNumbers(1, 2, 3, 4, 5);  // No need to create an array
+```
+- **Explanation**: The `params` keyword allows passing a variable number of arguments directly. Internally, these arguments are treated as an array in the method.
+
+---
+
+### 4. **ArrayList**
+`ArrayList` is a collection class from the `System.Collections` namespace. It allows dynamic resizing and can store elements of any type (it is a non-generic collection). It's often used when you don't know the size of the collection in advance or need to store different types of objects.
+
+#### Example:
+```csharp
+ArrayList list = new ArrayList();
+list.Add(10);
+list.Add("Hello");
+list.Add(3.14);
+
+foreach (var item in list)
+{
+    Console.WriteLine(item);  // Outputs: 10, Hello, 3.14
+}
+```
+- **Explanation**: `ArrayList` can store elements of various types, but it's not type-safe. It's recommended to use generic collections like `List<T>` in most modern C# code.
+
+#### Working with ArrayList in Methods:
+```csharp
+void PrintArrayList(ArrayList list)
+{
+    foreach (var item in list)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+ArrayList numbers = new ArrayList() { 1, 2, 3, 4, 5 };
+PrintArrayList(numbers);
+```
+- **Explanation**: The `ArrayList` can be passed to a method, and since it's a reference type, any changes made to it inside the method will affect the original `ArrayList`.
+
+---
+
+### Summary:
+- **Mixed Jagged and Multi-Dimensional Arrays**: You can mix jagged arrays and multi-dimensional arrays, creating flexible data structures.
+- **Passing Arrays as Arguments**: Arrays are passed by reference in C#, allowing modifications inside methods to reflect outside.
+- **`params` Keyword**: The `params` keyword enables passing a variable number of arguments to a method, treated as an array.
+- **`ArrayList`**: A dynamic array that can hold different types of objects, but it's not type-safe. For modern usage, it's better to use **generic collections** like `List<T>`.
+
+Arrays, mixed structures, and dynamic collections like `ArrayList` provide various ways to handle data in C# depending on your application's needs.
+
+
+
+# Threads in C#
+
+In C#, **threads** are the smallest unit of execution in a program. They allow multiple operations to run concurrently, enabling parallelism and improving performance in certain types of applications.
+
+---
+
+### 1. **What is a Thread?**
+A **thread** is a lightweight sub-process. It is the smallest sequence of programmed instructions that can be managed independently by the scheduler. Each thread in a process shares the process's resources, but it operates independently.
+
+Threads are part of the **System.Threading** namespace in C#. You can create and manage threads to perform multiple tasks simultaneously.
+
+---
+
+### 2. **Creating a Thread**
+You can create a thread in C# using the `Thread` class. Threads can be created by passing a method to the `Thread` constructor that contains the code the thread will execute.
+
+#### Example:
+```csharp
+using System;
+using System.Threading;
+
+class Program
+{
+    // Method that will be run on a separate thread
+    static void PrintNumbers()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(i);
+            Thread.Sleep(1000);  // Pause for 1 second
+        }
+    }
+
+    static void Main()
+    {
+        // Creating a new thread and passing the method to run
+        Thread thread = new Thread(PrintNumbers);
+        thread.Start();  // Start the thread
+
+        Console.WriteLine("Main thread is running.");
+    }
+}
+```
+- **Explanation**: The `PrintNumbers` method will be executed on a separate thread. While it runs, the main thread will also continue executing, printing "Main thread is running."
+
+---
+
+### 3. **Thread Lifecycle**
+A thread has several states during its lifecycle:
+- **Unstarted**: The thread has been created but not started.
+- **Runnable**: The thread is ready to execute or is executing.
+- **Blocked**: The thread is waiting for a resource or condition to be met.
+- **Terminated**: The thread has completed execution.
+
+---
+
+### 4. **Thread Synchronization**
+When multiple threads are executing, they may need to share data or resources. **Thread synchronization** ensures that only one thread at a time can access a shared resource, avoiding data corruption or race conditions.
+
+#### Example with `lock`:
+```csharp
+using System;
+using System.Threading;
+
+class Program
+{
+    static int counter = 0;
+    static object lockObject = new object();
+
+    // Method to increase the counter safely
+    static void IncrementCounter()
+    {
+        lock (lockObject)  // Ensures that only one thread accesses the counter at a time
+        {
+            counter++;
+            Console.WriteLine(counter);
+        }
+    }
+
+    static void Main()
+    {
+        Thread thread1 = new Thread(IncrementCounter);
+        Thread thread2 = new Thread(IncrementCounter);
+        
+        thread1.Start();
+        thread2.Start();
+        
+        thread1.Join();  // Wait for thread1 to finish
+        thread2.Join();  // Wait for thread2 to finish
+    }
+}
+```
+- **Explanation**: The `lock` statement ensures that only one thread can access the `counter` at a time, preventing race conditions.
+
+---
+
+### 5. **Thread Pool**
+A **ThreadPool** in C# allows you to efficiently manage a collection of threads, reducing the overhead of creating and destroying threads manually. ThreadPool is ideal for short-lived tasks that require multiple threads, as it reuses threads from a pool.
+
+#### Example:
+```csharp
+using System;
+using System.Threading;
+
+class Program
+{
+    static void PrintNumbers(object state)
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(i);
+            Thread.Sleep(1000);
+        }
+    }
+
+    static void Main()
+    {
+        // Queueing a task to the ThreadPool
+        ThreadPool.QueueUserWorkItem(PrintNumbers);
+
+        Console.WriteLine("ThreadPool task is running.");
+    }
+}
+```
+- **Explanation**: The `ThreadPool.QueueUserWorkItem` method queues a task to be executed on a thread from the thread pool. It eliminates the need to manually create a thread.
+
+---
+
+### 6. **Thread State and Control**
+You can control and manage the state of threads using various methods in the `Thread` class:
+- **Start**: Starts a thread's execution.
+- **Sleep**: Pauses the thread for a specified period.
+- **Join**: Blocks the calling thread until the specified thread completes.
+- **Abort** (Deprecated): Terminates a thread.
+
+#### Example with `Join`:
+```csharp
+using System;
+using System.Threading;
+
+class Program
+{
+    static void Main()
+    {
+        Thread thread = new Thread(PrintNumbers);
+        thread.Start();
+        thread.Join();  // Waits for the thread to finish before proceeding
+        Console.WriteLine("Thread has finished executing.");
+    }
+
+    static void PrintNumbers()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(i);
+            Thread.Sleep(1000);  // Pause for 1 second
+        }
+    }
+}
+```
+- **Explanation**: The `Join` method makes the main thread wait until the `PrintNumbers` thread finishes its execution.
+
+---
+
+### 7. **Thread Safety**
+**Thread safety** refers to the concept of ensuring that shared data is accessed by multiple threads without causing issues like data corruption or race conditions. Common techniques for achieving thread safety include:
+- Using `lock` or `Monitor` for synchronization.
+- Employing thread-safe collections (e.g., `ConcurrentQueue<T>`).
+- Using atomic operations like `Interlocked` for operations on primitive data types.
+
+---
+
+### Summary:
+- **Creating a Thread**: Threads can be created using the `Thread` class and started with the `Start` method.
+- **Thread Synchronization**: `lock` and other synchronization mechanisms like `Monitor` ensure safe access to shared resources.
+- **ThreadPool**: A ThreadPool is used to manage multiple threads efficiently.
+- **Managing Threads**: Methods like `Start`, `Sleep`, `Join`, and others control thread behavior.
+- **Thread Safety**: Ensuring that data is accessed in a way that prevents data corruption or race conditions.
+
+Threads are powerful for improving performance and handling tasks concurrently in C#, but they need careful management to avoid issues like race conditions and deadlocks.
+
+
+
+# Windows Forms Applications
+
+### 1. **Windows Forms Overview**
+Windows Forms is a UI framework for building desktop applications with graphical interfaces in .NET, using forms, controls, and events.
+
+### 2. **Creating Windows Forms**
+Creating a Windows Form involves designing the user interface and handling events through controls like buttons, textboxes, and labels.
+
+### 3. **Creating Event Handlers**
+Event handlers are methods that define actions in response to events triggered by user interactions, such as button clicks or form load.
+
+---
+
+### 4. **Different Controls in Windows Forms**
+
+- **Buttons**: Buttons are clickable controls that perform actions when clicked, triggered by the `Click` event.
+  
+- **Textbox & Properties**: A TextBox is a control that allows user input, with properties like `Text` to set or get the content.
+
+- **Label**: Labels are static text controls that display text or messages on a form and cannot be edited by the user.
+
+- **PictureBox**: A PictureBox control is used to display images or graphics on a form.
+
+- **Checkbox and RadioButton**: A CheckBox allows for multiple selections, while a RadioButton is used for mutually exclusive choices in a group.
+
+- **ComboBox**: A ComboBox displays a drop-down list of items for the user to select from.
+
+---
+
+### 5. **Timer Control**
+The Timer control runs code at specified intervals, triggering actions periodically without blocking the main thread.
+
+### 6. **ProgressBar Control**
+The ProgressBar displays the progress of an ongoing task, indicating completion with a visual bar.
+
+### 7. **RichTextBox Control**
+A RichTextBox is a text control that supports rich formatting such as different fonts, colors, and text styles.
+
+### 8. **MenuStrip Control**
+The MenuStrip provides a menu bar that can contain multiple items, allowing users to interact with the application through dropdown menus.
+
+### 9. **ContextMenuStrip Control**
+The ContextMenuStrip is a popup menu shown upon right-click, offering context-specific options for user interaction.
+
+### 10. **DataGridView Control**
+The DataGridView displays data in a tabular format and supports features like sorting, editing, and deleting rows.
+
+---
+
+### 11. **MDI Applications**
+MDI (Multiple Document Interface) allows multiple child windows to be contained within a single parent window, providing a structured interface for managing multiple documents.
+
+---
+
+### 12. **Dialog Boxes in Windows Forms**
+
+- **Modal and Modeless Dialog Boxes**: Modal dialog boxes block interaction with other parts of the application until closed, while modeless dialog boxes allow continued interaction with the application.
+
+- **ColorDialog**: A dialog that lets users select a color from a palette.
+
+- **FontDialog**: A dialog that allows users to select a font style, size, and other attributes.
+
+- **OpenFileDialog**: A dialog that allows users to select a file to open.
+
+- **SaveFileDialog**: A dialog that allows users to select a file location and name to save a file.
+
+- **DialogResult Enumeration**: Represents the outcome of a dialog box (e.g., OK, Cancel, Yes, No).
+
+
+# Files in C#
+
+### 1. **Introduction to File System**
+The file system is a structure that manages how files and directories are stored and retrieved on storage devices, such as hard drives or SSDs.
+
+---
+
+### 2. **DriveInfo Class**
+The `DriveInfo` class provides information about the computer's drives, such as drive type, available free space, and total space.
+
+**Example:**
+```csharp
+using System;
+using System.IO;
+
+DriveInfo drive = new DriveInfo("C");
+Console.WriteLine($"Drive: {drive.Name}");
+Console.WriteLine($"Drive Type: {drive.DriveType}");
+Console.WriteLine($"Available Space: {drive.AvailableFreeSpace} bytes");
+Console.WriteLine($"Total Space: {drive.TotalSize} bytes");
+```
+
+---
+
+### 3. **DirectoryInfo Class**
+The `DirectoryInfo` class allows interaction with directories, including creating, deleting, and getting information about them.
+
+**Example:**
+```csharp
+using System;
+using System.IO;
+
+DirectoryInfo directory = new DirectoryInfo(@"C:\ExampleDirectory");
+if (!directory.Exists)
+{
+    directory.Create();  // Create directory if it does not exist
+    Console.WriteLine("Directory created!");
+}
+
+Console.WriteLine($"Directory Name: {directory.Name}");
+Console.WriteLine($"Full Path: {directory.FullName}");
+Console.WriteLine($"Parent Directory: {directory.Parent}");
+```
+
+---
+
+### 4. **FileInfo Class**
+The `FileInfo` class provides methods and properties for interacting with files, such as reading, writing, and retrieving file metadata.
+
+**Example:**
+```csharp
+using System;
+using System.IO;
+
+FileInfo file = new FileInfo(@"C:\ExampleDirectory\example.txt");
+
+if (!file.Exists)
+{
+    // Create file if it does not exist
+    using (StreamWriter writer = file.CreateText())
+    {
+        writer.WriteLine("This is an example file.");
+    }
+    Console.WriteLine("File created!");
+}
+
+Console.WriteLine($"File Name: {file.Name}");
+Console.WriteLine($"File Size: {file.Length} bytes");
+Console.WriteLine($"Creation Time: {file.CreationTime}");
+```
+
+
+
+# LINQ (Language Integrated Query)
+
+### 1. **Introduction to LINQ**
+LINQ (Language Integrated Query) is a set of methods in .NET that enables querying and manipulating data from various sources, like collections, databases, and XML, using a syntax integrated into C# and other .NET languages.
+
+---
+
+### 2. **Basic LINQ Query and Query Operations**
+A LINQ query uses standard query operators such as `from`, `where`, `select`, and `orderby` to retrieve and process data in a concise and readable manner.
+
+---
+
+### 3. **LINQ to Collections**
+LINQ can be used to query in-memory collections, such as arrays, lists, and dictionaries. It simplifies querying and transforming data from these collections.
+
+#### - **Obtaining Data Source**
+A data source is typically a collection, array, or any other IEnumerable object that you want to query using LINQ.
+
+**Example:**
+```csharp
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+var result = from num in numbers
+             select num;
+
+foreach (var num in result)
+{
+    Console.WriteLine(num);
+}
+```
+
+#### - **Filtering**
+You can filter data using the `where` clause, which helps to return elements that satisfy a specific condition.
+
+**Example:**
+```csharp
+var evenNumbers = from num in numbers
+                  where num % 2 == 0
+                  select num;
+
+foreach (var num in evenNumbers)
+{
+    Console.WriteLine(num);  // Outputs 2, 4
+}
+```
+
+#### - **Ordering**
+LINQ allows sorting data using `orderby`. You can sort the results in ascending or descending order.
+
+**Example:**
+```csharp
+var orderedNumbers = from num in numbers
+                     orderby num descending
+                     select num;
+
+foreach (var num in orderedNumbers)
+{
+    Console.WriteLine(num);  // Outputs 5, 4, 3, 2, 1
+}
+```
+
+#### - **Grouping**
+LINQ allows grouping data based on a specific criterion, such as grouping numbers by their even/odd status.
+
+**Example:**
+```csharp
+var groupedNumbers = from num in numbers
+                     group num by num % 2 into numGroup
+                     select numGroup;
+
+foreach (var group in groupedNumbers)
+{
+    Console.WriteLine($"Group: {group.Key}");
+    foreach (var num in group)
+    {
+        Console.WriteLine(num);
+    }
+}
+```
+
+#### - **Joining**
+You can join two collections using LINQ, similar to SQL joins. It combines data based on a matching key.
+
+**Example:**
+```csharp
+var people = new List<Person>
+{
+    new Person { Id = 1, Name = "John" },
+    new Person { Id = 2, Name = "Jane" }
+};
+
+var orders = new List<Order>
+{
+    new Order { PersonId = 1, Product = "Apple" },
+    new Order { PersonId = 2, Product = "Banana" }
+};
+
+var joined = from person in people
+             join order in orders on person.Id equals order.PersonId
+             select new { person.Name, order.Product };
+
+foreach (var item in joined)
+{
+    Console.WriteLine($"{item.Name} ordered {item.Product}");
+}
+
+public class Person
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
+
+public class Order
+{
+    public int PersonId { get; set; }
+    public string Product { get; set; }
+}
+```
+
+#### - **Selecting**
+The `select` clause is used to project specific data from the source collection, allowing you to shape the query results.
+
+**Example:**
+```csharp
+var selectedNumbers = from num in numbers
+                      select num * 2;
+
+foreach (var num in selectedNumbers)
+{
+    Console.WriteLine(num);  // Outputs 2, 4, 6, 8, 10
+}
+```
+
+# ADO.NET
+
+### 1. **Introduction to ADO.NET**
+ADO.NET (ActiveX Data Objects .NET) is a data access technology that provides a set of classes for connecting to databases, retrieving data, and manipulating data in .NET applications.
+
+---
+
+### 2. **Connected Data Access**
+Connected data access involves maintaining an open connection to the data source while performing operations. The connection remains active throughout the interaction.
+
+**Example:**
+```csharp
+using System;
+using System.Data.SqlClient;
+
+string connectionString = "your_connection_string_here";
+using (SqlConnection connection = new SqlConnection(connectionString))
+{
+    connection.Open();
+    
+    SqlCommand command = new SqlCommand("SELECT * FROM Users", connection);
+    SqlDataReader reader = command.ExecuteReader();
+    
+    while (reader.Read())
+    {
+        Console.WriteLine(reader["Username"]);
+    }
+}
+```
+
+---
+
+### 3. **Disconnected Data Access**
+Disconnected data access allows interaction with the data without maintaining an open connection. Data is retrieved, placed in memory (using DataSet or DataTable), and the connection is closed. Changes are later synchronized with the database.
+
+**Example:**
+```csharp
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+string connectionString = "your_connection_string_here";
+DataTable dataTable = new DataTable();
+
+using (SqlConnection connection = new SqlConnection(connectionString))
+{
+    SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Users", connection);
+    adapter.Fill(dataTable);
+}
+
+foreach (DataRow row in dataTable.Rows)
+{
+    Console.WriteLine(row["Username"]);
+}
+```
+
+---
+
+### 4. **CRUD Operations**
+
+- **Create**: Inserting data into the database.
+  
+  **Example:**
+  ```csharp
+  using (SqlConnection connection = new SqlConnection(connectionString))
+  {
+      connection.Open();
+      SqlCommand command = new SqlCommand("INSERT INTO Users (Username) VALUES ('NewUser')", connection);
+      command.ExecuteNonQuery();
+  }
+  ```
+
+- **Read**: Retrieving data from the database.
+  
+  **Example:**
+  ```csharp
+  using (SqlConnection connection = new SqlConnection(connectionString))
+  {
+      connection.Open();
+      SqlCommand command = new SqlCommand("SELECT * FROM Users", connection);
+      SqlDataReader reader = command.ExecuteReader();
+      while (reader.Read())
+      {
+          Console.WriteLine(reader["Username"]);
+      }
+  }
+  ```
+
+- **Update**: Modifying existing data in the database.
+  
+  **Example:**
+  ```csharp
+  using (SqlConnection connection = new SqlConnection(connectionString))
+  {
+      connection.Open();
+      SqlCommand command = new SqlCommand("UPDATE Users SET Username = 'UpdatedUser' WHERE Username = 'OldUser'", connection);
+      command.ExecuteNonQuery();
+  }
+  ```
+
+- **Delete**: Removing data from the database.
+  
+  **Example:**
+  ```csharp
+  using (SqlConnection connection = new SqlConnection(connectionString))
+  {
+      connection.Open();
+      SqlCommand command = new SqlCommand("DELETE FROM Users WHERE Username = 'OldUser'", connection);
+      command.ExecuteNonQuery();
+  }
+  ```
+
+
+
+# Entity Framework
+
+### 1. **Introduction to Entity Framework**
+Entity Framework (EF) is an Object-Relational Mapping (ORM) framework in .NET that allows developers to interact with databases using .NET objects, eliminating the need for writing raw SQL queries. It simplifies data access by automatically handling database operations such as querying, updating, and saving data.
+
+---
+
+### 2. **Code First Workflow (New Database)**
+In the Code First approach, the database schema is created based on the C# classes (models) defined by the developer. The classes are used to generate the database when the application is run for the first time.
+
+**Example:**
+```csharp
+using System;
+using System.Data.Entity;
+
+public class User
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
+
+public class ApplicationContext : DbContext
+{
+    public DbSet<User> Users { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        using (var context = new ApplicationContext())
+        {
+            context.Database.CreateIfNotExists();  // Creates database based on the model
+            context.Users.Add(new User { Name = "John Doe" });
+            context.SaveChanges();
+        }
+    }
+}
+```
+In this case, the `User` class will be used to generate the `Users` table in the database.
+
+---
+
+### 3. **Code First Workflow (Existing Database)**
+In the Code First approach with an existing database, the database schema already exists. EF uses existing database tables to create the corresponding C# classes (models) by reverse engineering. This is usually done using tools like the Entity Framework Power Tools or Scaffold-DbContext.
+
+**Example:**
+```bash
+# Command to reverse-engineer the database and generate models.
+Scaffold-DbContext "Your_Connection_String" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+```
+This command generates C# classes that represent the existing tables in the database.
+
+---
+
+### 4. **Model First**
+In the Model First approach, the developer creates an Entity Data Model (EDM) visually using the designer in Visual Studio. After defining the model, the corresponding database is generated based on the model.
+
+**Example:**
+1. Add an Entity Data Model in Visual Studio.
+2. Define entities and their relationships using the visual designer.
+3. EF generates the database schema based on the defined model when the application runs.
+
+---
+
+### 5. **Database First**
+The Database First approach starts with an existing database. The developer uses the Entity Framework to generate C# classes and context from the existing database schema, allowing for interaction with the database through EF.
+
+**Example:**
+```bash
+# Command to generate models from an existing database.
+Scaffold-DbContext "Your_Connection_String" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+```
+This will generate C# classes based on the existing tables, views, and stored procedures in the database, allowing interaction with the data via EF.
