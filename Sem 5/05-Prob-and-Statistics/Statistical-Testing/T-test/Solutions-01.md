@@ -3,9 +3,9 @@
 ## Easy Questions
 
 1. **Question 1**  
-   - **t-calculate**: -2.24  
-   - **t-critical**: -1.833 (df = 9)  
-   - **Reject/Do not reject**: Reject the null hypothesis.
+   - **t-calculate**: |-3.1622| = 3.1622  
+   - **t-critical**: 1.833 (df = 9, alpha = 0.05, tail = 1)  
+   - **Reject/Do not reject**: `3.1622 > 1.833` Reject the null hypothesis.
 
 2. **Question 2**  
    - **t-calculate**: -2.53  
