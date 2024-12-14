@@ -1,137 +1,74 @@
-### Question 1 (***) - Hypothesis Testing
+# One-Tail One-Sample t-tests
+---
 
-The continuous random variables $X$ and $Y$ follow the distributions:
+### **Easy Questions (Basic Numerics and Descriptive Questions)**
 
-- $X \sim N(\mu_x, 4)$
-- $Y \sim N(\mu_y, 6)$
+1. **Question 1**: A manufacturer claims that the average weight of a packet of chips is 150 grams. A sample of 10 packets has an average weight of 145 grams. Test at the 5% significance level if the average weight is less than the claimed value.
 
-A random sample of 10 observations of $X$ yields a sample mean of 34.6, while a random sample of 15 observations of $Y$ yields a sample mean of 32.0.
+2. **Question 2**: A bakery claims that the average weight of its bread loaves is at least 500 grams. A sample of 8 loaves shows an average weight of 480 grams. Test at the 5% significance level if the weight is less than 500 grams.
 
-You are tasked with conducting a hypothesis test at the 5% significance level to determine if there is sufficient evidence to conclude that the mean of $X$ is greater than the mean of $Y$.
+3. **Question 3**: A school claims that the average score on a math test is at least 80. A random sample of 12 students shows an average score of 78. At the 5% significance level, test if the average score is less than 80.
 
-### Question 2 (***) - Hypothesis Testing
+4. **Question 4**: A company claims that the average processing time for an order is no more than 10 minutes. A sample of 15 orders has an average processing time of 12 minutes. Test at the 5% significance level if the processing time is greater than 10 minutes.
 
-The continuous random variables $X_1$ and $X_2$ satisfy the following distributions:
+5. **Question 5**: A factory claims that the average production output is at least 100 units per day. A sample of 10 machines shows an average output of 95 units. Test at the 5% significance level if the average output is less than 100.
 
-- $X_1 \sim N(\mu_1, 20)$
-- $X_2 \sim N(\mu_2, 40)$
+6. **Question 6**: A store claims that the average price of its items is less than $30. A sample of 8 items has an average price of $32. Test at the 1% significance level if the price is greater than $30.
 
-A random sample of 5 observations of $X_1$ produced a sample mean of 157. A random sample of 5 observations of $X_2$ produced a sample mean of 187.
+7. **Question 7**: A restaurant claims that the average waiting time for customers is less than 15 minutes. A sample of 9 customers shows an average waiting time of 17 minutes. Test at the 5% significance level if the waiting time is greater than 15 minutes.
 
-A test is to be carried out to determine whether there is evidence that the mean of $X_1$ is different from the mean of $X_2$.
+8. **Question 8**: A fitness center claims that the average number of calories burned in a workout is 350 calories. A sample of 10 members shows an average calorie burn of 340. Test at the 5% significance level if the calorie burn is less than 350.
 
-Carry out the test at the 5% significance level.
+9. **Question 9**: A survey claims that the average number of hours spent on homework by students is no more than 2 hours per day. A random sample of 7 students reports an average of 2.5 hours. Test at the 1% significance level if the average homework time is more than 2 hours.
 
-### Question 3 (***) - Hypothesis Testing
+10. **Question 10**: A printer company claims that the average number of pages a printer can print per cartridge is at least 500 pages. A sample of 6 printers shows an average of 480 pages. Test at the 5% significance level if the number of pages is fewer than the claimed value.
 
-The same Mathematics mock exam is given to the Year 11 students of a certain school year after year. It has been established over time that the standard deviation of the marks is 9 for the boys and 6 for the girls. The marks for both boys and girls are thought to be normally distributed.
+---
 
-The marks of 9 boys in this year’s mock exam had a mean of 74, while the marks of 16 girls in the same exam had a mean of 68.
+### **Medium Questions (Word Problems with Numerics and Intermediate Applications)**
 
-The Head of Maths believes that, in this academic year, the Year 11 boys have a higher mean mark than that of the Year 11 girls.
+1. **Question 1**: A company claims that the average time it takes to process an order is 10 minutes. A sample of 12 orders shows an average processing time of 11.5 minutes. Test at the 5% significance level if the processing time is greater than 10 minutes.
 
-Test, at the 5% level of significance, whether the claim of the Head of Maths is justified. State your hypotheses clearly, stating any additional assumptions made.
+2. **Question 2**: A restaurant claims that the average meal cost is less than $20. A random sample of 15 customers shows an average meal cost of $21. Test at the 5% significance level if the cost is greater than $20.
 
-### Question 4 (***) - Hypothesis Testing
+3. **Question 3**: A soft drink manufacturer claims that the average volume of soda in each can is 355 ml. A sample of 8 cans has an average volume of 360 ml. Test at the 5% significance level if the volume is greater than the claimed value.
 
-It has been established over time that the javelin throwing distances of an athlete are normally distributed with a standard deviation of 8 m.
+4. **Question 4**: A toy company claims that the average height of its action figures is no more than 10 inches. A sample of 10 figures shows an average height of 10.5 inches. Test at the 5% significance level if the height is greater than 10 inches.
 
-Ten throws of this athlete in the previous year had a mean of 62.59 m. Five throws of this athlete this year had a mean of 71.06 m.
+5. **Question 5**: A research study claims that the average weight of a newborn baby is 3.5 kg. A sample of 9 babies shows an average weight of 3.8 kg. Test at the 1% significance level if the weight is greater than 3.5 kg.
 
-Test at the 2.5% level of significance whether the mean throwing distances of the athlete have improved this year. 
+6. **Question 6**: A school claims that the average grade on its math test is at least 75%. A sample of 12 students shows an average grade of 73%. Test at the 5% significance level if the average grade is less than 75%.
 
-State your hypotheses clearly, stating any additional assumptions made.
+7. **Question 7**: A fitness center claims that the average calories burned in a 30-minute workout is at least 300 calories. A sample of 8 members burns an average of 280 calories. Test at the 5% significance level if the average calories burned is less than 300.
 
-### Question 5 (***) - Hypothesis Testing
+8. **Question 8**: A supermarket claims that the average price of a gallon of milk is no more than $3. A sample of 10 milk prices shows an average of $3.25. Test at the 5% significance level if the price is more than $3.
 
-It has been established over time that the javelin throwing distances of an athlete have a standard deviation of 10.44 m.
+9. **Question 9**: A phone company claims that the average battery life of its phones is 24 hours. A random sample of 9 phones shows an average battery life of 22 hours. Test at the 5% significance level if the battery life is less than 24 hours.
 
-Sixty throws of this athlete in the previous year had a mean distance of 68.54 m. Forty throws of the same athlete during this year produced a mean distance of 72.57 m.
+10. **Question 10**: A car dealership claims that the average fuel efficiency of its vehicles is at least 30 miles per gallon. A sample of 7 cars shows an average fuel efficiency of 28 mpg. Test at the 5% significance level if the fuel efficiency is less than 30 mpg.
 
-Assuming the throws considered in each year are random, test at the 2% level of significance whether the mean throwing distances of the athlete have changed since last year. 
+---
 
-State your hypotheses clearly, stating any additional assumptions made.
+### **Hard Questions (Advanced Level Applications with Word Problems and Numerics)**
 
-### Question 6 (***) - Hypothesis Testing
+1. **Question 1**: A pharmaceutical company claims that its drug reduces blood pressure by 10 mmHg. A sample of 30 patients shows an average reduction of 8 mmHg. Test at the 5% significance level if the reduction is less than the claimed value.
 
-The hardness of a certain type of rock is a Normal variable with a standard deviation of 35, measured in suitable units.
+2. **Question 2**: A tech company claims that the average battery life of its new smartwatch is 72 hours. A sample of 25 smartwatches shows an average battery life of 68 hours. Test at the 5% significance level if the battery life is less than 72 hours.
 
-Eight rock samples were collected from a certain area A and a further six rock samples were collected from a different area B. These samples were randomly collected, and their hardness was accurately tested, recorded (in suitable units), and summarized below:
+3. **Question 3**: A factory claims that the average time taken to assemble a product is no more than 3 hours. A sample of 20 assembly times shows an average of 3.5 hours. Test at the 5% significance level if the assembly time is greater than 3 hours.
 
-- **Area A**: 1156, 1280, 1199, 1220, 1175, 1204, 1246, 1168.
-- **Area B**: 1175, 1143, 1159, 1142, 1224, 1147.
+4. **Question 4**: A food company claims that the average sodium content in its soup is 800 mg. A sample of 15 cans shows an average sodium content of 825 mg. Test at the 5% significance level if the sodium content is more than 800 mg.
 
-Test, at the 5% level of significance, whether there is a difference in the mean hardness of this type of rock in the two areas from where these samples were collected.
+5. **Question 5**: A beverage company claims that the average volume of juice in a carton is 1 liter. A random sample of 12 cartons shows an average volume of 0.95 liters. Test at the 5% significance level if the volume is less than 1 liter.
 
-### Question 7 (**+*) - Hypothesis Testing
+6. **Question 6**: A study claims that the average income of workers in a specific industry is at least $50,000. A sample of 30 workers shows an average income of $47,500. Test at the 5% significance level if the income is less than the claimed amount.
 
-The same Mathematics mock exam is given to the Year 11 students of a certain school year after year. It has been established over time that the standard deviation of the marks is 10 for the boys and 8 for the girls. The marks for both boys and girls are thought to be normally distributed.
+7. **Question 7**: A gym claims that the average number of calories burned in a workout is 600 calories. A sample of 12 members burns an average of 550 calories. Test at the 5% significance level if the calorie burn is less than 600.
 
-The marks of 5 boys in this year’s mock exam had a mean of 64, while the marks of 5 girls in the same test had a mean of 78.
+8. **Question 8**: A hotel chain claims that the average stay of guests is at least 3 nights. A sample of 18 guests shows an average stay of 2.8 nights. Test at the 5% significance level if the stay is less than 3 nights.
 
-The Head of Maths thinks that, in this academic year, the mean mark of the Year 11 girls is at least 5 marks higher than that of the Year 11 boys.
+9. **Question 9**: A university claims that the average time taken to complete a degree program is 4 years. A sample of 20 students takes an average of 4.2 years. Test at the 5% significance level if the time taken is greater than 4 years.
 
-Test, at the 5% level of significance, whether the claim of the Head of Maths is justified. State your hypotheses clearly, stating any additional assumptions made.
+10. **Question 10**: A car company claims that the average fuel economy of its vehicles is 35 mpg. A random sample of 10 cars shows an average fuel economy of 33 mpg. Test at the 5% significance level if the fuel economy is less than the claimed value.
 
-### Question 8 (**+*) - Hypothesis Testing
-
-The continuous random variables $X_1$ and $X_2$ satisfy the following distributions:
-
-- $X_1 \sim N(\mu_1, 50)$
-- $X_2 \sim N(\mu_2, 20)$
-
-A random sample of 40 observations of $X_1$ produced a sample mean of 1752.
-
-A random sample of 50 observations of $X_2$ produced a sample mean of 1598.
-
-A test is to be carried out to determine whether there is evidence that the mean of $X_1$ is greater than the mean of $X_2$ by more than 140.
-
-Carry out the test at the 10% significance level.
-
-### Question 9 (**+*) - Hypothesis Testing
-
-A group of 1200 soldiers completed an assault course early in the morning. A random sample of 60 soldiers was selected from the group of 1200. The time taken by each of these 60 soldiers to complete the assault course, $x$ minutes, was recorded and the following information is known:
-
-- $\sum_{i=1}^{60} x_i = 1350$
-- $\sum_{i=1}^{60} x_i^2 = 30685$
-
-**(a)** Find unbiased estimates for the mean and variance of the time taken by the 1200 soldiers who completed the course early in the morning.
-
-A group of 1500 soldiers completed the same assault course late in the afternoon. A random sample of 60 soldiers was selected from the group of 1500. The time taken by each of these 60 soldiers to complete the assault course, $y$ minutes, was recorded and the following information is known:
-
-- $\bar{y} = 24.1$ (Sample mean)
-- $s_y^2 = 5.48$ (Sample variance)
-
-**(b)** Test, at the 5% significance level, whether or not the mean time of the 1500 soldiers who completed the assault course in the afternoon is greater than that of the 1200 soldiers who completed the same course in the morning.
-
-State the hypotheses clearly and any assumptions and validations made.
-
-### Question 10 (****) - Hypothesis Testing
-
-The continuous random variables $X$ and $Y$ are defined as:
-
-- $X \sim N(\mu_x, 2)$
-- $Y \sim N(\mu_y, 3)$
-
-The mean of a random sample of 7 observations from the population of $X$ is denoted by $\bar{x}$, and the mean of a random sample of 9 observations from the population of $Y$ is denoted by $\bar{y}$.
-
-A test on the difference of the population means, at the 5% significance level, is to be carried out.
-
-**(a)** Stating your hypotheses clearly, determine the critical region for this test.  
-Give the answer in the form $x - y > k$, where $k$ is a constant.
-
-**(b)** Determine the probability of a Type II error if $\mu_x = \mu_y + 0.9$.
-
-### Hint 
-### Tests Used in the Questions
-
-1. **Question 1:** Two-Sample t-test (Independent samples, unequal variances)
-2. **Question 2:** Two-Sample t-test (Independent samples, unequal variances)
-3. **Question 3:** Two-Sample t-test (Independent samples, unequal variances)
-4. **Question 4:** Paired Sample t-test
-5. **Question 5:** Two-Sample t-test (Independent samples, unequal variances)
-6. **Question 6:** Two-Sample t-test (Independent samples, unequal variances)
-7. **Question 7:** Two-Sample t-test (Independent samples, unequal variances)
-8. **Question 8:** Two-Sample t-test (Independent samples, unequal variances)
-9. **Question 9:** One-Sample t-test & Two-Sample t-test (Independent samples, unequal variances)
-10. **Question 10:** Two-Sample t-test (Independent samples, unequal variances)
+---
