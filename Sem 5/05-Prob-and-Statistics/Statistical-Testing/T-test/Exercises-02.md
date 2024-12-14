@@ -1,16 +1,16 @@
-# One-Sample t-Test Questions
+# One-Sample + Two Tailed t-Test Questions
 
 ## Easy 
 
-1. **Question 1:** A sample of 8 students has a mean test score of 85 with a standard deviation of 5. Does the sample suggest that the mean test score is different from the population mean of 80 at the 5% significance level?
+1. **Question 1:** A sample of 8 students has a mean test score of 85 with a standard deviation of 5. Does the sample suggest that the mean test score is `different` from the population mean of 80 at the 5% significance level?
 
-2. **Question 2:** A sample of 10 students took a math test. The sample mean was 75, and the standard deviation was 6. Test at the 1% level whether the mean score is equal to 80.
+2. **Question 2:** A sample of 10 students took a math test. The sample mean was 75, and the standard deviation was 6. Test at the 1% level whether the mean score is `equal` to 80.
 
-3. **Question 3:** The mean weight of 12 oranges in a sample is 120 grams. If the population mean weight is 110 grams, test at the 5% level if the sample weight is significantly different from the population mean.
+3. **Question 3:** The mean weight of 12 oranges in a sample is 120 grams. If the population mean weight is 110 grams, test at the 5% level if the sample weight is significantly `different` from the population mean.
 
-4. **Question 4:** A sample of 15 plants has an average height of 25 cm. The population mean height is 30 cm. At the 10% significance level, determine whether the mean height of the sample is significantly different from the population mean.
+4. **Question 4:** A sample of 15 plants has an average height of 25 cm. The population mean height is 30 cm. At the 10% significance level, determine whether the mean height of the sample is significantly `different` from the population mean.
 
-5. **Question 5:** The average temperature of a sample of 10 days was 22°C, with a standard deviation of 2°C. Is this sample significantly different from the historical mean temperature of 24°C at the 5% level?
+5. **Question 5:** The average temperature of a sample of 10 days was 22°C, with a standard deviation of 2°C. Is this sample significantly `different` from the historical mean temperature of 24°C at the 5% level?
 
 6. **Question 6:** A sample of 9 factory workers has an average working hours of 40 hours per week, with a standard deviation of 4 hours. Test at the 5% level if the average working hours are different from the population mean of 45 hours.
 
