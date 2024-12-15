@@ -53,6 +53,8 @@ Where:
 | **Left-Tailed F-test**  | $1 - \alpha$           | Find the F-value at $1 - \alpha$ in the left tail of the F-distribution.         |
 | **Two-Tailed F-test**   | $\frac{\alpha}{2}$     | Find the F-values at $\frac{\alpha}{2}$ (lower tail) and $1 - \frac{\alpha}{2}$ (upper tail) in the F-distribution. |
 
+$F_{1-\alpha, v_2, v_1} = \frac{1}{F_{\alpha, v_1, v_2}}$
+
 
 
 ---
