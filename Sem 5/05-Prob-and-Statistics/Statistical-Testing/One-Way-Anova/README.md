@@ -32,9 +32,11 @@ Where:
 - $Y_i$ are the individual data points in group $i$.
 
 #### **2. Calculate the Overall Mean (Grand Mean):**
-This is the mean of all the data points across all groups combined.
+This is the mean of all the data points across all groups combined. 
 
-$\bar{Y}_{\text{overall}} = \frac{\sum_{i=1}^k \sum_{j=1}^{n_i} Y_{ij}}{N}$
+$$
+\bar{Y}{\text{overall}} = \frac{\sum_{i=1}^k \sum_{j=1}^{n_i} Y_{ij}}{N}
+$$
 
 
 Where:
@@ -52,7 +54,7 @@ $$
 - **Sum of Squares Between Groups (SSB)**: Variation due to the differences between group means.
 
 $$
-SSB = \sum_{i=1}^k n_i (\bar{Y}_i - \bar{Y}_{\text{overall}})^2
+SSB = \sum_{i=1}^k n_i (\bar{Y}_i - \bar{Y}{\text{overall}})^2
 $$
 
   This measures how much each group mean deviates from the overall mean.
@@ -153,7 +155,7 @@ Let's say we want to test if the mean exam scores of three different teaching me
 
 ### **Summary of Key Formulas:**
 - **Null Hypothesis (H₀)**: $\mu_1 = \mu_2 = \dots = \mu_k$
-- **SSB (Between groups)**: $SSB = \sum_{i=1}^k n_i (\bar{Y}_i - \bar{Y}_{\text{overall}})^2$
+- **SSB (Between groups)**: $SSB = \sum_{i=1}^k n_i (\bar{Y}_i - \bar{Y}{\text{overall}})^2$
 - **SSW (Within groups)**: $SSW = \sum_{i=1}^k \sum_{j=1}^{n_i} (Y_{ij} - \bar{Y}_i)^2$
 - **F-statistic**: $F = \frac{MSB}{MSW}$
 
