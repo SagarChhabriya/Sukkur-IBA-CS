@@ -38,10 +38,22 @@ Where:
    - If the F-statistic is less than or equal to the critical value, do not reject $H_0$.
 
 
+## Points Should be Considered
+### 1. **For a Right-Tailed and Two-Tailed F-Test:**
+   - The variance with the greater value will be in the **numerator**.
+   - Thus, the sample corresponding to $\sigma_1^2$ will become the first sample.
+   - The smaller value variance will be the **denominator** and belongs to the second sample.
+### 2. **For a Left-Tailed Test:**
+   - The smallest variance becomes the **numerator** (sample 1).
+   - The highest variance goes in the **denominator** (sample 2).
+### 3. **Significance Level $\alpha$:**
+| **Test Type**          | **Significance Level (α)** | **Critical Value**                                                                 |
+|------------------------|----------------------------|-------------------------------------------------------------------------------------|
+| **Right-Tailed F-test** | $\alpha$               | Find the F-value at $\alpha$ in the right tail of the F-distribution.            |
+| **Left-Tailed F-test**  | $1 - \alpha$           | Find the F-value at $1 - \alpha$ in the left tail of the F-distribution.         |
+| **Two-Tailed F-test**   | $\frac{\alpha}{2}$     | Find the F-values at $\frac{\alpha}{2}$ (lower tail) and $1 - \frac{\alpha}{2}$ (upper tail) in the F-distribution. |
 
-For a **right-tailed** and a **two-tailed** F-test, the variance with the greater value will be in the numerator. Thus, the sample corresponding to $\sigma_1^2$ will become the first sample. The smaller value variance will be the denominator and belongs to the second sample.
 
-For a **left-tailed** test, the smallest variance becomes the numerator (sample 1), and the highest variance goes in the denominator (sample 2).
 
 ---
 
@@ -68,6 +80,7 @@ The F-test is used in ANOVA to test if there are significant differences between
    - **MSW** measures the variance within the groups.
 
 3. **Calculate the F-statistic**:
+
 $$
 F = \frac{MSB}{MSW}
 $$
