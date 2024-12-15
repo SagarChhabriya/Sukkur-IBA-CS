@@ -14,9 +14,11 @@ The F-test for equality of variances is used to compare the variances of two ind
 
 #### Formula:
 The F-statistic is calculated as the ratio of the two sample variances:
+
 $$
 F = \frac{s_1^2}{s_2^2}
 $$
+
 Where:
 - $s_1^2$ is the variance of the first sample.
 - $s_2^2$ is the variance of the second sample.
@@ -34,6 +36,12 @@ Where:
 4. **Make the Decision**:
    - If the F-statistic is greater than the critical value, reject the null hypothesis ($H_0$).
    - If the F-statistic is less than or equal to the critical value, do not reject $H_0$.
+
+
+
+For a **right-tailed** and a **two-tailed** F-test, the variance with the greater value will be in the numerator. Thus, the sample corresponding to $\sigma_1^2$ will become the first sample. The smaller value variance will be the denominator and belongs to the second sample.
+
+For a **left-tailed** test, the smallest variance becomes the numerator (sample 1), and the highest variance goes in the denominator (sample 2).
 
 ---
 
