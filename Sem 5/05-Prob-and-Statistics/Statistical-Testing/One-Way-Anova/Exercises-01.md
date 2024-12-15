@@ -106,3 +106,129 @@
     After conducting a One-Way ANOVA, you obtain a p-value of 0.06 and a significance level of 0.05. What would be the correct interpretation of the results and the decision regarding the null hypothesis?
 
 ---
+
+
+`Answers to the One-Way ANOVA questions:`
+
+### **Easy Questions:**
+
+1. **Answer 1:**  
+   **Statistical Test:** You would use **One-Way ANOVA** to determine if there are significant differences in plant growth among the three fertilizers.
+
+2. **Answer 2:**  
+   The null hypothesis in a One-Way ANOVA states that the **means of all groups are equal**. In other words, there is no significant difference between the groups.
+
+3. **Answer 3:**  
+   For **4 groups**, the degrees of freedom between groups $\text{df}_{\text{between}}$ is calculated as:
+
+$$
+\text{df}_{\text{between}} = k - 1
+$$
+
+   where $k$ is the number of groups.
+   
+   For 4 groups:  $\text{df}_{\text{between}} = 4 - 1 = 3$
+
+5. **Answer 4:**  
+   The **F-statistic** in One-Way ANOVA is a ratio of the **Mean Square Between Groups (MSB)** to the **Mean Square Within Groups (MSW)**. It tests if there is a significant difference between the group means. A large F-statistic suggests that at least one group mean is significantly different from the others.
+
+6. **Answer 5:**  
+   The general purpose of conducting a **One-Way ANOVA** is to test if there is a statistically significant difference between the means of **three or more groups**.
+
+---
+
+### **Medium Questions:**
+
+6. **Answer 6:**  
+   If the F-statistic is **4.5** and the critical F-value at a 0.05 significance level is **3.9**, since the F-statistic is greater than the critical value (4.5 > 3.9), we **reject the null hypothesis** and conclude that there is a significant difference between the group means.
+
+7. **Answer 7:**  
+   If the **p-value** is **0.03** and is less than the significance level (0.05), we **reject the null hypothesis**. This means that the means of the teaching methods are significantly different.
+
+8. **Answer 8:**  
+   A **p-value of 0.12** indicates that the result is **not statistically significant** at the 0.05 level (since 0.12 > 0.05). Therefore, we **fail to reject the null hypothesis** and conclude that there is no significant difference between the group means.
+
+9. **Answer 9:**  
+   The **Sum of Squares Between Groups (SSB)** represents the variation in the dependent variable that is explained by the independent variable (the factor). It measures the variability of the group means around the overall mean.
+
+10. **Answer 10:**  
+    The **Mean Square Between Groups (MSB)** is calculated by dividing the **Sum of Squares Between Groups (SSB)** by its degrees of freedom (df_between):
+    $\text{MSB} = \frac{\text{SSB}}{\text{df}_{\text{between}}}$
+    Given:  
+    $\text{MSB} = \frac{150}{4} = 37.5$
+
+---
+
+### **Hard Questions:**
+
+11. **Answer 11:**  
+    **F-statistic** = 3.5, **df_between** = 2, **df_within** = 27, and **significance level** = 0.05.  
+    At a 0.05 significance level, we compare the calculated F-statistic to the **critical F-value** from an F-distribution table. If the calculated F is greater than the critical F-value, we **reject the null hypothesis**.  
+    If the **F-statistic** (3.5) exceeds the **critical value** from the F-distribution table (which is typically around 3.34 for these degrees of freedom), we reject the null hypothesis and conclude that the diets have different effects on weight loss.
+
+12. **Answer 12:**  
+    Given:
+    - SSB = 240
+    - SSW = 180
+    - Total observations = 36  
+    The F-statistic is calculated as:
+      $F = \frac{\text{MSB}}{\text{MSW}}$  
+    Where:
+
+$$
+\text{MSB} = \frac{\text{SSB}}{\text{df}_{\text{between}}} = \frac{240}{5} = 48
+$$  
+
+$$
+\text{MSW} = \frac{\text{SSW}}{\text{df}_{\text{within}}} = \frac{180}{30} = 6
+$$  
+
+   So the **F-statistic** is:
+
+$$
+F = \frac{48}{6} = 8
+$$
+
+14. **Answer 13:**  
+    The **coefficient of determination (R²)** is calculated as:
+
+$$
+R² = 1 - \frac{\text{SSE}}{\text{SST}}
+$$  
+
+   Given:
+    - SSE = 120
+    - SST = 200  
+    
+$$
+R² = 1 - \frac{120}{200} = 1 - 0.6 = 0.4
+$$  
+
+   This means that 40% of the variability in the data is explained by the model.
+
+16. **Answer 14:**  
+    Given:
+    - SSB = 80
+    - SSW = 120
+    - SST = 200  
+    We calculate:
+    
+$$
+\text{MSB} = \frac{SSB}{\text{df}_{\text{between}}} = \frac{80}{3} = 26.67
+$$  
+
+$$
+\text{MSW} = \frac{SSW}{\text{df}_{\text{within}}} = \frac{120}{9} = 13.33
+$$  
+
+   The **F-statistic** is:
+
+$$
+    F = \frac{MSB}{MSW} = \frac{26.67}{13.33} = 2.00
+$$
+
+18. **Answer 15:**  
+    Since the **p-value** of **0.06** is **greater** than the significance level of **0.05**, we **fail to reject the null hypothesis**. This means there is **no significant difference** between the group means.
+
+---
+
