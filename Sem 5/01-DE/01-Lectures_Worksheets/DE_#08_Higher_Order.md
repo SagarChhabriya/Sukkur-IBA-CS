@@ -45,7 +45,7 @@ $$ \frac{d^4y}{dx^4} - 3 \frac{d^2y}{dx^2} - 4y = 5 \sin 2x - e^{-2x} \space \sp
 $$ \frac{d^2y}{dx^2} - 2 \frac{dy}{dx} + 2y = \sinh x + \sin(\sqrt{2} \space x) \space \space; \space \space y(x) = e^x [c_1 \cos x + c_2 \sin x] + \frac{e^x}{2} - \frac{e^{-x}}{10} + \frac{\cos(\sqrt{2} \space x)}{2\sqrt{2}} $$
 
 16.
-$$ (D^4 - 3D^2 - 4)y = 24 \sin 2x - 40 e^{-2x} \space \space; \space \space y(x) = c_1 e^{2x} + c_2 e^{-2x} + c_3 \cos x + c_4 \sin x + \sin 2x - 2x e^{-2x} $$
+$$ (D^4 - 3D^2 - 4)y = 24 \sin 2x - 40 e^{-2x} \space \space; \space \space y(x) = c_1 e^{2x} + c_2 e^{-2x} + c_3 \cos x + c_4 \sin x + \sin 2x + 2x e^{-2x} $$
 
 17.
 $$ (D^3 + 1)y = \cos^2\left(\frac{x}{2}\right) + e^{-x} \space \space; \space \space y(x) = c_1 e^{-x} + e^{(x/2)} \left[c_2 \cos\left(\frac{\sqrt{3}}{2} x\right) + c_3 \sin\left(\frac{\sqrt{3}}{2} x\right)\right] + \frac{1}{2} + \frac{xe^{-x}}{3} + \frac{\cos x - \sin x}{4} $$
