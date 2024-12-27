@@ -575,56 +575,38 @@ A well-structured **fundraising deal** outlines the terms between entrepreneurs,
 
 # 8.3 Regulation of Financing Activities
 
-Due to past abuses, many jurisdictions strictly regulate the sale of passive investment instruments (like stocks and bonds) through **Securities Laws**. In the U.S., these regulations are enforced at both federal and state levels. The **U.S. Securities and Exchange Commission (SEC)** is the primary body at the federal level. Securities laws apply to any situation where someone uses another person's money based on a "promise of profits" or returns that depend on someone else's efforts (not the investor's own efforts). 
+### Key Points
 
-For example, if a company offers **shares of stock** to investors, the investors expect to profit based on the company's future success, not their own efforts, making it a security under U.S. law.
+- **Securities Laws** regulate the sale of passive investment instruments like stocks and bonds.
+- In the **U.S.**, the **SEC** enforces securities laws at the federal level, applying when someone uses another's money with a "promise of profits" dependent on others' efforts.
+- **Equity Interests** in LLCs may not be considered securities if all members are actively involved in management (e.g., a software development LLC).
+- **Corporate stock** is always a security, even if sold to management (e.g., startup stock offerings to employees).
+- **Full disclosure** of material facts is required when raising capital through securities, and they often must be **registered** with the SEC.
+  - **Private placements** are exempt from registration.
+  - **Public offerings** require full registration.
 
-## Key Point
-**Not All Equity Interests Are Securities**  
-Equity interests in **Limited Liability Companies (LLCs)** are generally not considered securities if all members are actively involved in the management of the venture. For example, if an LLC is formed to develop a software product and all investors play an active role in decision-making, the investment may not be classified as a security. 
+### Exemptions to Securities Registration:
+1. **Reg D Exemption**: Private offering to accredited investors (e.g., a startup raising $1M from 10 accredited investors).
+2. **Reg A Exemption**: Mini-registration for offerings up to $50M (e.g., small renewable energy company raising $25M).
+3. **State-specific exemptions**: Varies by state (e.g., California's local startup exemptions).
 
-In contrast, **corporate stock** is defined as a security under U.S. law, even if sold to management. For instance, if a startup offers shares of stock to its employees or early investors, those shares are considered securities.
+- **Accredited Investor**: Net worth >$1M (excluding home) or income >$200K ($300K for couples).
+- **Sophisticated Investor**: Enough knowledge to assess investment risks (e.g., experienced VCs).
 
-When raising capital through the sale of securities, **full disclosure** of all **material facts** (important information that an investor would need to know) is required. In most cases, the securities must be **registered** with the SEC and possibly with state agencies, unless they fall under specific exemptions. Securities offerings can be either **private placements** (exempt from registration) or **public offerings** (requiring full registration).
+### JOBS Act (2012):
+- **More shareholders** before registration required (up to 2,000).
+- **Crowdfunding** allows advertising of offerings (e.g., Kickstarter or Indiegogo).
+- **Emerging growth companies** exempt from some disclosure rules.
+- **Reg A** limit increased to $50M for small offerings (e.g., clean-tech startups).
 
-**Initial Public Offering (IPO)**: The first public offering of a venture's shares, which involves extensive registration and high costs. For example, **Facebook's IPO in 2012** required the company to disclose detailed financials and undergo a lengthy approval process with the SEC. The IPO has become less common due to its high expenses and administrative burdens, especially for startups.
+### Mini-Case Example: Pebble Smartwatch on Kickstarter
+- Raised $10M from nearly 70,000 backers with rewards like early prototypes and exclusive updates.
+- Crowdfunding allows raising capital without complex securities regulations.
 
-It is often preferable for tech startups to raise capital under **exemptions** to avoid the registration process. These exemptions include:
-
-- **Dollar limits** on offerings (e.g., a small offering under $5 million might be exempt).
-- **Limitations** on who can invest (e.g., **accredited investors**).
-- **Restrictions** on advertising or solicitation (e.g., offerings that cannot be publicly advertised).
-- **Specific disclosure** requirements (e.g., a **Private Placement Memorandum** must be provided to investors).
-
-An **accredited investor** is defined as someone with a **net worth** over $1 million (excluding their home) or with annual **income** over $200,000 ($300,000 for a couple). For example, an investor who has $2 million in assets (excluding their house) or earns $250,000 annually would be considered accredited. A **sophisticated investor** has enough knowledge to assess the risks of the investment. For example, a venture capitalist with years of experience evaluating tech startups would likely be considered a sophisticated investor.
-
-### Common Exemptions
-1. **Reg D Exemption**: A private offering to accredited investors without advertising. For example, a software startup seeking $1 million from 10 accredited investors could use this exemption to avoid registration.
-2. **Reg A Exemption**: A mini-registration for small offerings (up to $50 million). This exemption allows a company to raise funds from both accredited and non-accredited investors. For example, a small renewable energy company might use Reg A to raise $25 million for a new project.
-3. **State-Specific Exemptions**: Some states have their own rules for exempt offerings. For instance, **California's securities laws** may provide additional exemptions for local tech startups raising small amounts of capital.
-
-### JOBS Act (2012)
-The **JOBS Act** encourages investment in startups by allowing:
-- More shareholders before registration is required. For example, a startup can have up to 2,000 shareholders before it must register with the SEC.
-- Small companies to advertise offerings via crowdfunding platforms. For example, a startup could raise funds through **Kickstarter** or **Indiegogo**, where people contribute money in exchange for rewards, without needing to follow full SEC registration rules.
-- **Emerging growth companies** to be exempt from some disclosure requirements. This provision mainly applies to small companies, allowing them to avoid some costly compliance rules.
-- Larger fundraisers under **Reg A**, up to $50 million (increased from its previous limit of $5 million). For example, a clean-tech startup might use this rule to raise up to $50 million to develop a new solar energy product.
-
-### Mini-Case: Pebble Smartwatch Raises $10M on Kickstarter
-**Pebble**, a smartwatch company, raised over $10 million on **Kickstarter**. Initially aiming for $100,000, Pebble attracted nearly 70,000 backers with rewards like exclusive newsletters, early deliveries, and different models of the smartwatch. This campaign is an example of how **crowdfunding** platforms enable startups to raise significant capital without the need to adhere to complex securities regulations.
-
-For example:
-- **Backers contributing $1 or more** received exclusive updates about Pebble.
-- **Backers contributing $99-$220** received various models of the Pebble watch.
-- **Backers contributing $235 or more** received early prototypes as well as final models after production.
-
-### Private Placement Memorandum (PPM)
-A **Private Placement Memorandum (PPM)** is required for non-public offerings, providing detailed information to investors about the business, products, financials, and risks. It goes beyond a business plan by highlighting potential risks (e.g., market failure, patent rejection, or inability to raise future capital). For example, a startup offering shares in exchange for investment might include risks such as:
-- **Patent filings being rejected** by the patent office.
-- **Market misjudgment**, such as underestimating consumer demand.
-- **Inability to raise additional capital** to scale the business.
-
-Legal counsel should be involved in preparing the PPM to ensure that all legal requirements are met and that investors are fully informed about the risks involved.
+### Private Placement Memorandum (PPM):
+- Required for non-public offerings, detailing business risks and financials.
+- Includes risks such as **patent rejection**, **market misjudgment**, and **capital raising difficulties**.
+- Legal counsel is recommended for preparing PPM.
 
 
 ## 8.3.1 Costs of Equity Financing
