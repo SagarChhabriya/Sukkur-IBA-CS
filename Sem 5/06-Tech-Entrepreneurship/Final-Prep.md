@@ -20,8 +20,6 @@ Other structures like cooperatives or nonprofits also exist but are generally ba
 
 ### 6.2.1 Limited Versus Unlimited Liability
 
-### 6.2.1 Limited Versus Unlimited Liability
-
 1. **Unlimited Liability**: 
    - Owners are personally responsible for all business debts and obligations.
    - *Example*: In a sole proprietorship, the owner is personally liable for all debts, such as paying off a business loan even if the business fails.
@@ -269,154 +267,97 @@ Equity is simply another term for an ownership interest in a business. The parti
 
 ### 6.4.1 Corporate Stocks
 
-The articles of incorporation for a corporation specify a maximum total number of shares of stock that it is authorized to issue. The original number of shares of authorized stock is largely arbitrary, but it should be selected carefully based on the venture's financial plan and future fundraising objectives. The number of authorized shares can be changed, but only through a vote by the venture's shareholders.
+1. **Authorized Shares**: A corporation's articles of incorporation specify a maximum number of shares it can issue, which can be changed with shareholder approval.  
+   - **Example**: A startup can authorize 1 million shares, but only issue 500,000 initially.
 
-From the authorized pool of shares, the venture can issue shares to founders and investors. The issued shares constitute the ownership structure of the venture. That is, a shareholder's percentage of ownership of the venture is calculated as the proportion of shares held compared to shares that have been issued. Most ventures will reserve a portion of the authorized shares in the company's treasury for later use. These are called unissued shares or treasury stock.
+2. **Issued Shares**: Shares given to founders and investors represent the ownership structure, with each shareholder owning a proportion based on shares held.  
+   - **Example**: If an investor holds 100,000 shares of 500,000 issued, they own 20% of the company.
 
-It is also important to note that not all stock is created equal. A venture's articles of incorporation can be crafted to allow it to issue different classes of shares, each with specific designations and unique preferences, limitations, and/or rights. These share classes are typically associated with financing rounds and are often designated as Class A, Class B, etc., or Series A, Series B, etc. 
+3. **Unissued Shares**: Reserved shares that are not yet distributed but can be used for future fundraising or other purposes.  
+   - **Example**: A company reserves 200,000 shares for future rounds of investment.
 
-The articles of incorporation either specify the particulars of each class of shares or delegate the authority to the board of directors. Generally, the preferences and relative rights of classes of shares relate to voting, payment of dividends, and distribution of corporate assets upon dissolution. Limitations on a class of shares typically involve restrictions on transferability. Shareholders of private ventures usually do not want to leave it up to shareholders to decide to whom they may transfer their shares. Transferability is often governed by buy-sell clauses in the shareholders' agreement.
+4. **Share Classes**: Different types of shares (e.g., Class A, Class B) may be issued, with varying rights on voting, dividends, and asset distribution.  
+   - **Example**: Class A shares might have voting rights, while Class B shares only receive dividends.
+
+5. **Transferability**: Shareholders may face restrictions on transferring shares, often governed by buy-sell clauses in the shareholders' agreement.  
+   - **Example**: A founder’s shares may only be sold to other shareholders or approved buyers.
 
 ### Common Stock vs. Preferred Stock
 
-The two common types of stock are **common stock** and **preferred stock**. Both represent ownership interests and rights in a corporation, but they differ significantly in terms of rights and benefits, which we will explore further below.
+1. **Common Stock**: Represents basic ownership, with voting rights and potential for dividends, but no guaranteed payment. Common stockholders are last in line during liquidation.  
+   - **Example**: A shareholder with common stock may vote on company matters and receive dividends if the company is profitable, but they are paid after creditors and preferred stockholders in case of liquidation.
 
-### 6.4.2 Common Stock
+2. **Preferred Stock**: Provides a fixed dividend, ranks higher than common stock in distributions, and often has limited or no voting rights.  
+   - **Example**: An investor holding preferred stock receives dividends before common stockholders and has priority in liquidation, but typically doesn’t have voting rights.
 
-Common stock refers to the baseline of ownership in a corporation and grants a right to a portion of profits from the company. Many ventures do not specifically define common stock. Instead, they refer to classes of stock with different characteristics without categorizing any particular class as common stock. If only one class of stock is issued, it will be common stock. As used in this text, common stock means a class of stock that does not have any preference over another class of stock.
-
-Common stock is normally last in line when dividends are paid and in the event of liquidation. In a liquidation scenario, creditors, bondholders, and preferred stockholders are paid first, and common stockholders are entitled only to what remains.
-
-Owners of common stock typically have voting rights to elect members of the board of directors, who oversee the management and operations of the company. Different classes of stock may have different voting rights, as will be discussed. The company’s profits may be paid out in the form of dividends to common stockholders. However, dividends on common stock are not guaranteed and usually only occur when the company is profitable. The amount and timing of dividends are determined by the board of directors.
-
-Owners of common stock benefit from increases in the company’s value as it grows. However, if the company is unsuccessful, the value of their ownership interest decreases. Therefore, common stock provides the greatest potential for upside, but it also carries the greatest risk of loss if the business does not succeed.
-
-### 6.4.3 Preferred Stock
-
-Preferred stock refers to any stock that has advantageous characteristics over other classes of stock. Typically, preferred stock includes provisions that:
-
-- Provide a specific dividend on a periodic basis (e.g., monthly, quarterly, semiannually, or annually)
-- Rank senior to other classes of stock in the order of distribution (i.e., payments are made to the preferred stockholders before dividends are paid to other classes or when there is a distribution upon liquidation)
-- Indicate that preferred shareholders have limited or no voting rights
-
-Preferred stock tends to be a more conservative investment than common stock, as it is not as volatile. Investors purchase preferred stock for the dividends. Unlike dividends on common stock, which are paid at the discretion of the board of directors, dividends on preferred shares are often a fixed amount regardless of the company’s earnings. In some cases, the right to those dividends may accrue on a periodic basis. 
-
-Although payment of dividends on preferred stock is not guaranteed per se, preferred dividends are guaranteed to be paid before any payments are made to junior classes of stock.
-
-Preferred stock can also include a wide range of additional benefits, often referred to as “sweeteners.” Some of these advantages are discussed below.
-
+3. **Risk and Return**: Common stock has higher potential for growth but carries more risk, while preferred stock offers more stability but less growth potential.  
+   - **Example**: Common stockholders benefit more if the company grows, but they also lose more if the company fails, whereas preferred stockholders receive steady dividends with less risk but limited upside.
+     
 ### 6.4.3.1 Preferred Stock Distributions
 
-A class of preferred stock can entitle the holders to distributions—dividends—and specify how those distributions are calculated. For example, dividends for a class of stock may be either **cumulative** or **noncumulative**.
+1. **Cumulative Preferred Stock**: Accrued dividends must be paid before dividends to other stock classes; if a dividend is missed, it accumulates and must be paid when resumed.  
+   - **Example**: If a company misses a quarterly dividend, it must pay the owed dividends to cumulative preferred stockholders first when it resumes payments.
 
-- **Cumulative Preferred Stock**: This type of preferred stock has a provisional right to a dividend payment that accrues periodically. All accrued dividends must be paid to the holders of this class before any dividends can be paid to junior classes of stock. For example, if a company issues a preferred class of stock with a fixed quarterly dividend, but due to financial difficulties the company suspends dividend payments to cover expenses, the company must pay all accrued dividends to the preferred stockholders once it resumes dividends, before paying any to junior classes of stock.
-
-- **Noncumulative Preferred Stock**: Dividends on noncumulative preferred stock do not accumulate. If no dividend is paid in a particular period, the shareholder is not entitled to receive any dividends for that period. However, noncumulative preferred shareholders are still entitled to receive dividends before any junior class of stock when dividends are paid again.
+2. **Noncumulative Preferred Stock**: Dividends do not accumulate; missed payments are not owed in the future.  
+   - **Example**: If no dividend is paid in one period, noncumulative preferred stockholders will not receive it in the future.
 
 ### 6.4.3.2 Convertibility
 
-A class of preferred stock can also be **redeemable** or **convertible** into cash, debt, common stock, or other property. The conversion may be triggered by various conditions:
+Preferred stock may be **convertible** into cash, debt, common stock, or other property, either at the option of the corporation, shareholder, or upon a designated event.  
+   - **Example**: A shareholder might convert preferred stock into common stock during a funding round for more potential growth.
 
-- At the option of the **corporation**, the **shareholder**, or another party
-- Upon the occurrence of a **designated event** (e.g., a venture capital funding round)
+### 6.4.3.3 Participating Preferred Stock
 
-The terms of conversion can be a specific amount or determined through a designated formula or by referencing some prespecified external data or events.
-
-### 6.4.3.3 Participating Preferred
-
-Preferred stock that pays a fixed dividend, regardless of the company's profitability, is known as **nonparticipating preferred stock**. However, preferred stock can also be structured to **participate** in the company's profits.
-
-For example, **participating preferred stock** may entitle the holder to:
-
-- A **fixed dividend**, and
-- A share of the surplus profits after dividends are paid to common stockholders.
-
-In some cases, the participation may extend to:
-
-- **Dividends**: The preferred stockholder may receive the greater of the fixed dividend or the dividends paid to common stock (or the dividends paid to the common stock, if the preferred stock is convertible to common stock).
-- **Liquidation**: If the company is liquidated, nonparticipating preferred stockholders typically receive a predetermined preferential return (e.g., the initial investment plus accrued and unpaid dividends) before any distributions to junior classes of stock. However, if the company is sold at a sufficiently high valuation, common stockholders may receive more than the preferred stockholders. If the preferred stock is **convertible**, preferred shareholders may have the option to convert their shares into common stock, forfeiting their preferential return in exchange for the potential to share in the liquidation proceeds on the same basis as common stockholders.
-
-Participating preferred stockholders may have the best of both worlds: they receive the predetermined preferential return, and they may also participate in the distribution of remaining assets on an “as converted to common stock” basis with common stockholders.
+Participating preferred stockholders receive both a fixed dividend and a share of surplus profits after common stock dividends are paid. They may also participate in liquidation distribution on an "as converted" basis with common stockholders.  
+   - **Example**: After receiving fixed dividends, participating preferred stockholders also share in the company’s profits or liquidation proceeds.
 
 ### 6.4.3.4 Voting Rights
 
-Although at least one class of shares must have voting rights (and, in combination with other classes, voting rights that cover all matters defined in the articles of incorporation requiring votes), a preferred stock class may be given special, conditional, or limited voting rights, or, in some cases, no voting rights at all.
-
-Typically, **common stock** grants one vote per share, but a corporation can issue different "classes" of common stock, each with distinct voting rights. Voting rights can range from no voting rights at all to multiple votes per share.
+Preferred stock may have special or no voting rights, while common stock typically provides one vote per share.  
+   - **Example**: Common stockholders vote on board elections, but preferred stockholders may have limited or no voting rights.
 
 ### 6.4.3.5 Founder's Stock
 
-**Founder's stock** refers to stock issued to the founders of the corporation. However, there is no universal definition of founder's stock in terms of its characteristics. If the corporation issues a single class of stock, founder's stock is simply common stock issued to the founders. However, founder's stock can sometimes be a separate class of stock with unique characteristics. 
-
-For example, the company founders may issue two classes of stock: 
-- **Class A stock**, which has one vote per share, and 
-- **Class B stock**, which has 10 votes per share.
-
-In this case, the founders would offer the **Class A stock** to investors and issue the **Class B stock** to themselves, ensuring they retain decision-making control of the company through super-voting rights.
-
-Some common characteristics proposed for founder's stock include:
-- **Conversion rights**: The right to convert shares into any other class of stock when that class is offered to investors.
-- **Liquidation preferences**: Assigning liquidation preferences at a designated amount (e.g., the actual money invested by the founders, a specified percentage of their holdings, or the company valuation prior to a successive round of financing).
-- **Preferred participating stock**: Making the founder's stock preferred and participating.
-
-If part of the founder's contribution to the venture is **sweat equity**, the founder's stock may be subject to a **vesting requirement**, typically based on a predetermined, time-based schedule or formula. Actual ownership of stock does not transfer until the vesting condition is met.
-
-However, there is often a tension between creating a special class of founder's stock with protective features and attracting future investors for subsequent rounds of financing. In many instances, investors will attempt to negotiate away the founder's preferences as a precondition to investment.
-
-**Tax implications**: Founders must also understand the tax consequences of receiving stock in return for services. Generally, such stock is considered income to the founder. Under U.S. tax law, the founder has the option to recognize income (the difference between the fair market value and the price paid for the stock) either when the stock is issued or when it vests. If the founder elects to recognize the stock's value as income when issued, an **83(b) election** must be filed with the IRS within 30 days. This election helps freeze the ordinary income tax recognition at the issue date and starts the one-year capital-gain holding period.
+Founder's stock is issued to company founders and may have unique features like conversion rights, liquidation preferences, and vesting requirements.  
+   - **Example**: A founder may receive stock with special voting rights or conditions that ensure they retain control over the company.
 
 ### 6.5 Raising Capital
+1. **Co-Venturing Paradigm**: A venture is a separate entity, and investors (co-venturers) contribute resources like money, assets, or services in exchange for consideration such as equity, profit interest, or money (e.g., interest on a loan).  
+   - **Example**: A co-venturer invests money and receives equity in return.
 
-As previously noted, at some point during a venture's life, it will need to reach outside itself for necessary resources, one of which is **capital**.
-
-For a transactional analysis of the process of forming a venture and bringing investors into the venture, it is useful to adopt a **co-venturing paradigm**. The business venture is considered a separate entity from each individual participant or investor (co-venturer), and each co-venturer contributes to the venture in return for some form of consideration.
-
-The consideration provided by the respective co-venturers can take various forms, such as:
-- **Money**
-- **Intangible assets** (e.g., intellectual property)
-- **Tangible assets**
-- **Services**
-
-The consideration provided by the venture to the co-venturers can take forms like:
-- **Equity in the venture**
-- **Money** (e.g., interest on a loan)
-- **Profit interest** in the venture
-
-Exhibits 6.9 and 6.10 illustrate such an analysis for the formation of a business venture and the introduction of investors to an existing business, respectively.
-
-The consideration given to an investor in return for investment is effectively the cost of the investment to the pre-investment venture principals. Financing is categorized based on the consideration given to the investor. For example:
-- **Debt financing** involves borrowing money or selling bonds, where the venture agrees to pay back the principal amount plus interest. The lender contributes money in exchange for a promise to be repaid with interest.
-- **Equity financing** involves selling equity (ownership) in the venture to the investor, who contributes money in exchange for an ownership interest.
+2. **Debt vs. Equity Financing**:  
+   - **Debt Financing**: Borrowing money or selling bonds with a promise to repay with interest.  
+   - **Equity Financing**: Selling ownership (equity) in the venture in exchange for investment.  
+   - **Example**: A company borrows $100,000 (debt) or sells 10% ownership (equity) to raise funds.
 
 ### 6.6 Equity Distribution in the Start-up Venture
 
-When a business is founded by multiple people, the equity distribution reflects the relative value of each contributor's input. If contributions are monetary, ownership percentages are based on the amount each person contributes. For nonmonetary contributions, such as intellectual property, services, or credibility, these can be compensated with equity, though the relative value of these contributions can be harder to assess.
+1. **Monetary & Nonmonetary Contributions**: Ownership percentages are based on the value of contributions—monetary or nonmonetary (e.g., intellectual property, services).  
+   - **Example**: An investor contributes $50,000 for 20% equity, while a founder contributes technology and receives 30%.
 
-Factors influencing the valuation of nonmonetary contributions include:
-- **Relevance** to the venture (e.g., the core idea or technology)
-- **Demonstrable merit** (e.g., a working prototype vs. an unproven idea)
-- **Legal protections** (e.g., patents)
-- **Expertise**, **track record**, and **network connections**
+2. **Negotiation & Valuation**: Nonmonetary contributions, such as intellectual property, are often valued based on relevance, merit, and legal protections, with negotiation playing a key role.  
+   - **Example**: A founder with a patent may negotiate for a larger equity share due to its potential value to the venture.
 
-In practice, negotiation skills often play a significant role in determining equity percentages, especially in start-ups where standard valuation techniques may not apply.
+### 6.6.1 Employee Stock Options (ESO)
 
-### 6.6.1 Employee Stock Options
-
-ESO plans are used by companies to reward employees, attract talent, and retain a motivated workforce. Employees are given the right to purchase company stock at a specific price (strike price) within a defined time frame (exercise period). When exercised, employees benefit from the difference between the market price and strike price.
+1. **ESO Plans**: Companies offer employees stock options to motivate, reward, and retain talent, giving them the right to buy company stock at a fixed price (strike price) within a specific time.  
+   - **Example**: An employee can buy stock at $10/share when the market price is $20/share, profiting from the difference.
 
 ### 6.6.2 Vesting
 
-Vesting refers to the conditions an employee must meet before being able to exercise their stock options. Typically, employees must remain with the company for a set period. A common vesting schedule might allow 25% of the options to vest after 12 months, with the remaining 75% vesting gradually over the next few years. 
+1. **Vesting Schedule**: Employees must meet conditions (e.g., length of service) before they can exercise stock options. Common schedules allow 25% of options to vest after 12 months, with the rest vesting over time.  
+   - **Example**: An employee can exercise 25% of their options after one year of service.
 
 ### 6.6.3 Restrictive Clauses
 
-ESO plans often have restrictions on stock transferability after options are exercised. These may include prohibitions on selling stock for a period, requirements to sell stock back to the company upon leaving, or right-of-first-refusal clauses if the stock is to be sold to an outside party.
+1. **Restrictions on Stock Transfer**: ESOs often include clauses that restrict stock transferability, such as a period where stocks cannot be sold or right-of-first-refusal clauses.  
+   - **Example**: A former employee may be required to sell their stock back to the company upon leaving.
 
 ### 6.6.4 Tax Issues
-
-In the U.S., there are two types of ESO plans:
-1. **Incentive Stock Options (ISOs)**: These qualify for special tax treatment. The exercise and grant are not taxable events. Taxes are deferred until the stock is sold, and if certain conditions are met, income is taxed at long-term capital gains rates.
-2. **Nonqualified Stock Options (NSOs)**: These are more common and are taxed as ordinary income when exercised. The difference between the market value and strike price is taxed as ordinary income. If the stock value decreases after exercise, the employee still pays taxes on the spread, creating potential tax anomalies.
+1. **ISOs vs. NSOs**:  
+   - **ISOs**: Qualified for special tax treatment, no taxes upon grant or exercise; taxed at long-term capital gains rates when sold.  
+   - **NSOs**: Taxed as ordinary income when exercised; any difference between market value and strike price is taxed.  
+   - **Example**: An employee with ISOs pays no taxes when the options are exercised, but pays capital gains tax when selling the stock.
 
 
 
