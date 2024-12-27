@@ -573,273 +573,236 @@ The **capital management plan** helps entrepreneurs manage external funding whil
 A well-structured **fundraising deal** outlines the terms between entrepreneurs, investors, or lenders. Entrepreneurs should maintain an updated **business plan** and understand the specific requirements for **debt** or **equity financing**. Additionally, government programs like the **SBIR** grant can provide alternative funding sources.
 
 
-# 8.3 REGULATION OF FINANCING ACTIVITIES
+# 8.3 Regulation of Financing Activities
 
-Because of past abuses, many jurisdictions stringently regulate the sale of passive investment instruments–such as stocks and bonds. In general, the regulations are imposed through what are referred to as Securities Laws. In the United States, there is regulation both at the federal level (through the U.S. Securities and Exchange Commission (SEC)), and at the state level through various analogous agencies. The federal securities laws govern all sales of securities. The term security is very broadly defined, covering, in essence, any situation that involves using someone else’s money based on the “promise of profits,” prospects of a “return” from other than the investors own efforts, or makes money subject to the entrepreneurial or managerial efforts of others. In other words, it covers not only stocks and bonds, but also other forms of investment in a venture, where the investor is not actively involved in the management of the venture.
+Due to past abuses, many jurisdictions strictly regulate the sale of passive investment instruments (like stocks and bonds) through **Securities Laws**. In the U.S., these regulations are enforced at both federal and state levels. The **U.S. Securities and Exchange Commission (SEC)** is the primary body at the federal level. Securities laws apply to any situation where someone uses another person's money based on a "promise of profits" or returns that depend on someone else's efforts (not the investor's own efforts). 
 
-## KEY POINT
+For example, if a company offers **shares of stock** to investors, the investors expect to profit based on the company's future success, not their own efforts, making it a security under U.S. law.
+
+## Key Point
 **Not All Equity Interests Are Securities**  
-One of the reasons for the popularity of the Limited Liability Company (LLC) form of entity for startups is that it provides limited liability, while at the same time, without necessarily implicating the securities laws. Equity interests in an LLC are typically not securities, so long as all members are actively involved in the management of the venture. General Partnership interests are likewise outside of the definition of security, but do not provide limited liability. Corporate stock, however, even if sold to management, are expressly defined as Securities under U.S. Federal law.
+Equity interests in **Limited Liability Companies (LLCs)** are generally not considered securities if all members are actively involved in the management of the venture. For example, if an LLC is formed to develop a software product and all investors play an active role in decision-making, the investment may not be classified as a security. 
 
-Any time fundraising activities involve the sale of a security, certain rules relating to the disclosure of information must be observed. You are required to make “full disclosure” to the potential investor of all “material facts.” Information is a “material fact” if it is something that investors would typically want to consider before making the decision to purchase the security.
+In contrast, **corporate stock** is defined as a security under U.S. law, even if sold to management. For instance, if a startup offers shares of stock to its employees or early investors, those shares are considered securities.
 
-And, unless the activities fall within very specific exemptions, not only must disclosure be complete and accurate, but the security (or transaction involving the security) must be registered with the SEC (and sometimes also with analogous state agencies) and written information must be provided to prospective investors in a specific format (a prospectus in a prescribed form) that has been “deemed effective” by the SEC. Transactions that fall within the specific exemptions are referred to as “private placements,” and those that do not are referred to as “public offerings.” The first time that a venture makes a public offering is referred to as an “Initial Public Offering” (IPO). The registration process is sometimes referred to as “going public.”
+When raising capital through the sale of securities, **full disclosure** of all **material facts** (important information that an investor would need to know) is required. In most cases, the securities must be **registered** with the SEC and possibly with state agencies, unless they fall under specific exemptions. Securities offerings can be either **private placements** (exempt from registration) or **public offerings** (requiring full registration).
 
-The registration process tends to be very expensive, and once “public” a venture is required to maintain certain internal audit controls, and publicly disclose certain information relating to business operations, financial conditions and management. The administrative burden on Public companies imposed by the securities laws and the costs of compliance is significant. The IPO has historically been a favored exit strategy (liquidity event) for certain types of investors. In view of the cost under present-day regulation, the IPO has become much less popular. In any event, “going public” is generally not a viable option for startups; if for no other reason, at least two years of audited financials are required for registration.
+**Initial Public Offering (IPO)**: The first public offering of a venture's shares, which involves extensive registration and high costs. For example, **Facebook's IPO in 2012** required the company to disclose detailed financials and undergo a lengthy approval process with the SEC. The IPO has become less common due to its high expenses and administrative burdens, especially for startups.
 
-It is desirable (if not imperative), as a general proposition, that efforts to raise capital for startup technology ventures fall under one of the exemptions to the registration requirements in all applicable jurisdictions (e.g., in the US both at federal and state levels). Exemptions under the federal law are defined by regulations promulgated by the SEC. In general, the respective exemptions have different criteria, and apply under different circumstances. In general, in order to qualify for the various exemptions the venture and offering must meet (depending upon the particular exemption):
+It is often preferable for tech startups to raise capital under **exemptions** to avoid the registration process. These exemptions include:
 
-- Limitations on the dollar amount of the offering (or other offerings within a predetermined time period);
-- Limitations on the number and nature of the entities to which the security can be offered;
-- Restrictions on the types of entities offering the securities (issuers) to which the exemption is available;
-- Restrictions on general solicitation or advertising;
-- Requirements as to the nature of the disclosure that must be made and/or documents provided to the offerees;
-- Requirements as to the nature of filing with the SEC; and
-- Requirements for restrictions on stock transfer.
+- **Dollar limits** on offerings (e.g., a small offering under $5 million might be exempt).
+- **Limitations** on who can invest (e.g., **accredited investors**).
+- **Restrictions** on advertising or solicitation (e.g., offerings that cannot be publicly advertised).
+- **Specific disclosure** requirements (e.g., a **Private Placement Memorandum** must be provided to investors).
 
-Some federal exemptions provide relief from (preempt) state registration requirements, others expressly require that state exemption criteria be met.
+An **accredited investor** is defined as someone with a **net worth** over $1 million (excluding their home) or with annual **income** over $200,000 ($300,000 for a couple). For example, an investor who has $2 million in assets (excluding their house) or earns $250,000 annually would be considered accredited. A **sophisticated investor** has enough knowledge to assess the risks of the investment. For example, a venture capitalist with years of experience evaluating tech startups would likely be considered a sophisticated investor.
 
-The securities laws draw distinctions based upon the wealth and sophistication of the entities to which the security can be offered. **Accredited investors** are defined as (in addition to various institutions such as banks, investment companies, retirement plans, and the like) individuals whose net worth at the time that the securities were purchased (individually or jointly with spouse) exceeds $1 million (exclusive of primary residence), or whose individual net income was over $200,000 (or $300,000 jointly with spouse) for each of the two years prior to the purchase, and reasonably expects the same income level in the current year. A “sophisticated investor” is someone who has, or is represented by someone (a "purchaser representative") who has, (or you reasonably believe to have) “such knowledge and experience in financial and business matters that he is capable of evaluating the merits and risks of the prospective investment.”
+### Common Exemptions
+1. **Reg D Exemption**: A private offering to accredited investors without advertising. For example, a software startup seeking $1 million from 10 accredited investors could use this exemption to avoid registration.
+2. **Reg A Exemption**: A mini-registration for small offerings (up to $50 million). This exemption allows a company to raise funds from both accredited and non-accredited investors. For example, a small renewable energy company might use Reg A to raise $25 million for a new project.
+3. **State-Specific Exemptions**: Some states have their own rules for exempt offerings. For instance, **California's securities laws** may provide additional exemptions for local tech startups raising small amounts of capital.
 
-A small offering (no more than $5 million) is exempted from Federal registration requirements if it is private (no advertisements or general solicitations) and made strictly to accredited investors. Various other exemptions have limitations on participation of non-accredited investors, and specific disclosure requirements in respect of non-accredited investors.
+### JOBS Act (2012)
+The **JOBS Act** encourages investment in startups by allowing:
+- More shareholders before registration is required. For example, a startup can have up to 2,000 shareholders before it must register with the SEC.
+- Small companies to advertise offerings via crowdfunding platforms. For example, a startup could raise funds through **Kickstarter** or **Indiegogo**, where people contribute money in exchange for rewards, without needing to follow full SEC registration rules.
+- **Emerging growth companies** to be exempt from some disclosure requirements. This provision mainly applies to small companies, allowing them to avoid some costly compliance rules.
+- Larger fundraisers under **Reg A**, up to $50 million (increased from its previous limit of $5 million). For example, a clean-tech startup might use this rule to raise up to $50 million to develop a new solar energy product.
 
-There is also a general “private placement” exemption for private offerings, although the precise requirements to qualify for the exemption are not specified in the statute. Private placement “safe harbors” are, however, specifically defined by what is known as Reg D, “Rules Governing the Limited Offer and Sale of Securities without Registration under the Securities Act of 1933.” Reg D actually defines a number of different exemptions, with different criteria/limitations according to, e.g., maximum size of the offering permitted; participation of non-accredited investors; general solicitation/advertising; and/or applicability of state regulations to the offering.
+### Mini-Case: Pebble Smartwatch Raises $10M on Kickstarter
+**Pebble**, a smartwatch company, raised over $10 million on **Kickstarter**. Initially aiming for $100,000, Pebble attracted nearly 70,000 backers with rewards like exclusive newsletters, early deliveries, and different models of the smartwatch. This campaign is an example of how **crowdfunding** platforms enable startups to raise significant capital without the need to adhere to complex securities regulations.
 
-Other exemptions are provided based on (along with specified criteria and limitations): filing what is effectively a mini-registration (Reg A exemption); strictly intra-state offerings; and offerings strictly outside of the US.
+For example:
+- **Backers contributing $1 or more** received exclusive updates about Pebble.
+- **Backers contributing $99-$220** received various models of the Pebble watch.
+- **Backers contributing $235 or more** received early prototypes as well as final models after production.
 
-In 2013, the SEC proposed to revise its rules according to the Jumpstart Our Business Startups or JOBS Act that was passed in 2012. This Act was intended to encourage private investment in small startups, and to open the door to funding that otherwise might be closed for many startup ventures. Some of the principle proposed changes that are consequences of this Act include:
+### Private Placement Memorandum (PPM)
+A **Private Placement Memorandum (PPM)** is required for non-public offerings, providing detailed information to investors about the business, products, financials, and risks. It goes beyond a business plan by highlighting potential risks (e.g., market failure, patent rejection, or inability to raise future capital). For example, a startup offering shares in exchange for investment might include risks such as:
+- **Patent filings being rejected** by the patent office.
+- **Market misjudgment**, such as underestimating consumer demand.
+- **Inability to raise additional capital** to scale the business.
 
-- Increasing the number of shareholders a company may have before being required to register with the SEC;
-- Exemption for small companies from the rules prohibiting public offering of equity shares. This provision would enable small companies to publicize a stock offering, including making use of publicly available online crowdfunding portals that link small offerings with people. Portals that offer non-equity “investing” at the time this book is going to press include Kickstarter, CrowdCube, Seedrs, CrowdCheck, CircleUp and others.
-- Relief from some regulatory requirements for companies designated as emerging growth companies. This provision primarily exempts such companies from some of the disclosure requirements that were enacted following corporate scandals of the early 2000’s.
-- Allowing larger fundraising under the SEC’s Regulation A of up to $50 million (increased from its previous limit of $5 million).
-
-The JOBS Act went into effect in late 2013 and will most certainly provide more opportunities for growing technology ventures to generate visibility for their fundraising efforts if some of the key provisions that it intends are passed by the U.S. Congress. It will be interesting to see how crowdfunding and the ability to publicly solicit investment opportunities will affect fundraisers and investors. The Mini-Case below provides an example of a technology entrepreneur who was able to launch his venture based on a successful Kickstarter crowdfunding campaign:
-
-### MINI-CASE  
-**Pebble E-Paper Smartwatch Raises $10M on Kickstarter**  
-One of Kickstarter’s most successful fundraising campaigns was engineered by the founders of the Pebble smartwatch. The Pebble watch is designed to connect to Android or iOS smartphones via Bluetooth technology. For example, the watch can alert users about incoming calls via a silent vibration. The Pebble smartwatch also can download apps of its own turning it into, for example, a bike computer that displays speed, distance, and pace. The use of an “e-paper” display permits you to read the Pebble watch output even in direct sunlight. Users can customize their Pebble smartwatch with colored wristbands and apps unique to their lifestyles. Currently available apps are as diverse as a range finder for golf enthusiasts to apps that let users customize the watch face to their individual taste.
-
-Initially intending to raise just $100,000, Pebble’s Kickstarter campaign garnered nearly 70,000 contributors who contributed over $10M! Pebble offered a variety of non-equity items in return for contributions of various amounts, e.g., a subscription to an exclusive newsletter "on all things pebble" for contributions of $1 or more; various models of the pebble watch for contributions running up from $99 – $220 or more; or early delivery of a prototype smartwatch, plus later delivery of a production model for contributions of $235 or more.
-
-Source: Adapted from Victor Marks, “Pebble E-Paper Watch for iPhone and Android: Review,” ABlogtoWatch.com, September 28, 2013; Chris Morris, “Kickstarter’s 10 Biggest Success Stories,” CNBC.com, August 20, 2012.
-
-Even if exempted from registration, the full disclosure requirements are applicable to all securities offerings. The full disclosure to investors required by the securities laws for other than public offerings is typically provided through a document referred to as a **Private Placement Memorandum (PPM)**.
-
-The PPM resembles a business plan in that it will describe the business, including its products and services, management team, financial projections, competitors, and the target market. In addition, the PPM goes far beyond the business plan in providing the investor with disclosure of the risks associated with an investment in the venture. Risks discussed in the PPM might include the potential for patent filings to be rejected by the patent office, misjudgment of the market potential of the venture’s products and services, inability to raise sufficient capital in the future to operate, and many other contingencies. In general, technology entrepreneurs should involve legal counsel in preparing any PPM.
-
+Legal counsel should be involved in preparing the PPM to ensure that all legal requirements are met and that investors are fully informed about the risks involved.
 
 
 ## 8.3.1 Costs of Equity Financing
 
-The costs associated with conducting a traditional private equity offering (e.g., an offering not using the new crowdfunding approach) are usually greater than applying for and receiving an equivalent amount of debt. The greater costs involved in a traditional equity offering are part of the technology entrepreneur’s deliberations when deciding on the type of financing to pursue. Of even greater influence on this decision is the degree to which equity financing will dilute the ownership positions of the existing shareholders. Anytime a venture sells shares to raise capital, the ownership positions of the existing shareholders will be affected. The degree to which dilution occurs is a function of the venture’s valuation at the time of the financing.
+- **Equity financing** (selling shares) is generally more expensive than debt financing (loans).
+- **Dilution** occurs when new shares are sold, reducing the ownership percentage of existing shareholders.
+- **Pre-money valuation**: The company’s value before raising new capital.
+- **Post-money valuation**: The company’s value after raising capital (pre-money + amount raised).
 
-A discussion of methods for determining a venture’s valuation will follow later. However, here we will simply note the effects of different valuation levels on venture ownership. Suppose two individuals launch a technology venture, and they decide to split ownership equally between them, with each now owning 50 percent of the company. They have invested their own funds to launch the venture, and so they have no other shareholders. Now, suppose they have developed their technology past the prototype stage and have received positive feedback from test markets. These two entrepreneurs are ready to expand the company, but they need capital to pursue that end. They decide that they will need to raise $1 million. What effect will that amount of capital raised have on their respective ownership positions?
+### Example:
+- **Pre-money valuation**: $2M, **Amount raised**: $1M
+- **Post-money valuation**: $3M (pre-money + raised capital).
+- Investors now own **1/3** of the company ($1M / $3M).
+- **Alice** and **Bob** each own **33.3%**, down from 50%.
 
-The answer is: “It depends.” It depends on their ability to persuade investors regarding the value of the venture. Let’s assume the two entrepreneurs convince each other that their company—today, before they’ve raised any money—is worth $2 million. In the language of deal making, this is referred to as the pre-money valuation of the venture. That is to say, the pre-money valuation is what the venture, arguably, is worth prior to any new money coming in. There are a number of factors to consider in establishing the value of a private company, but we will put off that discussion until later. For now, let’s assume that the $2 million pre-money valuation is reasonable, and that the two owners are able to persuade potential investors that this is a reasonable valuation of the company. At that valuation, each owner’s 50 percent stake in the company is worth $1 million (50 percent of $2 million).
-
-If the technology entrepreneurs are successful in raising the $1 million, the venture would have a post-money valuation of $3 million. Note the post-money valuation is simply the pre-money valuation plus the amount raised. What is the dilutive effect of this raise to the two original shareholders? It’s plain to see that the investors (regardless of how many) who put in the $1 million will own 1/3 of a venture that has a post-money valuation of $3 million. The two entrepreneurs, who previously owned 50 percent each, have been diluted by 1/6 apiece to a stake of 33.3 percent, respectively. Together, they maintain a controlling interest, 67 percent, in the company, but they have been diluted. Note, however, that despite the dilution in the percentage of their ownership, the dollar value of their shares remains $1 million (i.e., 1/3 of $3 million).
+- **Dilution effect**: Alice and Bob’s ownership decreases, but the dollar value of their shares stays the same ($1M each).
 
 ## 8.3.2 Sources of Equity Financing
 
-The technology entrepreneur can pick from a wide range of sources for equity financing that will vary depending on the venture’s stage of development. All ventures can be described by virtue of their development stage, which in itself conveys useful information to lenders and investors, enabling them to sort through the deals they encounter. A common breakdown of the various stages of development is presented in Exhibit 8.1.
+Equity financing sources vary based on the **venture's stage of development**. Each stage provides insight into the potential risks and rewards for investors.
 
-In the seed stage, most ventures are funded by the founders, and anyone else they can convince of the potential for their success. For most technology ventures in seed stage, this broader group of potential investors is limited to what is often referred to as “FF&F”—which stands for “friends, family, and fools.” This little memory device is only partly facetious. Scholarly research has demonstrated that most pre-startup technology ventures are funded by the entrepreneur, family members, friends, and business partners. The other “F”—fools—is used primarily as a reminder that startup ventures are very risky investments.
-
-Seed stage ventures, especially those that have not yet begun generating revenue from sales, are at a very high risk of failure. Because of this, investors and lenders have little incentive to put their capital to work at this stage. Research into the sources of funds for seed stage ventures is very clear. In most cases, funds are derived from the assets of the founders. The good news is that most entrepreneurial ventures are launched with less than $20,000 in seed funds. The founders may tap into their personal savings, leverage a line of credit on a credit card, take out a home equity loan, and adopt other strategies to accumulate the needed startup funds.
+### Seed Stage
+- **Funding Sources**: Primarily from **founders**, **family**, **friends**, and sometimes **business partners**.
+- Often referred to as "FF&F" (Friends, Family, and Fools).
+- The venture is usually **high-risk** with no revenue yet.
+- Common funding methods include personal savings, credit cards, or home equity loans.
+- Most seed-stage ventures are launched with **less than $20,000**.
 
 ## 8.3.3 Angel Financing
+- Available during the **early stage** of a venture when the product is beyond the prototype stage and entering the market.
+- **Angel investors** are **high-net-worth individuals** who invest in high-risk ventures.
+- **Angel investment** in the U.S. amounted to nearly **$23 billion** in 2012.
+- **Angel groups**: Over **350 groups** in the U.S. and Canada, concentrated in larger cities.
+  - Example: **Arizona Technology Investor Forum (ATIF)** focuses on tech ventures.
+  - Angels invest **$150,000 to $500,000** per deal, though some invest higher amounts.
+- Angel investors often **act alone**, but may aggregate in **groups** for larger investments.
+- **Finding angel investors**: Entrepreneurs can network at **golf clubs**, **charity events**, and **entrepreneurship events** or seek referrals from other entrepreneurs.
 
-As technology ventures launch and enter what is referred to as the early stage, most continue to be funded by founders and their network of family and friends. However, if the venture has matured beyond the prototyping stage and is preparing to, or actually beginning to, sell into the target market, then angel financing may be available.
-
-Angel investors are high net worth individuals who are interested in allocating a portion of their overall portfolio to high-risk and, potentially, high-return private ventures. Angel investing has become a significant source of capital for seed and early stage technology ventures in the United States. Angel investors provided nearly $23 billion in financing in 2012. They often act alone, investing both their own and their family’s wealth. However, many angels aggregate in groups to review and discuss deals, and to co-invest with others in order to have a larger impact on the ventures they prefer.
-
-According to the Angel Capital Association, there are more than 350 angel investor groups throughout the United States and Canada. In the United States, most angel groups are concentrated on the East and West coasts. However, each state has at least several angel investing groups, primarily concentrated in the larger cities. For example, there are three angel investor groups in the state of Arizona, one of which is based in Phoenix and focuses exclusively on technology ventures. The Arizona Technology Investor Forum (ATIF) is an angel investor group that meets several times per year and reviews three or four ventures at each meeting. Meeting formats are fairly standard across angel groups. Entrepreneurs generally are allotted time for a brief (20–30 minute) presentation, which is usually followed by 15–20 minutes of question and answer. Some groups also perform extensive due diligence on the ventures that present. For groups that provide due diligence for members, the findings of the individual or team that performed the due diligence are also reported at the meeting.
-
-Few angel groups specialize in any single industry, and most have interests and expertise among their members in a variety of areas. Angel groups mainly invest in the range of $150,000 to $500,000 per deal. However, some groups can go higher than that. In 2012, there were more than 250,000 active angel investors in the United States, but only 15,000 of them were members of angel groups. Thus, most angel investors are independent of angel groups. Determined technology entrepreneurs need to find these non-affiliated angels to provide the highest probability of acquiring necessary funding. Of course, given our definition of angels as high-net worth individuals (more than $1M in net worth), there are some obvious places they might be found: golf clubs, charity events, and entrepreneurship networking events are three locations that seem likely. Another good technique for finding these unaffiliated angels is to talk to other entrepreneurs. They may have some leads to angel investors and may be able to assist with an introduction.
 
 
 ## 8.3.4 Venture Capital
 
-For the technology venture that receives angel capital, the challenge becomes growing the venture. Ideally, the technology entrepreneur wants to grow the venture, increasing the enterprise value, which would result in a return on investment for the angel investors. If the growth is substantial and future growth projections even greater, then the technology venture may become attractive to venture capital.
-
-Venture capital is managed by venture capital (VC) firms. VC firms are typically structured around a team of general partners who often are successful entrepreneurs, or, at least, financially experienced individuals. VC firms raise money from high net worth individuals and financial institutions (such as insurance companies, pension funds, and the like) who are considered to be limited partners to the VC firm. These individuals pledge an amount of capital to the VC firm, and are required to put as much as 20 percent of it immediately into a fund that will be managed by the general partners. This capital is then invested in ventures according to the interests and expertise of the firm. As the fund is invested over time, the limited partners will be called upon to invest additional portions of their pledged amount. The typical VC firm structure is illustrated in Exhibit 8.2.
-
-Most venture capital firms have specific industries and venture types that they prefer. For example, one of the top venture capital firms in Silicon Valley, Benchmark Capital, invests primarily in high-growth Internet companies. The firm has invested in a wide range of well-known Internet ventures.
-
-Once the VC firm receives a return from its investment, the VC must return the capital back to its investors based on the economic terms in the limited partnership agreement (LPA). Before a VC firm can receive any of the capital, it must return the original principal in its entirety to the limited partner investors plus any guaranteed return that was agreed upon in the LPA. The VC firm and the limited partners split the net profit, which is the capital that remains after the principal and the guaranteed return are returned to the limited partners.
-
-Below is an example of how the gains are split between the VC firm and the limited partners with an investment of $100.
-
-- **Principal investment in VC firm**: $100
-- **Guaranteed return to Limited Partners**: 8%
-- **Split of carried interest to VC**: 20%
-- **Split of carried interest to Limited Partners**: 80%
-
-Assume a $300 return from this $100 investment. The steps to this transaction are:
-
-1. VC firm receives $100 from its limited partners to invest in startups.
-2. VC firm takes this capital and invests $98 into various startups (2% is management fee).
-3. Startups use this capital to grow their business. They later sell the business and provide a return of $300 to the VC firm.
-4. VC firm takes the $300 and returns the original principal of $100 to the Limited Partners plus the required return of $8 (8% on the original $100).
-5. Net Profit of $192 is left after returning $108 to limited partners ($300 - $108).
-6. Net Profit is split 20% to VC Firm ($38 = 20% of $192) and 80% to Limited Partners ($154 = 80% of $192).
-
-In summary, the limited partners receive a total of $262 getting their principal back, their required return, and a percentage of the net profit. The VC firm receives $38, a percentage of the net profit that is referred to as carried interest. The typical compensation model for a VC firm is referred to as "2 and 20". That is, 2% of the committed capital is used for the management fee and 20% of the fund’s net profits is used as carried interest. Exhibit 8.3 illustrates this set of transactions.
-
-## 8.3.5 What do Venture Capital Firms Look For?
-
-Venture capital firms look for many specifics in technology ventures when deciding whether to make an investment. First and foremost, they seek out experience and talent in the management team. Venture capitalists often state that they invest in the management team, not the technology. This is because no technology, no matter how revolutionary or disruptive, can be commercialized successfully without a solid management team. In addition, experienced VCs know that most technologies they invest in will change radically over time in response to changing market reactions and conditions. It is important to recognize that, when VCs evaluate the management team, they do not require that the team be devoid of past venture failures. In fact, most VCs recognize the contingent nature of venture success and do not automatically consider a past failure in a negative light.
-
-Another primary area of consideration for VCs is the market potential for the technology. The VC wants to know if the venture is “market ready”, and they will attempt to forecast the likely marketplace demand. This will include forecasting the willingness of the customer to switch to the venture’s products based on the venture’s stated value proposition. It will also include an analysis of the size of the market opportunity. Obviously, the VC will be more interested in large market opportunities than small ones.
-
-Another item that VCs commonly consider to be important is the time to an exit event or liquidity event. An exit event is the manner in which shareholders can convert their stock into cash (see Chapter 13 for a thorough discussion of exit strategies). This is usually achieved via acquisition by a larger company, or by going public on a major stock exchange. Either way, the capital invested by the VC is tied up until this event occurs.
-
-In general, VCs are more risk averse than the founders of a technology venture seeking capital. In their respective evaluations of the investor readiness of the venture, the founders generally will have a more favorable perspective. VCs will evaluate a venture from both a risk and return perspective. Risk and return are evaluated in terms of the risk of venture failure and potential profitability.
-
-The technology entrepreneur tends to have a strong interest in innovation, and will often discount the factors that VCs find important. Most technology entrepreneurs place a higher importance on the technological aspects of the opportunity and consider the management team and marketability to be of lesser importance. In fact, research has identified certain cognitive biases, such as “overconfidence”, that are common among technology entrepreneurs. Recognizing these biases is an important part of raising VC funds. The entrepreneur who does not recognize the factors that VCs consider important may not receive an adequate hearing. On the other hand, the technology entrepreneur who tailors the VC presentation to address the issues they are most concerned with enhances his or her chances of receiving funds.
-
-
-## 8.4 DEBT FINANCING
-
-Debt financing is normally provided to technology ventures via an institutional lender, such as a bank. However, this may not always be the case. Some entrepreneurs structure deals where they take loans from private parties. While this is not a common practice, some estimates indicate that as many as 10 million people in the United States have accepted private loans from people they know. Borrowing from family and friends can provide easier terms than an institutional lender, including a longer repayment period and a lower interest rate. However, borrowing from family and friends has some risks that are dissimilar from institutional lenders. For example, if the entrepreneur does not repay the loan within a reasonable amount of time, the trust of the family and/or friend lenders could be lost. Worse, if the entrepreneur defaults on repaying the loan, relationships may become strained, family ties could be severed, and lawsuits could be filed.
-
-It is important to carefully document the terms of the business loan between friends and relatives who lend money to a venture. This can help ensure that these individuals are less apprehensive about how their money is being used. It can also prevent messy or awkward situations in the event the venture has difficulties living up to the loan covenants. If details regarding remedies for late payments and even for complete default are discussed and agreed to in advance, the impact of such eventualities can be lessened.
-
-### 8.4.1 Institutional Lender Requirements
-
-Institutional lenders, such as banks, can be a source of financing for young technology ventures. However, banks will require more documentation than friends and family normally require; they will also require that the venture be able to secure the loan by pledging an equivalent amount of collateral. That is, most institutional lenders reduce the risk of their loans by gaining a security interest in property owned by the borrower that is adjudged to be equivalent in value to the loan principal amount. Collateral can be any property owned by the borrower, including personal property.
-
-It is also not uncommon for technology entrepreneurs to provide—or to be required to provide—a personal guarantee on the amount of the loan. That is done when the venture has few assets to use as collateral, but the entrepreneur has personal assets that will suffice. For example, some entrepreneurs will use their personal savings, home equity, or real estate as collateral for loans from a bank for business purposes. In the case of default, the bank would then be able to exercise its claim on the collateral in an effort to recover whatever portion of the loan remains unpaid.
-
-### 8.4.2 Loan Rates, Payment Methods, and Lender Types
-
-In addition to pledging collateral in the amount of the loan’s principal, institutional lenders normally require that the entrepreneur begin to pay back the loan immediately, with an added interest charge. Payments on a loan are typically made in monthly increments. The rate of interest charged to a small technology startup for a loan will exceed the rate charged to large, well-established, companies. The latter receive preferential rates from banks—usually called the prime rate—because they are less risky borrowers than a startup venture. Startup ventures will receive a rate that is termed prime plus. That is, the rate will be some measure above the prime rate depending on the risk profile of the venture and, to some extent, its principals and the collateral they are able to pledge.
-
-Most banks will have a similar prime rate, but they will vary significantly from one to another in the rates they charge to entrepreneur borrowers. For example, some banks specialize in originating real estate or construction loans. They will typically have loan officers who are familiar with the industry and will have experience in judging the risks involved in lending to this type of venture. A bank that specializes in real estate lending may not be able to evaluate the risk involved in lending to a technology startup. It’s important for the technology entrepreneur to conduct research prior to approaching a lender to determine whether it is capable of understanding the nature of the venture and its risks. Silicon Valley Bank, for example, specializes in loans to technology ventures.
-
-Loans made by institutions also require payback to occur over a certain period of time referred to as the term of the loan. Short-term loans will carry slightly lower interest rates than long-term loans, but they will also require larger monthly payments. Long-term loans are generally considered to be those that have a term of 10 years or greater. Different lenders use different methods to calculate loan repayment schedules depending on their needs, borrowers’ needs, the institution’s interest rate policy, the length of the loan, and the purpose of the borrowed money. Normally, business loans are paid back on a monthly schedule in equal payments throughout the term of the loan.
-
-Institutional lenders will also usually require that the startup venture adhere to certain restrictive covenants in order to remain in good standing on the loan. Restrictive covenants enable the lender to maintain some control of the venture by specifying performance targets. In the event these performance targets are missed, the lender would have the option to call the loan. That is, it can demand complete payment of the outstanding principal before the term of the loan is completed. Restrictive covenants are of two types: positive and negative. Positive covenants specify performance targets that must be attained in order for the borrower to remain in good standing. For example, a bank and borrower may agree to establish positive covenants targeting total sales, cash flow, profitability, or others. Negative covenants establish performance floors below which the venture may not fall in order to remain in good standing. For example, the bank and the borrower may agree that the venture may not fall below target figures in sales, cash flow, the ratio of debt to equity capital in the venture, and others.
-
-Restrictive covenants are usually determined through negotiations between the lender and the borrower, but many lenders have lending guidelines that establish in advance the covenants that they must put into any lending agreement. Technology entrepreneurs must be aware of the covenants that banks require, and determine whether they will impede the venture’s ability to succeed. For example, many businesses are subject to fluctuations in sales based on business cycles and other factors. A restrictive covenant that did not account for these sales fluctuations may result in an unnecessarily premature decision by the lender to call the loan. In a time of decreased sales, such an action could be fatal to the startup venture.
-
-Another type of loan facility that is exceedingly useful to the startup venture is the line of credit or revolving loan. A line of credit is simply a pool of money that is set aside by a lender for a business to use as needed. The borrower can draw down the line of credit for business expenses without having to fill out a loan application each time funds are required. This saves the lender and the borrower a lot of time. Lenders provide lines of credit using the same risk calculations as any other loan, and they will also usually require collateral in the amount of the credit line. Borrowers benefit from a line of credit in that they only need to pay back the amount withdrawn, and pay interest only on the withdrawn capital. In addition to the interest collected, most banks will charge an annual maintenance fee to provide a line of credit to a company.
-
-### 8.4.3 Small Business Administration (SBA) Loans
-
-Another type of loan commonly used by technology startups is the Small Business Administration Loan. The name of this loan type is confusing to some. The Small Business Administration (SBA) is an agency of the United States federal government. However, the SBA does not originate the loan made to the venture. A technology entrepreneur who wants to secure an SBA loan must do so through a commercial bank that provides such loans. The bank originates the loan, and the SBA guarantees payment on the loan up to a predefined percentage of the principal amount. In this way, the SBA provides a form of collateral and takes a good deal of risk out of the loan for the bank.
-
-While the SBA provides a credible and useful debt facility for many entrepreneurs, an SBA loan also has significant disadvantages. SBA loans generally require more documentation and disclosure on the part of the small business than does a traditional loan. SBA loans also frequently have higher interest rates than would a loan provided directly by a commercial lender. Still, there are many advantages to getting an SBA loan, not the least of which is the fact that many startup ventures have no other options. The SBA has more loan programs than the primary ones listed above, including some that are designed specifically to support minority and women-owned enterprises.
-
-## 8.5 FUNDRAISING TOOLS AND TECHNIQUES
-
-Fundraising for a technology venture is never a sure thing, but there are some tools and techniques that can improve the odds of acquiring needed capital. One of the primary tools of fundraising is the business plan. It is rarely possible to raise money outside of the friends and family network without a business plan. Angel investors will almost always ask to see the venture’s business plan before investing. Venture capitalists and institutional lenders will always require a business plan. Entrepreneurs should develop and maintain a business plan at all times because most startup ventures are in near-constant fundraising mode. A good business plan will describe the venture and its technologies in terms the investor or lender can understand and evaluate.
-
-Another tool that should be part of the technology entrepreneur’s fundraising arsenal is the executive summary. The executive summary is an abridged version of the business plan, normally condensed down to a single page.
-
-### 8.5.1 Private Placement Memorandum
-
-Private equity fundraising requires that the venture prepare what is referred to as a private placement memorandum (PPM). The PPM is a legal document that specifies all the risks associated with investing in the venture, including the potential for complete loss of all invested capital. The PPM also specifies the amount of capital that is to be raised, the type of security being offered, and the rights and privileges associated with investing. 
-
-Most early stage fundraising will divide the amount to be raised into investment units. For example, if a venture is raising $500,000 and selling its stock for $1.00/share, it does not want 500,000 individuals each purchasing one share. That would be an administrative nightmare. Instead, the venture would sell the $1.00/share stock in units of, say, $25,000. That means that anyone interested in investing would need to purchase at least one unit.
-
-In addition to stating the amount that is going to be raised, the PPM will often specify the minimum amount that needs to be raised in order for the venture to be able to use the funds. This is often referred to as the min/max. This concept can be understood most clearly from the perspective of the investor. If an investor puts money into a venture, he or she wants to be sure that the venture has a fair chance of success. However, if the venture raises only a small portion of what it needs, it may fail. The min/max specifies the minimum amount of money that is required for the venture to have a fair chance to succeed. The venture does not use any of the funds it raises until it achieves the minimum amount. Funds raised prior to reaching the minimum are held in trust in a bank account. Once the minimum has been raised, the venture is allowed to break the bank and begin to use the invested capital.
-
-### 8.5.2 Subscription Agreement
-
-The final document to include in equity fundraising is the subscription agreement. A subscription agreement is a document that a potential investor signs, indicating an intent to invest at a certain amount. Even though a subscription document is not considered to be binding on the potential investor, it creates a psychological commitment on the part of the investor. For example, imagine that a technology entrepreneur completes a lengthy presentation to an angel investor in their office. The investor indicates an interest, but would prefer to look over the business plan and PPM before making a decision. If the entrepreneur walks out of the office with no signed commitment, the potential investor may not be interested enough to continue thinking about the deal. It is far more influential to have a signed agreement when conducting follow up conversations, including the penultimate conversation where the entrepreneur asks for the check, than it is merely to have a promise.
-
-
-### 8.6 ALTERNATIVES TO DEBT AND EQUITY FINANCING
-
-While the primary sources of capital for the startup venture are the sources of debt and equity discussed above, there are alternatives. Many technology ventures are able to get started and fund operations using government grants as their primary revenue source. Next, we look at two government grant programs available to the technology venture, and also at bootstrap financing, which relies on internal cash only to grow the venture.
-
-#### 8.6.1 Small Business Innovation Research (SBIR)
-
-One particular type of government grant that is commonly used by technology ventures is the Small Business Innovation Research (SBIR) program. The U.S. Small Business Administration’s Office of Technology administers the SBIR program. SBIR is a competitive program that encourages small businesses to explore their technological potential and provides the incentive to profit from its commercialization. Since its enactment in 1982, and as part of the Small Business Innovation Development Act, SBIR has helped thousands of small businesses to compete for federal research and development awards. Small businesses must meet certain eligibility criteria to participate in the SBIR program:
-
-- American-owned and independently operated
-- For-profit
-- Principal researcher employed by business
-- Company size limited to 500 employees
-
-Each year, eleven federal departments and agencies are required by SBIR to reserve a portion of their R&D funds for award to small business investments, including:
-
-- Department of Agriculture
-- Department of Commerce
-- Department of Defense
-- Department of Education
-- Department of Energy
-- Department of Health and Human Services
-- Department of Homeland Security
-- Department of Transportation
-- Environmental Protection Agency
-- National Aeronautics and Space Administration
-- National Science Foundation
-
-These agencies designate R&D topics and accept proposals. Following submission of proposals, agencies make SBIR awards based on small business qualification, degree of innovation, technical merit, and future market potential. Small businesses that receive awards then begin a three-phase program.
-
-- **Phase I** is the startup phase. Awards of up to $100,000 for approximately six months support exploration of the technical merit or feasibility of an idea or technology.
-- **Phase II** awards of up to $750,000, for as many as 2 years, expand Phase I results. During this time, the R&D work is performed and the developer evaluates commercialization potential. Only Phase I award winners are considered for Phase II.
-- **Phase III** is the period during which Phase II innovation moves from the laboratory into the marketplace. No SBIR funds support this phase. The small business must find funding in the private sector or other non-SBIR federal agency funding.
-
-#### 8.6.2 Small Business Technology Transfer (STTR)
-
-Another grant program offered by the SBA is the Small Business Technology Transfer Program (STTR). Central to this program is expansion of the public/private sector partnership to include joint venture opportunities for small business and nonprofit research institutions. The STTR program reserves a specific percentage of federal R&D funding to offer awards to small business and nonprofit research institution partners. The STTR program combines the strengths of both entities by introducing entrepreneurial skills to high-tech research efforts. The idea is that the small business partner is able to transfer from the laboratory to the marketplace the technologies and products developed within the non-profit organization. Small businesses must meet certain eligibility criteria, just like the SBIR program to participate in the STTR Program:
-
-- Must be American-owned and independently operated.
-- Must be for-profit.
-- Principal researcher does not need to be employed by small business.
-- Company size is limited to 500 employees.
-
-The nonprofit research institution partner must also meet certain eligibility criteria. It must:
-
-- Be located in the United States.
-- Meet one of three definitions.
-  - Be a nonprofit college or university.
-  - Be a domestic nonprofit research organization.
-  - Be a federally funded R&D center (FFRDC).
-
-Each year, five federal departments and agencies are required by STTR to reserve a portion of their R&D funds for awarding to small business or nonprofit research institution partnerships:
-
-- Department of Defense
-- Department of Energy
-- Department of Health and Human Services
-- National Aeronautics and Space Administration
-- National Science Foundation
-
-These agencies designate R&D topics and accept proposals. Following submission of proposals, agencies make STTR awards based on small business or nonprofit research institution qualifications, degree of innovation, and future market potential. Small businesses that receive awards then begin a three-phase program.
-
-- **Phase I** is the start-up phase. Awards of up to $100,000 for approximately one year fund the exploration of the scientific, technical, and commercial feasibility of an idea or technology.
-- **Phase II** awards of up to $750,000 for as many as two years expand Phase I results. During this period, the R&D work is performed and the developer begins to consider commercial potential. Only Phase I award winners are considered for Phase II.
-- **Phase III** is the period during which Phase II innovation moves from the laboratory into the marketplace. No STTR funds support this phase. The small business must find funding in the private sector or find other non-STTR federal agency funding.
-
-#### 8.6.3 Bootstrap Financing
-
-Another way that start-up technology ventures finance their growth is through what is often referred to as bootstrap financing. Here, the company uses its own sales and cash flows to invest in its growth. This type of internal growth is also referred to as organic growth. That is, the company grows only by virtue of its own ability to sell, control costs, and reinvest profits.
-
-Bootstrap financing has the advantage of helping the firm steer clear of the dilutive effects of equity financing and the debt burden effects of debt financing. The primary disadvantage of this type of financing is that it limits the venture’s ability to grow rapidly. That could be a major disadvantage for technology ventures in highly competitive industries where acquiring market share is the key to long-term success.
-
-#### 8.6.4 Licensing
-
-One of the tools available to technology-based companies to self-finance their growth is licensing third parties to use their technology in return for some consideration. That consideration typically takes the form of money (although it can be other things such as, e.g., access to needed resources, or a cross license to use the third party’s technology).
-
-If done strategically, licenses to third parties can be granted without diminishing the competitive advantage that your company obtains from the licensed technology. For example, the license can be limited to a particular market other than your target markets. Or, the license can be for a limited time period and also limited to a geographic region outside of the region that you can reasonably anticipate being able to service during that time period. Or, the license can be limited to sales channels that you have no reasonable capacity to service, or product lines that, for whatever reason, you have no interest in pursuing.
-
-In some instances, licensing can be a viable alternative to raising capital, and, in fact, can sometimes be the basis for a company’s business model.
-
-### 8.7 CHAPTER SUMMARY
-
-This chapter examined the sources of financing available to technology ventures throughout their lifetimes. During the early stages of the venture’s life, friends and family are the primary sources of capital beyond the founders’ own finances. As the firm begins to grow and develop sales, other avenues of financing might open. Angel financing becomes available when the firm is able to tell a more compelling story about its growth prospects, especially if it already has significant sales and well-known clients. In addition, firms that have developed collateral such as physical assets or highly regarded contracts may be eligible for debt financing. Commercial lenders, such as banks, are risk averse and lend only when there are assurances that the venture can pay back the principal with interest.
-
-Raising capital is normally never ending for technology venture entrepreneurs. Maturing ventures seeking equity capital from angel investors must prepare legal documentation and sell shares in compliance with Securities and Exchange Commission rules. This chapter examined several rules that enable raising private equity from accredited investors. The most common capital raises for growing ventures, conducted under the SEC’s Regulation D. Rules 504, 505, and 506, offer different frameworks for raising equity capital. Each rule shelters the venture from overbearing disclosure requirements that are required of public companies that sell shares to the investing public. The rules do require that ventures develop standard disclosure documents such as a private placement memorandum (PPM). The PPM will disclose all of the risks associated with investing in the venture and detail the terms of the stock offering. In addition to the PPM, technology entrepreneurs typically also provide a business plan and executive summary to interested investors when raising capital.
-
-Raising equity capital requires that the venture establish some reasonable valuation to determine ownership percentages. Valuation is an imprecise science, with several acceptable methods available. Each method is likely to produce a different valuation. Ultimately, the entrepreneur and investors negotiate a valuation they can agree to. The agreed valuation is referred to as the premoney valuation. After the investment is made, the postmoney valuation is used to calculate the relative ownership shares of founders and investors. Founders who hold stock at the time of the investment will have their ownership percentages diluted based on the amount of investment received.
-
-The chapter also discussed options to debt and equity financing, focusing on several opportunities for nonrecourse government grants. The Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are excellent sources of financing for ventures that are in the research and development stage.
-
-
+- **Venture Capital (VC)** is for high-growth tech ventures needing larger investments after angel funding.
+- **VC firms**: Managed by general partners who invest capital raised from **limited partners** (e.g., high-net-worth individuals, institutions).
+- **Investment process**:
+  - VC firms invest funds into startups, focusing on sectors they specialize in (e.g., internet companies).
+  - When profits are realized, **limited partners** receive their original investment + guaranteed return first, then profits are split.
+
+### Example:
+1. **Investment**: $100 from limited partners.
+2. **Return**: $300 from startup exit.
+3. **Return distribution**:
+   - Limited partners: Original $100 + **8% return** ($8).
+   - **Net profit**: $300 - $108 = $192.
+   - Split: 20% to VC firm ($38), 80% to limited partners ($154).
+
+- **Compensation model ("2 and 20")**:
+  - **2%** of capital: **management fee**.
+  - **20%** of net profit: **carried interest** to VC firm.
+
+## 8.3.5 What Do Venture Capital Firms Look For?
+
+- **Key factors VC firms consider**:
+  1. **Management team**: VCs invest in the team, not just the technology. Experience is critical.
+  2. **Market potential**: The venture must be "market ready" with a strong value proposition and a large market opportunity.
+  3. **Exit event**: VCs look for a clear path to exit (e.g., acquisition, IPO).
+  
+- **Risk vs. Return**: VCs are more risk-averse than founders, focusing on potential profitability and the risks of failure.
+  
+- **Entrepreneur vs. VC**: Entrepreneurs often focus more on technology, while VCs prioritize the team, market potential, and exit.
+
+## 8.4 Debt Financing
+
+- **Sources**: Debt financing comes from banks or private lenders. Private loans (family/friends) offer easier terms but higher relational risks.
+
+### 8.4.1 Institutional Lender Requirements:
+- **Banks**: Require more documentation and **collateral** (assets like personal property or home equity) to secure loans.
+- **Personal guarantee**: Entrepreneurs may need to pledge personal assets if the venture lacks collateral.
+
+### 8.4.2 Loan Rates, Payment Methods, and Lender Types:
+- **Interest rates**: Startups pay higher rates (prime +) than established firms.
+- **Repayment terms**: Loans typically require monthly payments. Short-term loans have lower interest but higher monthly payments.
+- **Lender types**: Research lenders (e.g., Silicon Valley Bank) that understand tech venture risks.
+  
+- **Restrictive covenants**: Lenders set performance targets (positive covenants) or minimum thresholds (negative covenants). Failure to meet these can trigger the loan being called.
+  
+- **Line of credit**: Flexible loan for business expenses. Borrowers only pay interest on the amount drawn. Typically requires collateral and may have an annual fee.
+
+## 8.4.3 Small Business Administration (SBA) Loans
+- **SBA loans**: Provided through commercial banks, guaranteed by SBA to reduce bank risk.
+- **Advantages**:
+  - Government guarantee reduces bank risk.
+  - Useful for startups with few other options.
+  - Special programs for minority and women-owned businesses.
+- **Disadvantages**:
+  - Requires more documentation.
+  - Higher interest rates than traditional loans.
+
+---
+
+## 8.5 Fundraising Tools & Techniques
+
+### 8.5.1 Business Plan
+- Essential for fundraising.
+- Required by angel investors, VCs, and institutional lenders.
+- Should clearly describe the venture and technology.
+
+### 8.5.2 Executive Summary
+- A one-page summary of the business plan.
+- Typically required by investors for initial review.
+
+### 8.5.3 Private Placement Memorandum (PPM)
+- **Purpose**: Legal document outlining risks, capital, security type, and investor rights.
+- **Investment units**: Capital raised in larger units (e.g., $25,000 each).
+- **Min/Max**: Specifies the minimum amount needed to proceed; funds are held in trust until the minimum is reached.
+
+### 8.5.4 Subscription Agreement
+- Document that investors sign to express intent to invest.
+- Creates psychological commitment, encouraging follow-through.
+
+
+# 8.6 Alternatives to Debt and Equity Financing
+
+### 8.6.1 Small Business Innovation Research (SBIR)
+- **Purpose**: Helps small businesses explore and commercialize new technologies.
+- **Eligibility**:
+  - U.S.-owned, independent, for-profit businesses.
+  - Principal researcher must be employed by the business.
+  - Company size ≤ 500 employees.
+- **Participating Agencies**: 11 federal agencies, including DOD, NASA, and DOE.
+- **Phases**:
+  - **Phase I**: Up to $100,000 for 6 months to explore feasibility.
+  - **Phase II**: Up to $750,000 for 2 years to expand Phase I results and commercialization potential.
+  - **Phase III**: No SBIR funds; commercialization must be funded privately or by other federal sources.
+
+### 8.6.2 Small Business Technology Transfer (STTR)
+- **Purpose**: Supports joint ventures between small businesses and nonprofit research institutions.
+- **Eligibility**:
+  - Small business: U.S.-owned, independent, for-profit, ≤ 500 employees.
+  - Nonprofit partner: Can be a university, nonprofit R&D center, or federally funded R&D center.
+- **Participating Agencies**: 5 federal agencies, including DOD, NASA, and NSF.
+- **Phases**:
+  - **Phase I**: Up to $100,000 for 1 year to explore feasibility.
+  - **Phase II**: Up to $750,000 for 2 years to expand Phase I and evaluate commercialization.
+  - **Phase III**: No STTR funds; commercialization must be funded privately or by other federal sources.
+
+# 8.6.3 Bootstrap Financing
+- **Definition**: Financing through the company's own sales and cash flows; also known as organic growth.
+- **Advantages**:
+  - No dilution of ownership (unlike equity financing).
+  - No debt burden (unlike debt financing).
+- **Disadvantages**:
+  - Limits rapid growth.
+  - Can be a disadvantage in competitive industries where fast market share acquisition is crucial.
+
+### 8.6.4 Licensing
+- **Definition**: Allowing third parties to use the company’s technology in exchange for money or other benefits.
+- **Strategic Licensing**: 
+  - License can be restricted by market, time period, geography, or sales channels.
+  - Can be a viable alternative to raising capital.
+  - Licensing can also be part of the company’s business model without losing competitive advantage.
+
+# 8.7 Chapter Summary
+- **Early Stage Financing**: 
+  - Friends and family are the main source of capital, along with the founder’s own funds.
+  - Angel investors come in when the venture has compelling growth potential, sales, and clients.
+  - Debt financing is available for ventures with collateral like assets or contracts.
+
+- **Raising Equity Capital**:
+  - Entrepreneurs need to prepare legal documents and comply with SEC rules, especially Regulation D (Rules 504, 505, and 506).
+  - Disclosures: Entrepreneurs need to prepare a Private Placement Memorandum (PPM) that explains the risks and details of the offering.
+  - **Valuation**: 
+    - Founders and investors agree on a company’s valuation to determine ownership percentages.
+    - **Premoney Valuation**: The company’s value before investment.
+    - **Postmoney Valuation**: The company’s value after investment, which affects ownership share dilution.
+
+- **Alternatives to Debt/Equity Financing**:
+  - Government grants like the **SBIR** and **STTR** programs provide funding for research and development without repayment or equity dilution.
 
 # Chapter 9: Launching the Venture
 
