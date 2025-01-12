@@ -1,0 +1,1 @@
+The solutions for these Labs were completed and submitted in just 10-13 minutes, demonstrating focus, efficiency, and the ability to work under time pressure. This shows that quick thinking and effective time management can lead to successful results.
