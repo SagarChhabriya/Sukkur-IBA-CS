@@ -1,0 +1,4 @@
+An input device is a physical device used to provide input to a computer system, while an input module is a subsystem within a computer system that interfaces with an external input device and facilitates the transfer of input data.
+
+------------------------------>
+During a CPU burst, the process is executing instructions on the CPU, while during an I/O burst, the process is waiting for an I/O operation to complete.
