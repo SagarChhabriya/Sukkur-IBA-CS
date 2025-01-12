@@ -1,0 +1,5 @@
+Open System call
+Program 1: Write a program using open() system call to read the first 10 characters of an existing file “test.txt” and print them on screen.
+Program2: To read 10 characters from file “test.txt” and write them into non-existing file “towrite.txt”
+
+RADHE RADHE 🙏🏼
