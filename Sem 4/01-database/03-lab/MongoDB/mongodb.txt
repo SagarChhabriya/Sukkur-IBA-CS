@@ -1,0 +1,15 @@
+
+
+Step1: Environment Setup
+Step2: Database Creation and connection
+
+
+Unzip the mongodb file having extension .zip not .msi
+change directory to: C:\Users\PMLS\Downloads\mongodb-windows-x86_64-7.0.8\mongodb-win32-x86_64-windows-7.0.8\bin
+after moving inside the bin folder, create a new folder named 'db' anywhere in your system
+come back to the bin directory and open cmd>bash> and type: 
+
+C:\Users\PMLS\Downloads\mongodb-windows-x86_64-7.0.8\mongodb-win32-x86_64-windows-7.0.8\bin$ ./mongod.exe --dbpath "A:\db"
+
+NOTE: ./mongod.exe --dbpath "A:\db"
+quotations marks are necessary in windows
