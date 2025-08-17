@@ -1,0 +1,15 @@
+Arrays 101 Course--------------------------------------------------------------
+1: Duplicate Zeros
+2: FindNumbersWithEvenNumbersOfDigit
+3: Square of sorted Array
+4: CheckIfExist 
+5: Remove Element 
+6: valid Mountain array
+7: Replace elements with greatest element on right side(ReplaceElements is the class name)
+8: SortArrayByParity
+9: HeightChecker
+10: ThirdMaximumNumber
+Sorting------------------------------------------------------------------------- 
+11: Sort Colors (Selection Sort)
+12: Height Checker (Bubble Sort)
+

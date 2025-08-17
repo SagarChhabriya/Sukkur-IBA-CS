@@ -1,0 +1,3 @@
+1: int to string (easy)
+2: String modification
+3: substring
